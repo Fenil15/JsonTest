@@ -701,6 +701,350 @@
                             },
                             {
                                 "ctrl_id": "",
+                                "label": "FJ Input",
+                                "label_font_weight_class": "font-weight-normal",
+                                "label_position": "top",
+                                "label_left_width": "33",
+                                "label_left_width_unit": "%",
+                                "label_font_size": "var(--DHQ-control-title)",
+                                "label_font_size_unit": "",
+                                "label_font_weight": "var(--DHQ-bold)",
+                                "label_text_alignment": "left",
+                                "label_text_color": "var(--DHQ-primary-font-color)",
+                                "label_hidden": false,
+                                "undefined": "flex-start",
+                                "field_type": "text",
+                                "field_key_name": "text_c81RM1oDXikoZm5oCJqwa",
+                                "field_display_key_name": "textinput",
+                                "field_responsive": true,
+                                "caching": false,
+                                "grid_dynamic_height": true,
+                                "grid_maintain_space": false,
+                                "grid_max_height": "",
+                                "grid_max_height_unit": "px",
+                                "type": "input",
+                                "required": false,
+                                "hidden": false,
+                                "disabled": false,
+                                "data_submission_enabled": true,
+                                "is_variable": false,
+                                "tooltip": "",
+                                "tip_description": "",
+                                "show_description": false,
+                                "show_tooltip": false,
+                                "field_fullview": false,
+                                "class_name": "test",
+                                "field_data_model": "",
+                                "allow_options_addition_in_editor": true,
+                                "field_composition_type": "single",
+                                "field_editable_in_database_editor": true,
+                                "field_values_addition_enabled_in_database_editor": true,
+                                "field_values_source": "",
+                                "field_database_editor_data_format": "single_line_text",
+                                "data_type": "string",
+                                "field_data_model_binding_manual_query": "",
+                                "field_data_model_binding_manual_query_with_id": "",
+                                "show_dfm": false,
+                                "dfmv_selected": "default",
+                                "dhq_formula": "",
+                                "dhq_data_process": "",
+                                "dhq_default_data_process": "",
+                                "dhq_default_formula": "",
+                                "field_data_model_binding_formula": "",
+                                "field_data_model_binding_type": "",
+                                "validations": [],
+                                "controls": [],
+                                "formbuilder_theme": "var(--DHQ-border-color)",
+                                "field_options": {},
+                                "field_config": {},
+                                "input_placeholder_text_size": "var(--DHQ-small-font)",
+                                "input_placeholder_text_color": "#aaaaaa",
+                                "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                                "input_control_height": "2.5rem",
+                                "input_font_color": "var(--DHQ-primary-font-color)",
+                                "input_font_weight": "var(--DHQ-normal-weight)",
+                                "input_font_size": "var(--DHQ-normal-font)",
+                                "is_master_control": false,
+                                "is_outlet_control": false,
+                                "is_repeat_outlet_control": false,
+                                "parent_id": "",
+                                "dhq_req_stats": {
+                                    "status": ""
+                                },
+                                "dhq_nsf_replaced": false,
+                                "dhq_olddt_map": {},
+                                "dhq_submit_condition": "always",
+                                "dhq_tfd": true,
+                                "dhq_external_css": {
+                                    "addCode": false,
+                                    "data": {}
+                                },
+                                "tabIndex": "",
+                                "placeholder": "Write here...",
+                                "min_length": "",
+                                "max_length": "",
+                                "debounceEventTime": 3000,
+                                "text_max_length": "",
+                                "text_min_length": "",
+                                "action_items": {
+                                    "value_change": {
+                                        "events": [
+                                            "value_change"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "enter_press": {
+                                        "events": [
+                                            "enter_press"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "focus_out": {
+                                        "events": [
+                                            "focus_out"
+                                        ],
+                                        "selector": ""
+                                    }
+                                },
+                                "LiveData": "",
+                                "value": "",
+                                "input_type": "text",
+                                "length_unit": "characters",
+                                "isqrvisible": false,
+                                "field_available_in_database_editor": true,
+                                "field_datatypes": [],
+                                "for_localization": {
+                                    "static_msgs": [
+                                        "This field is mandatory",
+                                        "Invalid URL",
+                                        "Invalid email id"
+                                    ],
+                                    "dynamic_msgs_keys": [
+                                        "label",
+                                        "placeholder",
+                                        "tooltip",
+                                        "tip_description"
+                                    ],
+                                    "concated_msgs": [
+                                        "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                    ]
+                                },
+                                "dhq_config": {
+                                    "strict_update": [
+                                        "for_localization",
+                                        "input_control_height",
+                                        "dhq_config"
+                                    ],
+                                    "update_to_theme_varaibles": [
+                                        "formbuilder_theme",
+                                        "label_font_size",
+                                        "label_font_size_unit",
+                                        "label_font_weight",
+                                        "label_text_color",
+                                        "input_font_weight",
+                                        "input_font_color",
+                                        "input_font_size",
+                                        "input_placeholder_font_weight",
+                                        "input_placeholder_text_color",
+                                        "input_placeholder_text_size"
+                                    ]
+                                },
+                                "dhq_show_rawdata": true,
+                                "dhqGrid": {
+                                    "w": 9,
+                                    "h": 8,
+                                    "x": 14,
+                                    "y": 1
+                                },
+                                "dhqGridDesktop": {
+                                    "w": 9,
+                                    "h": 8,
+                                    "x": 14,
+                                    "y": 1
+                                },
+                                "dhqGridChanged": false,
+                                "isDhqGridCtrl": true,
+                                "isDhqHideOnDesktop": false,
+                                "isDhqHideOnMobile": false,
+                                "cid": "c81RM1oDXikoZm5oCJeg",
+                                "sid": "sc81RM1oDXikoZm5oCJeg",
+                                "actionflows": {},
+                                "dhqEvtConverted": true
+                            },
+                            {
+                                "ctrl_id": "",
+                                "label": "FJ Input 2",
+                                "label_font_weight_class": "font-weight-normal",
+                                "label_position": "top",
+                                "label_left_width": "33",
+                                "label_left_width_unit": "%",
+                                "label_font_size": "var(--DHQ-control-title)",
+                                "label_font_size_unit": "",
+                                "label_font_weight": "var(--DHQ-bold)",
+                                "label_text_alignment": "left",
+                                "label_text_color": "var(--DHQ-primary-font-color)",
+                                "label_hidden": false,
+                                "undefined": "flex-start",
+                                "field_type": "text",
+                                "field_key_name": "text_c81RM1oDXikoZm5oCrweq",
+                                "field_display_key_name": "textinput",
+                                "field_responsive": true,
+                                "caching": false,
+                                "grid_dynamic_height": true,
+                                "grid_maintain_space": false,
+                                "grid_max_height": "",
+                                "grid_max_height_unit": "px",
+                                "type": "input",
+                                "required": false,
+                                "hidden": false,
+                                "disabled": false,
+                                "data_submission_enabled": true,
+                                "is_variable": false,
+                                "tooltip": "",
+                                "tip_description": "",
+                                "show_description": false,
+                                "show_tooltip": false,
+                                "field_fullview": false,
+                                "class_name": "test",
+                                "field_data_model": "",
+                                "allow_options_addition_in_editor": true,
+                                "field_composition_type": "single",
+                                "field_editable_in_database_editor": true,
+                                "field_values_addition_enabled_in_database_editor": true,
+                                "field_values_source": "",
+                                "field_database_editor_data_format": "single_line_text",
+                                "data_type": "string",
+                                "field_data_model_binding_manual_query": "",
+                                "field_data_model_binding_manual_query_with_id": "",
+                                "show_dfm": false,
+                                "dfmv_selected": "default",
+                                "dhq_formula": "",
+                                "dhq_data_process": "",
+                                "dhq_default_data_process": "",
+                                "dhq_default_formula": "",
+                                "field_data_model_binding_formula": "",
+                                "field_data_model_binding_type": "",
+                                "validations": [],
+                                "controls": [],
+                                "formbuilder_theme": "var(--DHQ-border-color)",
+                                "field_options": {},
+                                "field_config": {},
+                                "input_placeholder_text_size": "var(--DHQ-small-font)",
+                                "input_placeholder_text_color": "#aaaaaa",
+                                "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                                "input_control_height": "2.5rem",
+                                "input_font_color": "var(--DHQ-primary-font-color)",
+                                "input_font_weight": "var(--DHQ-normal-weight)",
+                                "input_font_size": "var(--DHQ-normal-font)",
+                                "is_master_control": false,
+                                "is_outlet_control": false,
+                                "is_repeat_outlet_control": false,
+                                "parent_id": "",
+                                "dhq_req_stats": {
+                                    "status": ""
+                                },
+                                "dhq_nsf_replaced": false,
+                                "dhq_olddt_map": {},
+                                "dhq_submit_condition": "always",
+                                "dhq_tfd": true,
+                                "dhq_external_css": {
+                                    "addCode": false,
+                                    "data": {}
+                                },
+                                "tabIndex": "",
+                                "placeholder": "Write here...",
+                                "min_length": "",
+                                "max_length": "",
+                                "debounceEventTime": 3000,
+                                "text_max_length": "",
+                                "text_min_length": "",
+                                "action_items": {
+                                    "value_change": {
+                                        "events": [
+                                            "value_change"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "enter_press": {
+                                        "events": [
+                                            "enter_press"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "focus_out": {
+                                        "events": [
+                                            "focus_out"
+                                        ],
+                                        "selector": ""
+                                    }
+                                },
+                                "LiveData": "",
+                                "value": "",
+                                "input_type": "text",
+                                "length_unit": "characters",
+                                "isqrvisible": false,
+                                "field_available_in_database_editor": true,
+                                "field_datatypes": [],
+                                "for_localization": {
+                                    "static_msgs": [
+                                        "This field is mandatory",
+                                        "Invalid URL",
+                                        "Invalid email id"
+                                    ],
+                                    "dynamic_msgs_keys": [
+                                        "label",
+                                        "placeholder",
+                                        "tooltip",
+                                        "tip_description"
+                                    ],
+                                    "concated_msgs": [
+                                        "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                    ]
+                                },
+                                "dhq_config": {
+                                    "strict_update": [
+                                        "for_localization",
+                                        "input_control_height",
+                                        "dhq_config"
+                                    ],
+                                    "update_to_theme_varaibles": [
+                                        "formbuilder_theme",
+                                        "label_font_size",
+                                        "label_font_size_unit",
+                                        "label_font_weight",
+                                        "label_text_color",
+                                        "input_font_weight",
+                                        "input_font_color",
+                                        "input_font_size",
+                                        "input_placeholder_font_weight",
+                                        "input_placeholder_text_color",
+                                        "input_placeholder_text_size"
+                                    ]
+                                },
+                                "dhq_show_rawdata": true,
+                                "dhqGrid": {
+                                    "w": 9,
+                                    "h": 8,
+                                    "x": 14,
+                                    "y": 1
+                                },
+                                "dhqGridDesktop": {
+                                    "w": 9,
+                                    "h": 8,
+                                    "x": 14,
+                                    "y": 1
+                                },
+                                "dhqGridChanged": false,
+                                "isDhqGridCtrl": true,
+                                "isDhqHideOnDesktop": false,
+                                "isDhqHideOnMobile": false,
+                                "cid": "c81RM1oDXikoZm5oCJeg",
+                                "sid": "sc81RM1oDXikoZm5oCJeg",
+                                "actionflows": {},
+                                "dhqEvtConverted": true
+                            },
+                            {
+                                "ctrl_id": "",
                                 "label": "Total Count",
                                 "label_font_weight_class": "font-weight-normal",
                                 "label_position": "top",
