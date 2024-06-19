@@ -28,7 +28,249 @@
             ],
             "validationJSON": [],
             "formBuilderJSON": {
-                "variables": "{\"variable_RojLd4hwg6zBlJIUC\":{\"name\":\"variable_RojLd4hwg6zBlJIUC\",\"display_name\":\"GetTotalUsers\",\"type\":\"non-persistent\",\"datatype\":\"composite_list\",\"defaultValue\":\"\",\"value\":274,\"sb_mode\":\"JS\",\"field_composition_type\":\"variable\",\"field_data_model_binding_manual_query\":\"BINDAPI( [variable_RojLd4hwg6zBlJIUC])\",\"field_data_model_binding_manual_query_with_id\":\"BINDAPI( [variable_RojLd4hwg6zBlJIUC])\",\"field_data_model_binding_type\":\"\",\"dhq_formula\":\"\",\"dhq_data_process\":\"\",\"dhq_variableList\":[],\"dhq_keywords_mapping\":[],\"field_datatypes\":[{\"field\":\"\",\"display_name\":\"\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"}],\"is_master_variable\":true,\"dhq_req_stats\":{},\"dhq_set_value_via_action\":false,\"created_at\":1711607513188,\"formula_binded_to\":\"BindAPI\",\"evaluate_on_dependency_change\":true,\"is_dql\":false,\"postProcessingDQL\":\"\",\"sanitize_response_keys\":false,\"meta\":{\"HEADERS\":{\"access_control_allow_credentials\":\"true\",\"access_control_allow_headers\":\"User-Agent,Keep-Alive,Content-Type\",\"access_control_allow_methods\":\"GET, POST, OPTIONS, DELETE, PUT\",\"access_control_allow_origin\":\"*\",\"access_control_expose_headers\":\"failure-message, failure-code, Content-Type, Authorization,Content-Length\",\"content_encoding\":\"gzip\",\"content_type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 28 Mar 2024 09\",\"failure_code\":\"\",\"failure_message\":\"\",\"vary\":\"Accept-Encoding\",\"x_powered_by\":\"Express\"},\"RESPONSE_CODE\":200,\"RESPONSE_MESSAGE\":\"success\",\"FAILURE_CODE\":\"\",\"FAILURE_MESSAGE\":\"\"}},\"variable_RWssGaTBT9YwNDxsd\":{\"name\":\"variable_RWssGaTBT9YwNDxsd\",\"display_name\":\"getUsersList\",\"type\":\"non-persistent\",\"datatype\":\"composite_list\",\"defaultValue\":\"\",\"value\":[{\"_id\":\"64f1b4aa6340c5187f0e9f06\",\"name\":null,\"age\":33,\"designation\":null},{\"_id\":\"64f1b6676340c5187f0e9f08\",\"name\":null,\"age\":\"30\",\"designation\":null},{\"_id\":\"64f1b6946340c5187f0e9f09\",\"name\":\"David Wang\",\"age\":31,\"designation\":\"Marketing\"},{\"_id\":\"64f1b6c66340c5187f0e9f0a\",\"name\":\"Sarah Chen\",\"age\":27,\"designation\":\"Sales\"},{\"_id\":\"64f1b6e56340c5187f0e9f0b\",\"name\":\"Michael Wu\",\"age\":33,\"designation\":\"Consultant\"},{\"_id\":\"64f1b70d6340c5187f0e9f0c\",\"name\":\"Olivia Kim\",\"age\":30,\"designation\":\"HR Specialist\"},{\"_id\":\"64f1b73b6340c5187f0e9f0d\",\"name\":\"James Ng\",\"age\":36,\"designation\":\"Product Owner\"},{\"_id\":\"659b9322413d9e023c412c23\",\"name\":null,\"age\":null,\"designation\":null},{\"_id\":\"659b990a413d9e023c412c27\",\"name\":\"Test\",\"age\":\"44\",\"designation\":null},{\"_id\":\"659b990a413d9e023c412c26\",\"name\":\"Test\",\"age\":\"\",\"designation\":\"Sales\"}],\"sb_mode\":\"JS\",\"field_composition_type\":\"variable\",\"field_data_model_binding_manual_query\":\"BINDAPI( [variable_RWssGaTBT9YwNDxsd._id,variable_RWssGaTBT9YwNDxsd.name,variable_RWssGaTBT9YwNDxsd.age,variable_RWssGaTBT9YwNDxsd.designation])\",\"field_data_model_binding_manual_query_with_id\":\"BINDAPI( [variable_RWssGaTBT9YwNDxsd._id,variable_RWssGaTBT9YwNDxsd.name,variable_RWssGaTBT9YwNDxsd.age,variable_RWssGaTBT9YwNDxsd.designation])\",\"field_data_model_binding_type\":\"\",\"dhq_formula\":\"\",\"dhq_data_process\":\"\",\"dhq_variableList\":[],\"dhq_keywords_mapping\":[],\"field_datatypes\":[{\"field\":\"_id\",\"display_name\":\"_id\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"},{\"field\":\"name\",\"display_name\":\"name\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"},{\"field\":\"age\",\"display_name\":\"age\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"},{\"field\":\"designation\",\"display_name\":\"designation\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"}],\"is_master_variable\":true,\"dhq_req_stats\":{},\"dhq_set_value_via_action\":false,\"created_at\":1711607811220,\"formula_binded_to\":\"ConnectorQuery\",\"evaluate_on_dependency_change\":true,\"is_dql\":false,\"postProcessingDQL\":\"\",\"sanitize_response_keys\":false,\"meta\":{\"HEADERS\":{\"access_control_allow_credentials\":\"true\",\"access_control_allow_headers\":\"User-Agent,Keep-Alive,Content-Type\",\"access_control_allow_methods\":\"GET, POST, OPTIONS, DELETE, PUT\",\"access_control_allow_origin\":\"*\",\"access_control_expose_headers\":\"failure-message, failure-code, Content-Type, Authorization,Content-Length\",\"content_encoding\":\"gzip\",\"content_type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 28 Mar 2024 06\",\"failure_code\":\"\",\"failure_message\":\"\",\"vary\":\"Accept-Encoding\",\"x_powered_by\":\"Express\"},\"RESPONSE_CODE\":200,\"RESPONSE_MESSAGE\":\"success\",\"FAILURE_CODE\":\"\",\"FAILURE_MESSAGE\":\"\"}},\"variable_RPK79XFdd94lE2aol\":{\"name\":\"variable_RPK79XFdd94lE2aol\",\"display_name\":\"getTotalListing\",\"type\":\"non-persistent\",\"datatype\":\"composite_list\",\"defaultValue\":\"\",\"value\":5643,\"sb_mode\":\"JS\",\"field_composition_type\":\"variable\",\"field_data_model_binding_manual_query\":\"BINDAPI( [variable_RPK79XFdd94lE2aol])\",\"field_data_model_binding_manual_query_with_id\":\"BINDAPI( [variable_RPK79XFdd94lE2aol])\",\"field_data_model_binding_type\":\"\",\"dhq_formula\":\"\",\"dhq_data_process\":\"\",\"dhq_variableList\":[],\"dhq_keywords_mapping\":[],\"field_datatypes\":[{\"field\":\"\",\"display_name\":\"\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"}],\"is_master_variable\":true,\"dhq_req_stats\":{},\"dhq_set_value_via_action\":false,\"created_at\":1711617637255,\"formula_binded_to\":\"ConnectorQuery\",\"evaluate_on_dependency_change\":true,\"is_dql\":false,\"postProcessingDQL\":\"\",\"sanitize_response_keys\":false,\"meta\":{\"HEADERS\":{\"access_control_allow_credentials\":\"true\",\"access_control_allow_headers\":\"User-Agent,Keep-Alive,Content-Type\",\"access_control_allow_methods\":\"GET, POST, OPTIONS, DELETE, PUT\",\"access_control_allow_origin\":\"*\",\"access_control_expose_headers\":\"failure-message, failure-code, Content-Type, Authorization,Content-Length\",\"content_encoding\":\"gzip\",\"content_type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 28 Mar 2024 09\",\"failure_code\":\"\",\"failure_message\":\"\",\"vary\":\"Accept-Encoding\",\"x_powered_by\":\"Express\"},\"RESPONSE_CODE\":200,\"RESPONSE_MESSAGE\":\"success\",\"FAILURE_CODE\":\"\",\"FAILURE_MESSAGE\":\"\"}}}",
+                "variables": {
+                    "variable_RojLd4hwg6zBlJIUC": {
+                        "name": "variable_RojLd4hwg6zBlJIUC",
+                        "display_name": "GetTotalUsers",
+                        "type": "non-persistent",
+                        "datatype": "composite_list",
+                        "defaultValue": "",
+                        "value": 274,
+                        "sb_mode": "JS",
+                        "field_composition_type": "variable",
+                        "field_data_model_binding_manual_query": "BINDAPI( [variable_RojLd4hwg6zBlJIUC])",
+                        "field_data_model_binding_manual_query_with_id": "BINDAPI( [variable_RojLd4hwg6zBlJIUC])",
+                        "field_data_model_binding_type": "",
+                        "dhq_formula": "",
+                        "dhq_data_process": "",
+                        "dhq_variableList": [],
+                        "dhq_keywords_mapping": [],
+                        "field_datatypes": [
+                            {
+                                "field": "",
+                                "display_name": "",
+                                "data_type": "string",
+                                "field_database_editor_data_format": "single_line_text"
+                            }
+                        ],
+                        "is_master_variable": true,
+                        "dhq_req_stats": {},
+                        "dhq_set_value_via_action": false,
+                        "created_at": 1711607513188,
+                        "formula_binded_to": "BindAPI",
+                        "evaluate_on_dependency_change": true,
+                        "is_dql": false,
+                        "postProcessingDQL": "",
+                        "sanitize_response_keys": false,
+                        "meta": {
+                            "HEADERS": {
+                                "access_control_allow_credentials": "true",
+                                "access_control_allow_headers": "User-Agent,Keep-Alive,Content-Type",
+                                "access_control_allow_methods": "GET, POST, OPTIONS, DELETE, PUT",
+                                "access_control_allow_origin": "*",
+                                "access_control_expose_headers": "failure-message, failure-code, Content-Type, Authorization,Content-Length",
+                                "content_encoding": "gzip",
+                                "content_type": "application/json; charset=utf-8",
+                                "date": "Thu, 28 Mar 2024 09",
+                                "failure_code": "",
+                                "failure_message": "",
+                                "vary": "Accept-Encoding",
+                                "x_powered_by": "Express"
+                            },
+                            "RESPONSE_CODE": 200,
+                            "RESPONSE_MESSAGE": "success",
+                            "FAILURE_CODE": "",
+                            "FAILURE_MESSAGE": ""
+                        }
+                    },
+                    "variable_RWssGaTBT9YwNDxsd": {
+                        "name": "variable_RWssGaTBT9YwNDxsd",
+                        "display_name": "getUsersList",
+                        "type": "non-persistent",
+                        "datatype": "composite_list",
+                        "defaultValue": "",
+                        "value": [
+                            {
+                                "_id": "64f1b4aa6340c5187f0e9f06",
+                                "name": null,
+                                "age": 33,
+                                "designation": null
+                            },
+                            {
+                                "_id": "64f1b6676340c5187f0e9f08",
+                                "name": null,
+                                "age": "30",
+                                "designation": null
+                            },
+                            {
+                                "_id": "64f1b6946340c5187f0e9f09",
+                                "name": "David Wang",
+                                "age": 31,
+                                "designation": "Marketing"
+                            },
+                            {
+                                "_id": "64f1b6c66340c5187f0e9f0a",
+                                "name": "Sarah Chen",
+                                "age": 27,
+                                "designation": "Sales"
+                            },
+                            {
+                                "_id": "64f1b6e56340c5187f0e9f0b",
+                                "name": "Michael Wu",
+                                "age": 33,
+                                "designation": "Consultant"
+                            },
+                            {
+                                "_id": "64f1b70d6340c5187f0e9f0c",
+                                "name": "Olivia Kim",
+                                "age": 30,
+                                "designation": "HR Specialist"
+                            },
+                            {
+                                "_id": "64f1b73b6340c5187f0e9f0d",
+                                "name": "James Ng",
+                                "age": 36,
+                                "designation": "Product Owner"
+                            },
+                            {
+                                "_id": "659b9322413d9e023c412c23",
+                                "name": null,
+                                "age": null,
+                                "designation": null
+                            },
+                            {
+                                "_id": "659b990a413d9e023c412c27",
+                                "name": "Test",
+                                "age": "44",
+                                "designation": null
+                            },
+                            {
+                                "_id": "659b990a413d9e023c412c26",
+                                "name": "Test",
+                                "age": "",
+                                "designation": "Sales"
+                            }
+                        ],
+                        "sb_mode": "JS",
+                        "field_composition_type": "variable",
+                        "field_data_model_binding_manual_query": "BINDAPI( [variable_RWssGaTBT9YwNDxsd._id,variable_RWssGaTBT9YwNDxsd.name,variable_RWssGaTBT9YwNDxsd.age,variable_RWssGaTBT9YwNDxsd.designation])",
+                        "field_data_model_binding_manual_query_with_id": "BINDAPI( [variable_RWssGaTBT9YwNDxsd._id,variable_RWssGaTBT9YwNDxsd.name,variable_RWssGaTBT9YwNDxsd.age,variable_RWssGaTBT9YwNDxsd.designation])",
+                        "field_data_model_binding_type": "",
+                        "dhq_formula": "",
+                        "dhq_data_process": "",
+                        "dhq_variableList": [],
+                        "dhq_keywords_mapping": [],
+                        "field_datatypes": [
+                            {
+                                "field": "_id",
+                                "display_name": "_id",
+                                "data_type": "string",
+                                "field_database_editor_data_format": "single_line_text"
+                            },
+                            {
+                                "field": "name",
+                                "display_name": "name",
+                                "data_type": "string",
+                                "field_database_editor_data_format": "single_line_text"
+                            },
+                            {
+                                "field": "age",
+                                "display_name": "age",
+                                "data_type": "string",
+                                "field_database_editor_data_format": "single_line_text"
+                            },
+                            {
+                                "field": "designation",
+                                "display_name": "designation",
+                                "data_type": "string",
+                                "field_database_editor_data_format": "single_line_text"
+                            }
+                        ],
+                        "is_master_variable": true,
+                        "dhq_req_stats": {},
+                        "dhq_set_value_via_action": false,
+                        "created_at": 1711607811220,
+                        "formula_binded_to": "ConnectorQuery",
+                        "evaluate_on_dependency_change": true,
+                        "is_dql": false,
+                        "postProcessingDQL": "",
+                        "sanitize_response_keys": false,
+                        "meta": {
+                            "HEADERS": {
+                                "access_control_allow_credentials": "true",
+                                "access_control_allow_headers": "User-Agent,Keep-Alive,Content-Type",
+                                "access_control_allow_methods": "GET, POST, OPTIONS, DELETE, PUT",
+                                "access_control_allow_origin": "*",
+                                "access_control_expose_headers": "failure-message, failure-code, Content-Type, Authorization,Content-Length",
+                                "content_encoding": "gzip",
+                                "content_type": "application/json; charset=utf-8",
+                                "date": "Thu, 28 Mar 2024 06",
+                                "failure_code": "",
+                                "failure_message": "",
+                                "vary": "Accept-Encoding",
+                                "x_powered_by": "Express"
+                            },
+                            "RESPONSE_CODE": 200,
+                            "RESPONSE_MESSAGE": "success",
+                            "FAILURE_CODE": "",
+                            "FAILURE_MESSAGE": ""
+                        }
+                    },
+                    "variable_RPK79XFdd94lE2aol": {
+                        "name": "variable_RPK79XFdd94lE2aol",
+                        "display_name": "getTotalListing",
+                        "type": "non-persistent",
+                        "datatype": "composite_list",
+                        "defaultValue": "",
+                        "value": 5643,
+                        "sb_mode": "JS",
+                        "field_composition_type": "variable",
+                        "field_data_model_binding_manual_query": "BINDAPI( [variable_RPK79XFdd94lE2aol])",
+                        "field_data_model_binding_manual_query_with_id": "BINDAPI( [variable_RPK79XFdd94lE2aol])",
+                        "field_data_model_binding_type": "",
+                        "dhq_formula": "",
+                        "dhq_data_process": "",
+                        "dhq_variableList": [],
+                        "dhq_keywords_mapping": [],
+                        "field_datatypes": [
+                            {
+                                "field": "",
+                                "display_name": "",
+                                "data_type": "string",
+                                "field_database_editor_data_format": "single_line_text"
+                            }
+                        ],
+                        "is_master_variable": true,
+                        "dhq_req_stats": {},
+                        "dhq_set_value_via_action": false,
+                        "created_at": 1711617637255,
+                        "formula_binded_to": "ConnectorQuery",
+                        "evaluate_on_dependency_change": true,
+                        "is_dql": false,
+                        "postProcessingDQL": "",
+                        "sanitize_response_keys": false,
+                        "meta": {
+                            "HEADERS": {
+                                "access_control_allow_credentials": "true",
+                                "access_control_allow_headers": "User-Agent,Keep-Alive,Content-Type",
+                                "access_control_allow_methods": "GET, POST, OPTIONS, DELETE, PUT",
+                                "access_control_allow_origin": "*",
+                                "access_control_expose_headers": "failure-message, failure-code, Content-Type, Authorization,Content-Length",
+                                "content_encoding": "gzip",
+                                "content_type": "application/json; charset=utf-8",
+                                "date": "Thu, 28 Mar 2024 09",
+                                "failure_code": "",
+                                "failure_message": "",
+                                "vary": "Accept-Encoding",
+                                "x_powered_by": "Express"
+                            },
+                            "RESPONSE_CODE": 200,
+                            "RESPONSE_MESSAGE": "success",
+                            "FAILURE_CODE": "",
+                            "FAILURE_MESSAGE": ""
+                        }
+                    }
+                },
                 "registeredApiList": [
                     {
                         "api_id": 1,
