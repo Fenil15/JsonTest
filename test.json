@@ -420,7 +420,7 @@
                 ],
                 "pages": [
                     {
-                        "label": "Screen 1",
+                        "label": "First Screen",
                         "page_type": "page",
                         "attached_menu": " ",
                         "attached_header": "none",
