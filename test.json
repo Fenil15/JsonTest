@@ -1,0 +1,1958 @@
+{
+    "isDownloadedJSON": true,
+    "appJSON": {
+        "template_name": "FJ Git v3",
+        "description": "checking newer updates from gitsync",
+        "group_id": [],
+        "plugin_id": "364",
+        "action": "add",
+        "sample_images": [],
+        "channel_id": "2",
+        "is_active": true,
+        "embed": {
+            "action": ""
+        },
+        "is_show_case_app": 0,
+        "meta": "",
+        "icon_url": "https://studio-apigenie.s3.amazonaws.com/DRONA5_Team2/content/app/icon/wyvzBdkP2i.png",
+        "features": [],
+        "_engVer": "1.1.0",
+        "is_premium": false,
+        "app_data": {
+            "conditionalVisibilityJSON": [
+                {
+                    "page_no": 1,
+                    "page_name": "Screen 1",
+                    "condition_list": []
+                }
+            ],
+            "validationJSON": [],
+            "formBuilderJSON": {
+                "variables": "{\"variable_RojLd4hwg6zBlJIUC\":{\"name\":\"variable_RojLd4hwg6zBlJIUC\",\"display_name\":\"GetTotalUsers\",\"type\":\"non-persistent\",\"datatype\":\"composite_list\",\"defaultValue\":\"\",\"value\":274,\"sb_mode\":\"JS\",\"field_composition_type\":\"variable\",\"field_data_model_binding_manual_query\":\"BINDAPI( [variable_RojLd4hwg6zBlJIUC])\",\"field_data_model_binding_manual_query_with_id\":\"BINDAPI( [variable_RojLd4hwg6zBlJIUC])\",\"field_data_model_binding_type\":\"\",\"dhq_formula\":\"\",\"dhq_data_process\":\"\",\"dhq_variableList\":[],\"dhq_keywords_mapping\":[],\"field_datatypes\":[{\"field\":\"\",\"display_name\":\"\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"}],\"is_master_variable\":true,\"dhq_req_stats\":{},\"dhq_set_value_via_action\":false,\"created_at\":1711607513188,\"formula_binded_to\":\"BindAPI\",\"evaluate_on_dependency_change\":true,\"is_dql\":false,\"postProcessingDQL\":\"\",\"sanitize_response_keys\":false,\"meta\":{\"HEADERS\":{\"access_control_allow_credentials\":\"true\",\"access_control_allow_headers\":\"User-Agent,Keep-Alive,Content-Type\",\"access_control_allow_methods\":\"GET, POST, OPTIONS, DELETE, PUT\",\"access_control_allow_origin\":\"*\",\"access_control_expose_headers\":\"failure-message, failure-code, Content-Type, Authorization,Content-Length\",\"content_encoding\":\"gzip\",\"content_type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 28 Mar 2024 09\",\"failure_code\":\"\",\"failure_message\":\"\",\"vary\":\"Accept-Encoding\",\"x_powered_by\":\"Express\"},\"RESPONSE_CODE\":200,\"RESPONSE_MESSAGE\":\"success\",\"FAILURE_CODE\":\"\",\"FAILURE_MESSAGE\":\"\"}},\"variable_RWssGaTBT9YwNDxsd\":{\"name\":\"variable_RWssGaTBT9YwNDxsd\",\"display_name\":\"getUsersList\",\"type\":\"non-persistent\",\"datatype\":\"composite_list\",\"defaultValue\":\"\",\"value\":[{\"_id\":\"64f1b4aa6340c5187f0e9f06\",\"name\":null,\"age\":33,\"designation\":null},{\"_id\":\"64f1b6676340c5187f0e9f08\",\"name\":null,\"age\":\"30\",\"designation\":null},{\"_id\":\"64f1b6946340c5187f0e9f09\",\"name\":\"David Wang\",\"age\":31,\"designation\":\"Marketing\"},{\"_id\":\"64f1b6c66340c5187f0e9f0a\",\"name\":\"Sarah Chen\",\"age\":27,\"designation\":\"Sales\"},{\"_id\":\"64f1b6e56340c5187f0e9f0b\",\"name\":\"Michael Wu\",\"age\":33,\"designation\":\"Consultant\"},{\"_id\":\"64f1b70d6340c5187f0e9f0c\",\"name\":\"Olivia Kim\",\"age\":30,\"designation\":\"HR Specialist\"},{\"_id\":\"64f1b73b6340c5187f0e9f0d\",\"name\":\"James Ng\",\"age\":36,\"designation\":\"Product Owner\"},{\"_id\":\"659b9322413d9e023c412c23\",\"name\":null,\"age\":null,\"designation\":null},{\"_id\":\"659b990a413d9e023c412c27\",\"name\":\"Test\",\"age\":\"44\",\"designation\":null},{\"_id\":\"659b990a413d9e023c412c26\",\"name\":\"Test\",\"age\":\"\",\"designation\":\"Sales\"}],\"sb_mode\":\"JS\",\"field_composition_type\":\"variable\",\"field_data_model_binding_manual_query\":\"BINDAPI( [variable_RWssGaTBT9YwNDxsd._id,variable_RWssGaTBT9YwNDxsd.name,variable_RWssGaTBT9YwNDxsd.age,variable_RWssGaTBT9YwNDxsd.designation])\",\"field_data_model_binding_manual_query_with_id\":\"BINDAPI( [variable_RWssGaTBT9YwNDxsd._id,variable_RWssGaTBT9YwNDxsd.name,variable_RWssGaTBT9YwNDxsd.age,variable_RWssGaTBT9YwNDxsd.designation])\",\"field_data_model_binding_type\":\"\",\"dhq_formula\":\"\",\"dhq_data_process\":\"\",\"dhq_variableList\":[],\"dhq_keywords_mapping\":[],\"field_datatypes\":[{\"field\":\"_id\",\"display_name\":\"_id\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"},{\"field\":\"name\",\"display_name\":\"name\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"},{\"field\":\"age\",\"display_name\":\"age\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"},{\"field\":\"designation\",\"display_name\":\"designation\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"}],\"is_master_variable\":true,\"dhq_req_stats\":{},\"dhq_set_value_via_action\":false,\"created_at\":1711607811220,\"formula_binded_to\":\"ConnectorQuery\",\"evaluate_on_dependency_change\":true,\"is_dql\":false,\"postProcessingDQL\":\"\",\"sanitize_response_keys\":false,\"meta\":{\"HEADERS\":{\"access_control_allow_credentials\":\"true\",\"access_control_allow_headers\":\"User-Agent,Keep-Alive,Content-Type\",\"access_control_allow_methods\":\"GET, POST, OPTIONS, DELETE, PUT\",\"access_control_allow_origin\":\"*\",\"access_control_expose_headers\":\"failure-message, failure-code, Content-Type, Authorization,Content-Length\",\"content_encoding\":\"gzip\",\"content_type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 28 Mar 2024 06\",\"failure_code\":\"\",\"failure_message\":\"\",\"vary\":\"Accept-Encoding\",\"x_powered_by\":\"Express\"},\"RESPONSE_CODE\":200,\"RESPONSE_MESSAGE\":\"success\",\"FAILURE_CODE\":\"\",\"FAILURE_MESSAGE\":\"\"}},\"variable_RPK79XFdd94lE2aol\":{\"name\":\"variable_RPK79XFdd94lE2aol\",\"display_name\":\"getTotalListing\",\"type\":\"non-persistent\",\"datatype\":\"composite_list\",\"defaultValue\":\"\",\"value\":5643,\"sb_mode\":\"JS\",\"field_composition_type\":\"variable\",\"field_data_model_binding_manual_query\":\"BINDAPI( [variable_RPK79XFdd94lE2aol])\",\"field_data_model_binding_manual_query_with_id\":\"BINDAPI( [variable_RPK79XFdd94lE2aol])\",\"field_data_model_binding_type\":\"\",\"dhq_formula\":\"\",\"dhq_data_process\":\"\",\"dhq_variableList\":[],\"dhq_keywords_mapping\":[],\"field_datatypes\":[{\"field\":\"\",\"display_name\":\"\",\"data_type\":\"string\",\"field_database_editor_data_format\":\"single_line_text\"}],\"is_master_variable\":true,\"dhq_req_stats\":{},\"dhq_set_value_via_action\":false,\"created_at\":1711617637255,\"formula_binded_to\":\"ConnectorQuery\",\"evaluate_on_dependency_change\":true,\"is_dql\":false,\"postProcessingDQL\":\"\",\"sanitize_response_keys\":false,\"meta\":{\"HEADERS\":{\"access_control_allow_credentials\":\"true\",\"access_control_allow_headers\":\"User-Agent,Keep-Alive,Content-Type\",\"access_control_allow_methods\":\"GET, POST, OPTIONS, DELETE, PUT\",\"access_control_allow_origin\":\"*\",\"access_control_expose_headers\":\"failure-message, failure-code, Content-Type, Authorization,Content-Length\",\"content_encoding\":\"gzip\",\"content_type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 28 Mar 2024 09\",\"failure_code\":\"\",\"failure_message\":\"\",\"vary\":\"Accept-Encoding\",\"x_powered_by\":\"Express\"},\"RESPONSE_CODE\":200,\"RESPONSE_MESSAGE\":\"success\",\"FAILURE_CODE\":\"\",\"FAILURE_MESSAGE\":\"\"}}}",
+                "registeredApiList": [
+                    {
+                        "api_id": 1,
+                        "api_name": "variable_RojLd4hwg6zBlJIUC",
+                        "cat_id": "__REPLACE_CAT_ID_100444___",
+                        "cat_name": "__REPLACE_CAT_NAME_100444___",
+                        "sub_cat_id": "__REPLACE_SUB_CAT_ID_102105___",
+                        "sub_cat_name": "__REPLACE_SUB_CAT_NAME_102105___",
+                        "cat_icon_url": "./Images/dblogos/mongo.png",
+                        "method": "db_query",
+                        "query": {},
+                        "param": {},
+                        "header": {},
+                        "body": {
+                            "mode": "db_query",
+                            "formdata": {},
+                            "variables": {}
+                        },
+                        "auth": {},
+                        "triggerOnPageload": false,
+                        "execution_editor_type": "JSEditor",
+                        "execution_condition_variable_with_name": "",
+                        "execution_condition_variable": "",
+                        "scheme_type": "db_connector",
+                        "account_id": "account_14790520_1710829669323",
+                        "postProcessing": "",
+                        "postProcessingDQL": "",
+                        "filterObjectCondition": "",
+                        "filterObjectMapping": [],
+                        "sanitizeResponseFlag": false,
+                        "rawResponse": 274,
+                        "processedResp": "274",
+                        "paginationType": "none",
+                        "offsetKeyPath": "",
+                        "hasMoreKeyPath": "",
+                        "variables": [],
+                        "misc": {},
+                        "additionalKeywords": {},
+                        "formatedSchema": {},
+                        "bindedTo": "variable",
+                        "filterKeys": [],
+                        "autoTransform": true,
+                        "cat_type": "mongodb"
+                    },
+                    {
+                        "api_id": 2,
+                        "api_name": "variable_RWssGaTBT9YwNDxsd",
+                        "cat_id": "__REPLACE_CAT_ID_100444___",
+                        "cat_name": "__REPLACE_CAT_NAME_100444___",
+                        "sub_cat_id": "__REPLACE_SUB_CAT_ID_102104___",
+                        "sub_cat_name": "__REPLACE_SUB_CAT_NAME_102104___",
+                        "cat_icon_url": "./Images/dblogos/mongo.png",
+                        "method": "db_query",
+                        "query": {},
+                        "param": {},
+                        "header": {},
+                        "body": {
+                            "mode": "db_query",
+                            "formdata": {},
+                            "variables": {}
+                        },
+                        "auth": {},
+                        "triggerOnPageload": false,
+                        "execution_editor_type": "JSEditor",
+                        "execution_condition_variable_with_name": "",
+                        "execution_condition_variable": "",
+                        "scheme_type": "db_connector",
+                        "account_id": "account_14790520_1710829669323",
+                        "postProcessing": "",
+                        "postProcessingDQL": "",
+                        "filterObjectCondition": "",
+                        "filterObjectMapping": [],
+                        "sanitizeResponseFlag": false,
+                        "rawResponse": [
+                            {
+                                "_id": "659b990a413d9e023c412c26",
+                                "name": "Test",
+                                "age": "",
+                                "designation": "Sales"
+                            }
+                        ],
+                        "processedResp": [
+                            {
+                                "_id": "659b990a413d9e023c412c26",
+                                "name": "Test",
+                                "age": "",
+                                "designation": "Sales"
+                            }
+                        ],
+                        "paginationType": "none",
+                        "offsetKeyPath": "",
+                        "hasMoreKeyPath": "",
+                        "variables": [],
+                        "misc": {},
+                        "additionalKeywords": {},
+                        "formatedSchema": {},
+                        "bindedTo": "variable",
+                        "createdVia": "variable",
+                        "filterKeys": [],
+                        "autoTransform": true,
+                        "cat_type": "mongodb"
+                    },
+                    {
+                        "api_id": 3,
+                        "api_name": "variable_RPK79XFdd94lE2aol",
+                        "cat_id": "__REPLACE_CAT_ID_100444___",
+                        "cat_name": "__REPLACE_CAT_NAME_100444___",
+                        "sub_cat_id": "__REPLACE_SUB_CAT_ID_102062___",
+                        "sub_cat_name": "__REPLACE_SUB_CAT_NAME_102062___",
+                        "cat_icon_url": "./Images/dblogos/mongo.png",
+                        "method": "db_query",
+                        "query": {},
+                        "param": {},
+                        "header": {},
+                        "body": {
+                            "mode": "db_query",
+                            "formdata": {},
+                            "variables": {}
+                        },
+                        "auth": {},
+                        "triggerOnPageload": false,
+                        "execution_editor_type": "JSEditor",
+                        "execution_condition_variable_with_name": "",
+                        "execution_condition_variable": "",
+                        "scheme_type": "db_connector",
+                        "account_id": "account_14790520_1710829669323",
+                        "postProcessing": "",
+                        "postProcessingDQL": "",
+                        "filterObjectCondition": "",
+                        "filterObjectMapping": [],
+                        "sanitizeResponseFlag": false,
+                        "rawResponse": 5643,
+                        "processedResp": "5643",
+                        "paginationType": "none",
+                        "offsetKeyPath": "",
+                        "hasMoreKeyPath": "",
+                        "variables": [],
+                        "misc": {},
+                        "additionalKeywords": {},
+                        "formatedSchema": {},
+                        "bindedTo": "variable",
+                        "filterKeys": [],
+                        "autoTransform": true,
+                        "cat_type": "mongodb",
+                        "createdVia": "variable"
+                    }
+                ],
+                "pages": [
+                    {
+                        "label": "Screen 1",
+                        "page_type": "page",
+                        "attached_menu": " ",
+                        "attached_header": "none",
+                        "field_options": {
+                            "modal_maxwidth_value": "768",
+                            "modal_maxwidth_unit": "px",
+                            "modal_close_on_focusout": true,
+                            "left_page_header_enabled": true,
+                            "left_page_header_hidden_for": [],
+                            "left_page_header_navigation_type": "dhq_app_exit",
+                            "left_page_header_navigation_value": "",
+                            "left_page_header_click_navigation_transition": "1",
+                            "left_page_header_icon": "icon-arrow-left",
+                            "left_page_header_icon_color": "var(--DHQ-header-font-color)",
+                            "left_page_header_nrtp": false,
+                            "left_page_secondary_header_enabled": false,
+                            "left_page_secondary_header_hidden_for": [],
+                            "left_page_secondary_header_navigation_type": "no_action",
+                            "left_page_secondary_header_navigation_value": "",
+                            "left_page_secondary_header_click_navigate_to": "",
+                            "left_page_secondary_header_icon": "icon-user",
+                            "left_page_secondary_header_icon_color": "var(--DHQ-header-font-color)",
+                            "left_page_secondary_header_nrtp": false,
+                            "page_header_visibility": true,
+                            "is_classic_header": true,
+                            "right_page_header_navigation_type": "no_action",
+                            "right_page_header_navigation_value": "",
+                            "right_page_header_click_navigation_transition": "1",
+                            "right_page_header_enabled": false,
+                            "right_page_header_hidden_for": [],
+                            "right_page_header_icon": "icon-arrow-right",
+                            "right_page_header_icon_color": "var(--DHQ-header-font-color)",
+                            "right_page_header_nrtp": false,
+                            "right_page_secondary_header_enabled": false,
+                            "right_page_secondary_header_hidden_for": [],
+                            "right_page_secondary_header_navigation_type": "no_action",
+                            "right_page_secondary_header_navigation_value": "",
+                            "right_page_secondary_header_click_navigate_to": "",
+                            "right_page_secondary_header_icon": "icon-logout",
+                            "right_page_secondary_header_icon_color": "var(--DHQ-header-font-color)",
+                            "right_page_secondary_header_nrtp": false,
+                            "right_page_header_text": "test",
+                            "page_footer_visibility": false,
+                            "page_footer_border_bottom_enabled": true,
+                            "page_footer_border_bottom_color": "var(--DHQ-border-color)",
+                            "page_footer_background_color": "var(--DHQ-primary-bg-color)",
+                            "page_footer_top_bottom_padding_value": 0,
+                            "page_footer_top_bottom_padding_unit": "rem",
+                            "page_footer_left_right_padding_value": 0,
+                            "page_footer_left_right_padding_unit": "rem",
+                            "header_config": {
+                                "ctrl_sv": 1.25,
+                                "ctrl_su": "rem"
+                            },
+                            "main_config": {
+                                "ctrl_sv": 1.25,
+                                "ctrl_su": "rem",
+                                "gridMobileMaxHeight": 756.2890625,
+                                "gridDesktopMaxHeight": 756.2890625
+                            },
+                            "footer_config": {
+                                "ctrl_sv": 1.25,
+                                "ctrl_su": "rem"
+                            },
+                            "tray_width": 100,
+                            "tray_width_unit": "%",
+                            "tray_max_width": 100,
+                            "tray_max_width_unit": "%",
+                            "tray_height": 300,
+                            "tray_height_unit": "px",
+                            "tray_max_height": 100,
+                            "tray_max_height_unit": "%",
+                            "popup_side_margin": "0 0",
+                            "popup_side_margin_unit": "0 0",
+                            "popup_type": "normal",
+                            "popup_slide_up_min_height": "50",
+                            "popup_closable": false,
+                            "page_background_color": "var(--DHQ-primary-bg-color)",
+                            "page_text_color": "#444444",
+                            "header_background_color": "var(--DHQ-header-bg-color)",
+                            "header_dark_theme_enabled": false,
+                            "header_border_bottom_color": "var(--DHQ-border-color)",
+                            "page_font_family": "ROBOTO",
+                            "page_padding_unit": "rem",
+                            "control_spacing_unit": "rem",
+                            "page_padding_value": 0,
+                            "page_control_spacing_value": "1.25",
+                            "primary_header_text": "Main Header",
+                            "primary_header_font_size": "var(--DHQ-medium-font)",
+                            "primary_header_font_size_unit": "",
+                            "primary_header_font_weight": "var(--DHQ-x-bold)",
+                            "secondary_header_font_size": "var(--DHQ-small-font)",
+                            "secondary_header_font_size_unit": "",
+                            "secondary_header_font_weight": "var(--DHQ-light-weight)",
+                            "secondary_header_text": "Secondary Header",
+                            "primary_header_text_color": "var(--DHQ-header-font-color)",
+                            "secondary_header_text_color": "var(--DHQ-header-font-color)",
+                            "primary_header_text_alignment": "center",
+                            "secondary_header_text_alignment": "center"
+                        },
+                        "undefined": "",
+                        "field_type": "page",
+                        "page_no": 1,
+                        "page_header_controls": [],
+                        "page_footer_controls": [],
+                        "page_main_controls": [
+                            {
+                                "ctrl_id": "",
+                                "label": "Text Input",
+                                "label_font_weight_class": "font-weight-normal",
+                                "label_position": "top",
+                                "label_left_width": "33",
+                                "label_left_width_unit": "%",
+                                "label_font_size": "var(--DHQ-control-title)",
+                                "label_font_size_unit": "",
+                                "label_font_weight": "var(--DHQ-bold)",
+                                "label_text_alignment": "left",
+                                "label_text_color": "var(--DHQ-primary-font-color)",
+                                "label_hidden": false,
+                                "undefined": "flex-start",
+                                "field_type": "text",
+                                "field_key_name": "text_c81RM1oDXikoZm5oCJeg",
+                                "field_display_key_name": "textinput",
+                                "field_responsive": true,
+                                "caching": false,
+                                "grid_dynamic_height": true,
+                                "grid_maintain_space": false,
+                                "grid_max_height": "",
+                                "grid_max_height_unit": "px",
+                                "type": "input",
+                                "required": false,
+                                "hidden": false,
+                                "disabled": false,
+                                "data_submission_enabled": true,
+                                "is_variable": false,
+                                "tooltip": "",
+                                "tip_description": "",
+                                "show_description": false,
+                                "show_tooltip": false,
+                                "field_fullview": false,
+                                "class_name": "test",
+                                "field_data_model": "",
+                                "allow_options_addition_in_editor": true,
+                                "field_composition_type": "single",
+                                "field_editable_in_database_editor": true,
+                                "field_values_addition_enabled_in_database_editor": true,
+                                "field_values_source": "",
+                                "field_database_editor_data_format": "single_line_text",
+                                "data_type": "string",
+                                "field_data_model_binding_manual_query": "",
+                                "field_data_model_binding_manual_query_with_id": "",
+                                "show_dfm": false,
+                                "dfmv_selected": "default",
+                                "dhq_formula": "",
+                                "dhq_data_process": "",
+                                "dhq_default_data_process": "",
+                                "dhq_default_formula": "",
+                                "field_data_model_binding_formula": "",
+                                "field_data_model_binding_type": "",
+                                "validations": [],
+                                "controls": [],
+                                "formbuilder_theme": "var(--DHQ-border-color)",
+                                "field_options": {},
+                                "field_config": {},
+                                "input_placeholder_text_size": "var(--DHQ-small-font)",
+                                "input_placeholder_text_color": "#aaaaaa",
+                                "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                                "input_control_height": "2.5rem",
+                                "input_font_color": "var(--DHQ-primary-font-color)",
+                                "input_font_weight": "var(--DHQ-normal-weight)",
+                                "input_font_size": "var(--DHQ-normal-font)",
+                                "is_master_control": false,
+                                "is_outlet_control": false,
+                                "is_repeat_outlet_control": false,
+                                "parent_id": "",
+                                "dhq_req_stats": {
+                                    "status": ""
+                                },
+                                "dhq_nsf_replaced": false,
+                                "dhq_olddt_map": {},
+                                "dhq_submit_condition": "always",
+                                "dhq_tfd": true,
+                                "dhq_external_css": {
+                                    "addCode": false,
+                                    "data": {}
+                                },
+                                "tabIndex": "",
+                                "placeholder": "Write here...",
+                                "min_length": "",
+                                "max_length": "",
+                                "debounceEventTime": 3000,
+                                "text_max_length": "",
+                                "text_min_length": "",
+                                "action_items": {
+                                    "value_change": {
+                                        "events": [
+                                            "value_change"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "enter_press": {
+                                        "events": [
+                                            "enter_press"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "focus_out": {
+                                        "events": [
+                                            "focus_out"
+                                        ],
+                                        "selector": ""
+                                    }
+                                },
+                                "LiveData": "",
+                                "value": "",
+                                "input_type": "text",
+                                "length_unit": "characters",
+                                "isqrvisible": false,
+                                "field_available_in_database_editor": true,
+                                "field_datatypes": [],
+                                "for_localization": {
+                                    "static_msgs": [
+                                        "This field is mandatory",
+                                        "Invalid URL",
+                                        "Invalid email id"
+                                    ],
+                                    "dynamic_msgs_keys": [
+                                        "label",
+                                        "placeholder",
+                                        "tooltip",
+                                        "tip_description"
+                                    ],
+                                    "concated_msgs": [
+                                        "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                    ]
+                                },
+                                "dhq_config": {
+                                    "strict_update": [
+                                        "for_localization",
+                                        "input_control_height",
+                                        "dhq_config"
+                                    ],
+                                    "update_to_theme_varaibles": [
+                                        "formbuilder_theme",
+                                        "label_font_size",
+                                        "label_font_size_unit",
+                                        "label_font_weight",
+                                        "label_text_color",
+                                        "input_font_weight",
+                                        "input_font_color",
+                                        "input_font_size",
+                                        "input_placeholder_font_weight",
+                                        "input_placeholder_text_color",
+                                        "input_placeholder_text_size"
+                                    ]
+                                },
+                                "dhq_show_rawdata": true,
+                                "dhqGrid": {
+                                    "w": 9,
+                                    "h": 8,
+                                    "x": 14,
+                                    "y": 1
+                                },
+                                "dhqGridDesktop": {
+                                    "w": 9,
+                                    "h": 8,
+                                    "x": 14,
+                                    "y": 1
+                                },
+                                "dhqGridChanged": false,
+                                "isDhqGridCtrl": true,
+                                "isDhqHideOnDesktop": false,
+                                "isDhqHideOnMobile": false,
+                                "cid": "c81RM1oDXikoZm5oCJeg",
+                                "sid": "sc81RM1oDXikoZm5oCJeg",
+                                "actionflows": {},
+                                "dhqEvtConverted": true
+                            },
+                            {
+                                "ctrl_id": "",
+                                "label": "Total Count",
+                                "label_font_weight_class": "font-weight-normal",
+                                "label_position": "top",
+                                "label_left_width": "33",
+                                "label_left_width_unit": "%",
+                                "label_font_size": "var(--DHQ-control-title)",
+                                "label_font_size_unit": "",
+                                "label_font_weight": "var(--DHQ-bold)",
+                                "label_text_alignment": "left",
+                                "label_text_color": "var(--DHQ-primary-font-color)",
+                                "label_hidden": false,
+                                "undefined": "flex-start",
+                                "field_type": "text",
+                                "field_key_name": "text_c53RccAEMdlNdaXg0o9j",
+                                "field_display_key_name": "totalcount",
+                                "field_responsive": true,
+                                "caching": false,
+                                "grid_dynamic_height": true,
+                                "grid_maintain_space": false,
+                                "grid_max_height": "",
+                                "grid_max_height_unit": "px",
+                                "type": "input",
+                                "required": false,
+                                "hidden": false,
+                                "disabled": false,
+                                "data_submission_enabled": true,
+                                "is_variable": false,
+                                "tooltip": "",
+                                "tip_description": "",
+                                "show_description": false,
+                                "show_tooltip": false,
+                                "field_fullview": false,
+                                "class_name": "test",
+                                "field_data_model": "",
+                                "allow_options_addition_in_editor": true,
+                                "field_composition_type": "single",
+                                "field_editable_in_database_editor": true,
+                                "field_values_addition_enabled_in_database_editor": true,
+                                "field_values_source": "",
+                                "field_database_editor_data_format": "single_line_text",
+                                "data_type": "string",
+                                "field_data_model_binding_manual_query": "DATABUILDER()",
+                                "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+                                "show_dfm": false,
+                                "dfmv_selected": "default",
+                                "dhq_formula": "{{getTotalUsers}}",
+                                "dhq_data_process": "",
+                                "dhq_default_data_process": "",
+                                "dhq_default_formula": "",
+                                "field_data_model_binding_formula": "",
+                                "field_data_model_binding_type": "manual_query",
+                                "validations": [],
+                                "formbuilder_theme": "var(--DHQ-border-color)",
+                                "field_options": {},
+                                "field_config": {},
+                                "input_placeholder_text_size": "var(--DHQ-small-font)",
+                                "input_placeholder_text_color": "#aaaaaa",
+                                "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                                "input_control_height": "2.5rem",
+                                "input_font_color": "var(--DHQ-primary-font-color)",
+                                "input_font_weight": "var(--DHQ-normal-weight)",
+                                "input_font_size": "var(--DHQ-normal-font)",
+                                "is_master_control": false,
+                                "is_outlet_control": false,
+                                "is_repeat_outlet_control": false,
+                                "parent_id": "",
+                                "dhq_req_stats": {
+                                    "status": ""
+                                },
+                                "dhq_nsf_replaced": false,
+                                "dhq_olddt_map": {},
+                                "dhq_submit_condition": "always",
+                                "dhq_tfd": true,
+                                "dhq_external_css": {
+                                    "addCode": false,
+                                    "data": {}
+                                },
+                                "tabIndex": "",
+                                "placeholder": "Write here...",
+                                "min_length": "",
+                                "max_length": "",
+                                "debounceEventTime": 3000,
+                                "text_max_length": "",
+                                "text_min_length": "",
+                                "action_items": {
+                                    "value_change": {
+                                        "events": [
+                                            "value_change"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "enter_press": {
+                                        "events": [
+                                            "enter_press"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "focus_out": {
+                                        "events": [
+                                            "focus_out"
+                                        ],
+                                        "selector": ""
+                                    }
+                                },
+                                "value": "",
+                                "input_type": "text",
+                                "length_unit": "characters",
+                                "isqrvisible": false,
+                                "field_available_in_database_editor": true,
+                                "field_datatypes": [],
+                                "for_localization": {
+                                    "static_msgs": [
+                                        "This field is mandatory",
+                                        "Invalid URL",
+                                        "Invalid email id"
+                                    ],
+                                    "dynamic_msgs_keys": [
+                                        "label",
+                                        "placeholder",
+                                        "tooltip",
+                                        "tip_description"
+                                    ],
+                                    "concated_msgs": [
+                                        "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                    ]
+                                },
+                                "dhq_config": {
+                                    "strict_update": [
+                                        "for_localization",
+                                        "input_control_height",
+                                        "dhq_config"
+                                    ],
+                                    "update_to_theme_varaibles": [
+                                        "formbuilder_theme",
+                                        "label_font_size",
+                                        "label_font_size_unit",
+                                        "label_font_weight",
+                                        "label_text_color",
+                                        "input_font_weight",
+                                        "input_font_color",
+                                        "input_font_size",
+                                        "input_placeholder_font_weight",
+                                        "input_placeholder_text_color",
+                                        "input_placeholder_text_size"
+                                    ]
+                                },
+                                "dhq_show_rawdata": true,
+                                "dhqGrid": {
+                                    "w": 12,
+                                    "h": 8,
+                                    "x": 1,
+                                    "y": 2
+                                },
+                                "dhqGridDesktop": {
+                                    "w": 12,
+                                    "h": 8,
+                                    "x": 1,
+                                    "y": 2
+                                },
+                                "dhqGridChanged": false,
+                                "isDhqGridCtrl": true,
+                                "isDhqHideOnDesktop": false,
+                                "isDhqHideOnMobile": false,
+                                "cid": "c53RccAEMdlNdaXg0o9j",
+                                "sid": "sc53RccAEMdlNdaXg0o9j",
+                                "actionflows": {},
+                                "dhqEvtConverted": true,
+                                "sb_mode": "JS",
+                                "dhq_keywords_mapping": [
+                                    {
+                                        "name": "getTotalUsers",
+                                        "id": "variable_RojLd4hwg6zBlJIUC"
+                                    }
+                                ],
+                                "LiveData": 274,
+                                "controls": []
+                            },
+                            {
+                                "ctrl_id": "",
+                                "label": "Table Grid",
+                                "label_font_weight_class": "font-weight-normal",
+                                "label_position": "top",
+                                "label_left_width": "33",
+                                "label_left_width_unit": "%",
+                                "label_font_size": "var(--DHQ-control-title)",
+                                "label_font_size_unit": "",
+                                "label_font_weight": "var(--DHQ-bold)",
+                                "label_text_alignment": "left",
+                                "label_text_color": "var(--DHQ-primary-font-color)",
+                                "label_hidden": true,
+                                "undefined": "flex-start",
+                                "field_type": "list",
+                                "field_key_name": "list_c73Rm03Qe3JY7U56Eiqs",
+                                "field_display_key_name": "tablegrid",
+                                "field_responsive": false,
+                                "caching": false,
+                                "grid_dynamic_height": true,
+                                "grid_maintain_space": false,
+                                "grid_max_height": "",
+                                "grid_max_height_unit": "px",
+                                "type": "non_input",
+                                "required": false,
+                                "hidden": false,
+                                "disabled": false,
+                                "data_submission_enabled": true,
+                                "is_variable": false,
+                                "tooltip": "",
+                                "tip_description": "",
+                                "show_description": false,
+                                "show_tooltip": false,
+                                "field_fullview": false,
+                                "class_name": "test",
+                                "field_data_model": "",
+                                "allow_options_addition_in_editor": true,
+                                "field_composition_type": "composite_list",
+                                "field_editable_in_database_editor": false,
+                                "field_values_addition_enabled_in_database_editor": true,
+                                "field_values_source": "field_options.options",
+                                "field_database_editor_data_format": "single_select",
+                                "data_type": "string",
+                                "field_data_model_binding_manual_query": "DATABUILDER()",
+                                "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+                                "field_data_model_binding_default_value_query": "",
+                                "field_data_model_binding_default_value_query_with_id": "",
+                                "show_dfm": true,
+                                "dfmv_selected": "default",
+                                "field_schema_column_header_names": "_id,name,age,designation",
+                                "field_schema_column_id_header_name_mapping": {
+                                    "_id": "_id",
+                                    "name": "name",
+                                    "age": "age",
+                                    "designation": "designation"
+                                },
+                                "dhq_formula": "{{getUsersList}}",
+                                "dhq_data_process": "",
+                                "dhq_default_data_process": "",
+                                "dhq_default_formula": "",
+                                "field_data_model_binding_formula": "",
+                                "field_data_model_binding_type": "manual_query",
+                                "validations": {},
+                                "formbuilder_theme": "var(--DHQ-primary-color)",
+                                "field_options": {
+                                    "options": "[\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/facereestlaboriosam_TZldU.png\"\n],\n\"fullname\":\"TomasaHermann\",\n\"address\":\"751KossForest\",\n\"email\":\"tomasa.hermann41@example.com\",\n\"birthdate\":190857600000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":1\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/iustoaccusamusvoluptatum_ldxLw.png\"\n],\n\"fullname\":\"CedrickSchmeler\",\n\"address\":\"695RauPassage\",\n\"email\":\"cedrick89@example.com\",\n\"birthdate\":380246400000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":2\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/praesentiumsaepequibusdam_fYvUX.png\"\n],\n\"fullname\":\"TimmySchamberger\",\n\"address\":\"24593BayerOval\",\n\"email\":\"timmy_schamberger@example.com\",\n\"birthdate\":601171200000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":3\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/eaetquibusdam_PZLoe.png\"\n],\n\"fullname\":\"CarlieSchmeler\",\n\"address\":\"2375AllenFlats\",\n\"email\":\"carlie43@example.com\",\n\"birthdate\":285552000000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":4\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/sequiautid_6yJ11.png\"\n],\n\"fullname\":\"LurlinePowlowski\",\n\"address\":\"551MorarExpressway\",\n\"email\":\"lurline90@example.com\",\n\"birthdate\":254016000000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":5\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/consequaturaperiamminima_KpS83.png\"\n],\n\"fullname\":\"MicahMosciski\",\n\"address\":\"5184KeelyTrafficway\",\n\"email\":\"micah.mosciski65@example.com\",\n\"birthdate\":443318400000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":6\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/veritatisquidemsapiente_KQrnX.png\"\n],\n\"fullname\":\"KatrinaMosciski\",\n\"address\":\"2570ToyLights\",\n\"email\":\"katrina94@example.com\",\n\"birthdate\":916704000000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":7\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/seddeseruntenim_UwDtg.png\"\n],\n\"fullname\":\"MacieWindler\",\n\"address\":\"8955ParkerFort\",\n\"email\":\"macie.windler28@example.com\",\n\"birthdate\":474940800000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":8\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/etomnisvoluptates_ECH2h.png\"\n],\n\"fullname\":\"EloyBeier\",\n\"address\":\"75989EichmannTurnpike\",\n\"email\":\"eloy.beier@example.com\",\n\"birthdate\":853632000000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":9\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/dictaipsamet_V4FmM.png\"\n],\n\"fullname\":\"SantinoWyman\",\n\"address\":\"50663SatterfieldKnoll\",\n\"email\":\"santino.wyman@example.com\",\n\"birthdate\":474940800000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":10\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/doloremautemest_NREMx.png\"\n],\n\"fullname\":\"SalmaCarroll\",\n\"address\":\"61257BoyerParks\",\n\"email\":\"salma.carroll@example.com\",\n\"birthdate\":664243200000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":11\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/laborumvoluptasporro_1kxD1.png\"\n],\n\"fullname\":\"CandaceKunze\",\n\"address\":\"81455LindgrenSpurs\",\n\"email\":\"candace.kunze@example.com\",\n\"birthdate\":254016000000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":12\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/eosenimlaborum_3JUOm.png\"\n],\n\"fullname\":\"JovaniParker\",\n\"address\":\"065PriceUnderpass\",\n\"email\":\"jovani81@example.com\",\n\"birthdate\":948326400000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":13\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/consequaturimpedittempore_Yh92L.png\"\n],\n\"fullname\":\"VivienRunolfsson\",\n\"address\":\"54368MertzViews\",\n\"email\":\"vivien.runolfsson@example.com\",\n\"birthdate\":96249600000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":14\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/voluptasvoluptatemaccusantium_wPPXw.png\"\n],\n\"fullname\":\"GarrickHahn\",\n\"address\":\"6566LoweMission\",\n\"email\":\"garrick77@example.com\",\n\"birthdate\":506476800000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":15\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/ipsarerumesse_bULsn.png\"\n],\n\"fullname\":\"FerminSchumm\",\n\"address\":\"57177KuhlmanShoal\",\n\"email\":\"fermin.schumm51@example.com\",\n\"birthdate\":317088000000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":16\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/iustoaccusamusvoluptatum_IFZon.png\"\n],\n\"fullname\":\"JalynLabadie\",\n\"address\":\"15465LinneaMill\",\n\"email\":\"jalyn.labadie@example.com\",\n\"birthdate\":317088000000,\n\"phone\":\"9876543210\",\n\"Created_At\":1639566046,\n\"unique_id\":17\n},\n{\n\"avatar\":[\n\"https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/etitaquevoluptate_4YLwS.png\"\n],\n\"fullname\":\"MariaGerhold\",\n\"address\":\"150KubNeck\",\n\"email\":\"maria81@example.com\",\n\"birthdate\":64627200000,\n\"phone\":\"\",\n\"Created_At\":1639566046,\n\"unique_id\":18\n}\n]"
+                                },
+                                "field_config": {},
+                                "input_placeholder_text_size": "var(--DHQ-small-font)",
+                                "input_placeholder_text_color": "#aaaaaa",
+                                "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                                "input_control_height": "2.5rem",
+                                "input_font_color": "var(--DHQ-primary-font-color)",
+                                "input_font_weight": "var(--DHQ-normal-weight)",
+                                "input_font_size": "var(--DHQ-normal-font)",
+                                "is_master_control": true,
+                                "is_outlet_control": false,
+                                "is_repeat_outlet_control": false,
+                                "parent_id": "",
+                                "dhq_req_stats": {
+                                    "status": ""
+                                },
+                                "dhq_nsf_replaced": false,
+                                "dhq_olddt_map": {
+                                    "_id": "_id",
+                                    "name": "name",
+                                    "age": "age",
+                                    "designation": "designation"
+                                },
+                                "dhq_submit_condition": "always",
+                                "dhq_tfd": true,
+                                "dhq_external_css": {
+                                    "addCode": false,
+                                    "data": {}
+                                },
+                                "tabIndex": "",
+                                "placeholder": "Search",
+                                "searchPlaceholder": "Search",
+                                "headerNames": "",
+                                "default": "",
+                                "row_even_color": "var(--DHQ-neutral-bg-color)",
+                                "row_odd_color": "var(--DHQ-neutral-bg-color)",
+                                "allow_addition": false,
+                                "sort_select": false,
+                                "display_map": false,
+                                "defaultView": "list",
+                                "controlType": "selection",
+                                "button_type": "dhq_navigate",
+                                "selectionType": "singleselect",
+                                "showServerSidelSearch": false,
+                                "single_select": false,
+                                "search_show": true,
+                                "show_download": true,
+                                "show_refresh": true,
+                                "show_filters": true,
+                                "show_sort_data": true,
+                                "group_data": false,
+                                "allow_pagination": false,
+                                "paginationLocation": "bottom",
+                                "pagination_type": "offset",
+                                "cursorKey": "",
+                                "defaultCursor": "",
+                                "offset": 0,
+                                "pageLimit": 100,
+                                "show_sort_columns": false,
+                                "startRow": 0,
+                                "endRow": 0,
+                                "show_images": true,
+                                "show_detailedView": false,
+                                "show_keyValue": false,
+                                "customizeDetailView": false,
+                                "detailViewCols": [],
+                                "accordionProperty": "all_open",
+                                "field_available_in_database_editor": false,
+                                "field_client_side_get_data_enabled": true,
+                                "controlHeight": "manual",
+                                "rowsVisible": 7,
+                                "pagination_page_no": 1,
+                                "columnVisible": 0,
+                                "colwidth": 120,
+                                "maxWidth": 0,
+                                "maxWidth_unit": "px",
+                                "minWidth": 60,
+                                "minWidth_unit": "px",
+                                "paginationType": "limitOffsetBased",
+                                "field_datatypes": [
+                                    {
+                                        "field": "_id",
+                                        "display_name": "_id",
+                                        "data_type": "string",
+                                        "field_database_editor_data_format": "single_line_text"
+                                    },
+                                    {
+                                        "field": "name",
+                                        "display_name": "name",
+                                        "data_type": "object",
+                                        "field_database_editor_data_format": "single_line_text"
+                                    },
+                                    {
+                                        "field": "age",
+                                        "display_name": "age",
+                                        "data_type": "number",
+                                        "field_database_editor_data_format": "single_line_text"
+                                    },
+                                    {
+                                        "field": "designation",
+                                        "display_name": "designation",
+                                        "data_type": "object",
+                                        "field_database_editor_data_format": "single_line_text"
+                                    }
+                                ],
+                                "filename": "Studio-tabular-list",
+                                "show_add": false,
+                                "show_update": false,
+                                "show_delete": false,
+                                "editable_cols": [],
+                                "add_new_row": false,
+                                "new_row_editable_cols": [],
+                                "freeze_cols": 0,
+                                "optionName1": "",
+                                "optionName2": "",
+                                "optionName3": "",
+                                "optionName4": "",
+                                "optionName5": "",
+                                "optionColor1": "var(--DHQ-colorpalet-one)",
+                                "optionColor2": "var(--DHQ-colorpalet-two)",
+                                "optionColor3": "var(--DHQ-colorpalet-three)",
+                                "optionColor4": "var(--DHQ-colorpalet-four)",
+                                "optionColor5": "var(--DHQ-colorpalet-five)",
+                                "showInHeaderAction1": true,
+                                "showInHeaderAction2": true,
+                                "showInHeaderAction3": true,
+                                "showInHeaderAction4": true,
+                                "showInHeaderAction5": true,
+                                "hideTextOnAction1": false,
+                                "hideTextOnAction2": false,
+                                "hideTextOnAction3": false,
+                                "hideTextOnAction4": false,
+                                "hideTextOnAction5": false,
+                                "bindAction1": false,
+                                "bindAction1ToColumn": "",
+                                "bindAction2": false,
+                                "bindAction2ToColumn": "",
+                                "bindAction3": false,
+                                "bindAction3ToColumn": "",
+                                "bindAction4": false,
+                                "bindAction4ToColumn": "",
+                                "bindAction5": false,
+                                "bindAction5ToColumn": "",
+                                "action_items": {
+                                    "row_select": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'row_select']"
+                                    },
+                                    "add_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'add_click']"
+                                    },
+                                    "update_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'update_click']"
+                                    },
+                                    "delete_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'delete_click']"
+                                    },
+                                    "refresh_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'refresh_click']"
+                                    },
+                                    "save_changes": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'save_changes']"
+                                    },
+                                    "action1_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'action1_click']"
+                                    },
+                                    "action2_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'action2_click']"
+                                    },
+                                    "action3_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'action3_click']"
+                                    },
+                                    "action4_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'action4_click']"
+                                    },
+                                    "action5_click": {
+                                        "events": [
+                                            "click"
+                                        ],
+                                        "selector": "[eventname = 'action5_click']"
+                                    }
+                                },
+                                "actions": {
+                                    "action1Icon": "icon-call-out",
+                                    "action2Icon": "icon-organization",
+                                    "action3Icon": "icon-envelope-open",
+                                    "action4Icon": "icon-feed",
+                                    "action5Icon": "icon-share"
+                                },
+                                "action1ShowOn": "singleselect",
+                                "action2ShowOn": "singleselect",
+                                "action3ShowOn": "singleselect",
+                                "action4ShowOn": "singleselect",
+                                "action5ShowOn": "singleselect",
+                                "action1index": 0,
+                                "action2index": 0,
+                                "action3index": 0,
+                                "action4index": 0,
+                                "action5index": 0,
+                                "action1HeaderText": "Action",
+                                "action2HeaderText": "Action",
+                                "action3HeaderText": "Action",
+                                "action4HeaderText": "Action",
+                                "action5HeaderText": "Action",
+                                "table_header_font_size": "var(--DHQ-small-font)",
+                                "table_header_font_size_unit": "",
+                                "table_header_font_weight": "var(--DHQ-bold)",
+                                "table_header_bgcolor": "var(--DHQ-control-header-bg)",
+                                "table_header_textColor": "var(--DHQ-primary-font-color)",
+                                "table_header_textAlign": "left",
+                                "table_data_font_size": "var(--DHQ-normal-font)",
+                                "table_data_font_size_unit": "",
+                                "table_data_font_weight": "var(--DHQ-bold)",
+                                "table_data_text_color": "var(--DHQ-primary-font-color)",
+                                "table_data_textAlign": "left",
+                                "custom_label_save_btn": "Save Changes",
+                                "showActionOnHover": true,
+                                "fitToScreen": false,
+                                "table_min_height": 300,
+                                "table_min_height_unit": "px",
+                                "aggregatedFooter": false,
+                                "show_quickFilters": false,
+                                "persist_filters": true,
+                                "qf_columnNames": [],
+                                "qf_columnNo": 1,
+                                "changeRowSize": false,
+                                "defaultRowSize": "s",
+                                "addAction1AsColumn": false,
+                                "addAction2AsColumn": false,
+                                "addAction3AsColumn": false,
+                                "addAction4AsColumn": false,
+                                "addAction5AsColumn": false,
+                                "showAction1OnHover": false,
+                                "showAction2OnHover": false,
+                                "showAction3OnHover": false,
+                                "showAction4OnHover": false,
+                                "showAction5OnHover": false,
+                                "keepCurrentPageOnReset": false,
+                                "defaultSelectedRow": 0,
+                                "groupBy": "",
+                                "hiddenColumnList": [],
+                                "allowHiddenCols": true,
+                                "allowSchemaFormatting": true,
+                                "selectAllRows": false,
+                                "selectedRowBg": "var(--DHQ-primary-light-color)",
+                                "js_code_block_for_disable_1": "",
+                                "js_code_block_for_disable_2": "",
+                                "js_code_block_for_disable_3": "",
+                                "js_code_block_for_disable_4": "",
+                                "js_code_block_for_disable_5": "",
+                                "js_code_block_for_hide_1": "",
+                                "js_code_block_for_hide_2": "",
+                                "js_code_block_for_hide_3": "",
+                                "js_code_block_for_hide_4": "",
+                                "js_code_block_for_hide_5": "",
+                                "js_code_block_for_disable_1_mapping": {},
+                                "js_code_block_for_disable_2_mapping": {},
+                                "js_code_block_for_disable_3_mapping": {},
+                                "js_code_block_for_disable_4_mapping": {},
+                                "js_code_block_for_disable_5_mapping": {},
+                                "js_code_block_for_hide_1_mapping": {},
+                                "js_code_block_for_hide_2_mapping": {},
+                                "js_code_block_for_hide_3_mapping": {},
+                                "js_code_block_for_hide_4_mapping": {},
+                                "js_code_block_for_hide_5_mapping": {},
+                                "apply_custom_column_widths": false,
+                                "custom_column_widths": [],
+                                "custom_column_widths_mapping": {},
+                                "formattedSchemaForRow": {
+                                    "rowTheme": {}
+                                },
+                                "LiveData": [
+                                    {
+                                        "_id": "64f1b4aa6340c5187f0e9f06",
+                                        "name": null,
+                                        "age": 33,
+                                        "designation": null
+                                    },
+                                    {
+                                        "_id": "64f1b6676340c5187f0e9f08",
+                                        "name": null,
+                                        "age": "30",
+                                        "designation": null
+                                    },
+                                    {
+                                        "_id": "64f1b6946340c5187f0e9f09",
+                                        "name": "David Wang",
+                                        "age": 31,
+                                        "designation": "Marketing"
+                                    },
+                                    {
+                                        "_id": "64f1b6c66340c5187f0e9f0a",
+                                        "name": "Sarah Chen",
+                                        "age": 27,
+                                        "designation": "Sales"
+                                    },
+                                    {
+                                        "_id": "64f1b6e56340c5187f0e9f0b",
+                                        "name": "Michael Wu",
+                                        "age": 33,
+                                        "designation": "Consultant"
+                                    },
+                                    {
+                                        "_id": "64f1b70d6340c5187f0e9f0c",
+                                        "name": "Olivia Kim",
+                                        "age": 30,
+                                        "designation": "HR Specialist"
+                                    },
+                                    {
+                                        "_id": "64f1b73b6340c5187f0e9f0d",
+                                        "name": "James Ng",
+                                        "age": 36,
+                                        "designation": "Product Owner"
+                                    },
+                                    {
+                                        "_id": "659b9322413d9e023c412c23",
+                                        "name": null,
+                                        "age": null,
+                                        "designation": null
+                                    },
+                                    {
+                                        "_id": "659b990a413d9e023c412c27",
+                                        "name": "Test",
+                                        "age": "44",
+                                        "designation": null
+                                    },
+                                    {
+                                        "_id": "659b990a413d9e023c412c26",
+                                        "name": "Test",
+                                        "age": "",
+                                        "designation": "Sales"
+                                    }
+                                ],
+                                "dummySchema": "{\"_id\":{\"data_type\":\"string\",\"display_name\":\"_id\",\"field_type\":\"text\"},\"name\":{\"data_type\":\"string\",\"display_name\":\"name\",\"field_type\":\"text\"},\"age\":{\"data_type\":\"number\",\"display_name\":\"age\",\"field_type\":\"number\"},\"designation\":{\"data_type\":\"string\",\"display_name\":\"designation\",\"field_type\":\"text\"}}",
+                                "dummyRowFormatting": "{\"rowTheme\":{}}",
+                                "dhq_keywords_mapping": [
+                                    {
+                                        "name": "getUsersList",
+                                        "id": "variable_RWssGaTBT9YwNDxsd"
+                                    }
+                                ],
+                                "dhq_config": {
+                                    "strict_update": [
+                                        "action_items",
+                                        "for_localization",
+                                        "dhq_config"
+                                    ],
+                                    "update_to_theme_varaibles": [
+                                        "label_font_size",
+                                        "label_font_size_unit",
+                                        "label_font_weight",
+                                        "label_text_color",
+                                        "row_even_color",
+                                        "row_odd_color",
+                                        "formbuilder_theme",
+                                        "optionColor1",
+                                        "optionColor2",
+                                        "optionColor3",
+                                        "optionColor4",
+                                        "optionColor5",
+                                        "table_data_font_weight",
+                                        "table_header_font_weight",
+                                        "table_header_font_size",
+                                        "table_header_font_size_unit",
+                                        "table_data_font_size",
+                                        "table_data_font_size_unit",
+                                        "table_header_textColor",
+                                        "table_data_text_color",
+                                        "table_header_bgcolor",
+                                        "selectedRowBg"
+                                    ]
+                                },
+                                "for_localization": {
+                                    "static_msgs": [
+                                        "Add Sort",
+                                        "Clear",
+                                        "Apply",
+                                        "Cancel",
+                                        "Search",
+                                        "Minimum",
+                                        "Maximum",
+                                        "Add",
+                                        "Column Reordering and Visibility",
+                                        "Change Row Height",
+                                        "Delete",
+                                        "Update",
+                                        "Refresh",
+                                        "Download CSV",
+                                        "Sort Data",
+                                        "Filter",
+                                        "Filter by",
+                                        "Download Selected Data",
+                                        "Download All Data",
+                                        "Filters",
+                                        "Reset",
+                                        "Apply",
+                                        "Reordering and Visibility",
+                                        "Redoing...",
+                                        "Undoing...",
+                                        "Working...",
+                                        "Persistent",
+                                        "Add Row",
+                                        "No data present!",
+                                        "25 / Page",
+                                        "50 / Page",
+                                        "100 / Page",
+                                        "200 / Page",
+                                        "500 / Page",
+                                        "1000 / Page",
+                                        "Operator",
+                                        "is Empty",
+                                        "is Not Empty",
+                                        "Equals",
+                                        "Not Equals",
+                                        "Contains",
+                                        "Not Contains",
+                                        "Starts With",
+                                        "Not Starts With",
+                                        "Ends With",
+                                        "Not Ends With",
+                                        "Regex",
+                                        "value"
+                                    ],
+                                    "dynamic_msgs_keys": [
+                                        "label",
+                                        "custom_label_save_btn",
+                                        "searchPlaceholder",
+                                        "tooltip",
+                                        "tip_description"
+                                    ],
+                                    "concated_msgs": []
+                                },
+                                "dhqGrid": {
+                                    "w": 22,
+                                    "h": 47,
+                                    "x": 1,
+                                    "y": 12
+                                },
+                                "dhqGridDesktop": {
+                                    "w": 22,
+                                    "h": 47,
+                                    "x": 1,
+                                    "y": 12
+                                },
+                                "dhqGridChanged": false,
+                                "isDhqGridCtrl": true,
+                                "isDhqHideOnDesktop": false,
+                                "isDhqHideOnMobile": false,
+                                "cid": "c73Rm03Qe3JY7U56Eiqs",
+                                "sid": "sc73Rm03Qe3JY7U56Eiqs",
+                                "actionflows": {},
+                                "dhqEvtConverted": true,
+                                "sb_mode": "JS",
+                                "controls": []
+                            },
+                            {
+                                "ctrl_id": "",
+                                "label": "Text Input",
+                                "label_font_weight_class": "font-weight-normal",
+                                "label_position": "top",
+                                "label_left_width": "33",
+                                "label_left_width_unit": "%",
+                                "label_font_size": "var(--DHQ-control-title)",
+                                "label_font_size_unit": "",
+                                "label_font_weight": "var(--DHQ-bold)",
+                                "label_text_alignment": "left",
+                                "label_text_color": "var(--DHQ-primary-font-color)",
+                                "label_hidden": false,
+                                "undefined": "flex-start",
+                                "field_type": "text",
+                                "field_key_name": "text_c163RvrX9aAZcXyPL6jHJ",
+                                "field_display_key_name": "textinput1",
+                                "field_responsive": true,
+                                "caching": false,
+                                "grid_dynamic_height": true,
+                                "grid_maintain_space": false,
+                                "grid_max_height": "",
+                                "grid_max_height_unit": "px",
+                                "type": "input",
+                                "required": false,
+                                "hidden": false,
+                                "disabled": false,
+                                "data_submission_enabled": true,
+                                "is_variable": false,
+                                "tooltip": "",
+                                "tip_description": "",
+                                "show_description": false,
+                                "show_tooltip": false,
+                                "field_fullview": false,
+                                "class_name": "test",
+                                "field_data_model": "",
+                                "allow_options_addition_in_editor": true,
+                                "field_composition_type": "single",
+                                "field_editable_in_database_editor": true,
+                                "field_values_addition_enabled_in_database_editor": true,
+                                "field_values_source": "",
+                                "field_database_editor_data_format": "single_line_text",
+                                "data_type": "string",
+                                "field_data_model_binding_manual_query": "",
+                                "field_data_model_binding_manual_query_with_id": "",
+                                "show_dfm": false,
+                                "dfmv_selected": "default",
+                                "dhq_formula": "",
+                                "dhq_data_process": "",
+                                "dhq_default_data_process": "",
+                                "dhq_default_formula": "",
+                                "field_data_model_binding_formula": "",
+                                "field_data_model_binding_type": "",
+                                "validations": [],
+                                "controls": [],
+                                "formbuilder_theme": "var(--DHQ-border-color)",
+                                "field_options": {},
+                                "field_config": {},
+                                "input_placeholder_text_size": "var(--DHQ-small-font)",
+                                "input_placeholder_text_color": "#aaaaaa",
+                                "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                                "input_control_height": "2.5rem",
+                                "input_font_color": "var(--DHQ-primary-font-color)",
+                                "input_font_weight": "var(--DHQ-normal-weight)",
+                                "input_font_size": "var(--DHQ-normal-font)",
+                                "is_master_control": false,
+                                "is_outlet_control": false,
+                                "is_repeat_outlet_control": false,
+                                "parent_id": "",
+                                "dhq_req_stats": {
+                                    "status": ""
+                                },
+                                "dhq_nsf_replaced": false,
+                                "dhq_olddt_map": {},
+                                "dhq_submit_condition": "always",
+                                "dhq_tfd": true,
+                                "dhq_external_css": {
+                                    "addCode": false,
+                                    "data": {}
+                                },
+                                "tabIndex": "",
+                                "placeholder": "Write here...",
+                                "min_length": "",
+                                "max_length": "",
+                                "debounceEventTime": 3000,
+                                "text_max_length": "",
+                                "text_min_length": "",
+                                "action_items": {
+                                    "value_change": {
+                                        "events": [
+                                            "value_change"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "enter_press": {
+                                        "events": [
+                                            "enter_press"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "focus_out": {
+                                        "events": [
+                                            "focus_out"
+                                        ],
+                                        "selector": ""
+                                    }
+                                },
+                                "LiveData": "",
+                                "value": "",
+                                "input_type": "text",
+                                "length_unit": "characters",
+                                "isqrvisible": false,
+                                "field_available_in_database_editor": true,
+                                "field_datatypes": [],
+                                "for_localization": {
+                                    "static_msgs": [
+                                        "This field is mandatory",
+                                        "Invalid URL",
+                                        "Invalid email id"
+                                    ],
+                                    "dynamic_msgs_keys": [
+                                        "label",
+                                        "placeholder",
+                                        "tooltip",
+                                        "tip_description"
+                                    ],
+                                    "concated_msgs": [
+                                        "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                    ]
+                                },
+                                "dhq_config": {
+                                    "strict_update": [
+                                        "for_localization",
+                                        "input_control_height",
+                                        "dhq_config"
+                                    ],
+                                    "update_to_theme_varaibles": [
+                                        "formbuilder_theme",
+                                        "label_font_size",
+                                        "label_font_size_unit",
+                                        "label_font_weight",
+                                        "label_text_color",
+                                        "input_font_weight",
+                                        "input_font_color",
+                                        "input_font_size",
+                                        "input_placeholder_font_weight",
+                                        "input_placeholder_text_color",
+                                        "input_placeholder_text_size"
+                                    ]
+                                },
+                                "dhq_show_rawdata": true,
+                                "dhqGrid": {
+                                    "w": 12,
+                                    "h": 8,
+                                    "x": 2,
+                                    "y": 58
+                                },
+                                "dhqGridDesktop": {
+                                    "w": 12,
+                                    "h": 8,
+                                    "x": 2,
+                                    "y": 59
+                                },
+                                "dhqGridChanged": false,
+                                "isDhqGridCtrl": true,
+                                "isDhqHideOnDesktop": false,
+                                "isDhqHideOnMobile": false,
+                                "cid": "c163RvrX9aAZcXyPL6jHJ",
+                                "sid": "sc163RvrX9aAZcXyPL6jHJ",
+                                "actionflows": {},
+                                "dhqEvtConverted": true
+                            }
+                        ],
+                        "page_icon": "Visual",
+                        "open_from": "right",
+                        "tray_outside_click": true,
+                        "page_nav_url": "screen-1",
+                        "page_name": "Screen 1",
+                        "open_on_web": true,
+                        "menu_sticky_width": "30",
+                        "menu_sticky_width_unit": "%",
+                        "menu_open_from": "left",
+                        "page_data_dhq_submission_url": "http://localhost:8080/runapi/",
+                        "thank_you_page_type": "popup_message",
+                        "thank_you_page_custom_url": "",
+                        "thank_you_page_title": "Thank You",
+                        "thank_you_page_text": "Data Submitted Successfully",
+                        "thank_you_page_internal_url": "",
+                        "thank_you_page_navigation_transition": "1",
+                        "page_data_submission_configuration": {
+                            "dhq_submission_field_column_mapping": {},
+                            "dhq_submission_table_id": "",
+                            "dhq_submission_table_name": "",
+                            "is_hidden_table": false
+                        },
+                        "dhq_page_config": {
+                            "update_to_theme_varaibles": [
+                                "field_options.left_page_header_icon_color",
+                                "field_options.left_page_secondary_header_icon_color",
+                                "field_options.right_page_header_icon_color",
+                                "field_options.right_page_secondary_header_icon_color",
+                                "field_options.page_footer_border_bottom_color",
+                                "field_options.page_footer_background_color",
+                                "field_options.page_footer_top_bottom_padding_value",
+                                "field_options.page_footer_top_bottom_padding_unit",
+                                "field_options.page_footer_left_right_padding_value",
+                                "field_options.page_footer_left_right_padding_unit",
+                                "field_options.page_background_color",
+                                "field_options.header_background_color",
+                                "field_options.header_border_bottom_color",
+                                "field_options.page_padding_unit",
+                                "field_options.control_spacing_unit",
+                                "field_options.page_padding_value",
+                                "field_options.page_control_spacing_value",
+                                "field_options.primary_header_font_size",
+                                "field_options.primary_header_font_size_unit",
+                                "field_options.primary_header_font_weight",
+                                "field_options.secondary_header_font_size",
+                                "field_options.secondary_header_font_size_unit",
+                                "field_options.secondary_header_font_weight",
+                                "field_options.primary_header_text_color",
+                                "field_options.secondary_header_text_color"
+                            ]
+                        },
+                        "page_config": {},
+                        "event_items": {},
+                        "isGridView": true,
+                        "action_items": {
+                            "screen": {
+                                "events": [
+                                    "routing",
+                                    "open",
+                                    "close",
+                                    "reset"
+                                ],
+                                "selector": "",
+                                "type": "custom"
+                            }
+                        },
+                        "actionflows": {
+                            "screen": {}
+                        },
+                        "dhqEvtConverted": true,
+                        "id": "c5RgjwYoGvJC4ZSm1fY"
+                    }
+                ],
+                "workflowIdAndNameMapping": {},
+                "multistepAuthApiList": [],
+                "screenFolderDefinition": {
+                    "sequence": [
+                        "c5RgjwYoGvJC4ZSm1fY"
+                    ],
+                    "definition": {}
+                },
+                "nonPublishedMultistepAuthApiList": [],
+                "appEvents": {
+                    "action_items": {
+                        "app": {
+                            "events": [
+                                "open"
+                            ],
+                            "selector": ""
+                        },
+                        "recurring": {
+                            "events": [],
+                            "selector": ""
+                        }
+                    },
+                    "actionflows": {},
+                    "id": "app_R0aq1p91ZXeFcjvjk"
+                },
+                "configuration": {
+                    "field_config": {
+                        "config_field_spacing_value": 1.25,
+                        "config_field_spacing_unit": "rem"
+                    },
+                    "page_config": {},
+                    "menu_config": {
+                        "max_width_value": "25",
+                        "max_width_unit": "%",
+                        "min_width_value": "40",
+                        "min_width_unit": "%",
+                        "width_value": "30",
+                        "width_unit": "%"
+                    },
+                    "global_config": {
+                        "pageThemeList": [
+                            {
+                                "name": "calm",
+                                "value": "var(--theme-color-calm)",
+                                "color": "#30B8D2"
+                            },
+                            {
+                                "name": "balance",
+                                "value": "var(--theme-color-balance)",
+                                "color": "#26BC6A"
+                            },
+                            {
+                                "name": "dark",
+                                "value": "var(--theme-color-dark)",
+                                "color": "#000000"
+                            },
+                            {
+                                "name": "grey",
+                                "value": "var(--theme-color-grey)",
+                                "color": "#444444"
+                            },
+                            {
+                                "name": "light",
+                                "value": "var(--theme-color-light)",
+                                "color": "#BBBBBB"
+                            },
+                            {
+                                "name": "position",
+                                "value": "var(--theme-color-position)",
+                                "color": "#FF8C00"
+                            },
+                            {
+                                "name": "stable",
+                                "value": "var(--theme-color-stable)",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "assertive",
+                                "value": "var(--theme-color-assertive)",
+                                "color": "#E42112"
+                            },
+                            {
+                                "name": "energyzed",
+                                "value": "var(--theme-color-energyzed)",
+                                "color": "#F5E51B"
+                            },
+                            {
+                                "name": "royal",
+                                "value": "var(--theme-color-royal)",
+                                "color": "#6B46E5"
+                            }
+                        ],
+                        "font_family": "Montserrat",
+                        "package_loader": "",
+                        "default_resolution": "laptop",
+                        "custom_fonts": [],
+                        "data_env": "production",
+                        "lastSelectedScreen": 1,
+                        "lastSelectedResolution": "laptop"
+                    },
+                    "query_strings": {
+                        "utm_source": "",
+                        "utm_medium": "",
+                        "utm_campaign": "",
+                        "utm_term": "",
+                        "utm_content": ""
+                    },
+                    "preview_config": {
+                        "pEnvType": "prod",
+                        "deviceRes": "414 * 736",
+                        "deviceName": "laptop",
+                        "orientation": "",
+                        "language": "en"
+                    },
+                    "preview_setting": {
+                        "connactor_log_status": true
+                    },
+                    "changes": {
+                        "valMovedToChild": true,
+                        "subfieldsChangedToNames": true,
+                        "afIdUpdated": true
+                    },
+                    "routing_varaibles": {},
+                    "custom_javascript": {
+                        "JSOBJECTS": {
+                            "code": "// Internal Variable \n var myInternalVariable = \"This is an Internal Variable\"; \n // Variable Can be accessible outside \n var myExternalVariable = \"This is an External Variable\"; \n // Internal Function \n function myInternalFun() { \n\t // Code Goes here \n } \n // Function Can be accessible outside  \n function myExternalFun (data) { \n\t // Code Goes here \n\t  return data; \n }; \n \nExportModule = { \n\tmyExternalFun: myExternalFun, \n\tmyExternalVariable: myExternalVariable \n };",
+                            "name": "JSOBJECTS"
+                        }
+                    }
+                }
+            },
+            "appName": "FJ Git v3",
+            "description": "checking newer updates from gitsync",
+            "iconURL": "https://ubuntu.onprem.dronahq.com/filerepository/files/DRONA5_Team2/content/app/icon/wyvzBdkP2i.png"
+        },
+        "sheets_data": "[]",
+        "wf_data": [],
+        "sheets_list": {},
+        "is_new_template": true,
+        "sheetsUsedInSheets": {},
+        "dependenciesList": {
+            "customControlList": {},
+            "customFunctionList": {},
+            "dependencies_flag": false
+        },
+        "APIDetails": [
+            {
+                "cat_id": 100444,
+                "catName": "fj_mongo_19Mar24",
+                "catDesc": "",
+                "catIcon": "./Images/dblogos/mongo.png",
+                "schemeType": "db_connector",
+                "cat_created_on": null,
+                "cat_modify_on": null,
+                "cat_created_by": "brijesh@studio.com",
+                "isGlobal": false,
+                "isEditable": true,
+                "isCatPublic": false,
+                "isInstalled": false,
+                "isCatEditable": true,
+                "showAddOption": true,
+                "cat_type": "mongodb",
+                "format_id": "ce1880ac-e5b9-11ee-820e-0242c0a88004",
+                "permission": "1000",
+                "multistep_auth_steps": {},
+                "cat_subcat_list": [
+                    {
+                        "category_id": 100444,
+                        "channel_id": 2,
+                        "sub_category_id": 102062,
+                        "bindable": true,
+                        "display_name": "getTotalListing",
+                        "dynamic_variables": null,
+                        "failure": {
+                            "Header": [],
+                            "StatusCode": 0,
+                            "StatusDescription": "",
+                            "content": "",
+                            "dynamic_variables": [],
+                            "success": false
+                        },
+                        "failureCondition": "[]",
+                        "name": "variable_RPK79XFdd94lE2aol",
+                        "plugin_id": 364,
+                        "preselectfields": "[]",
+                        "preselectvariables": "[]",
+                        "proxy": false,
+                        "request": {
+                            "method": "DB_QUERY",
+                            "body": {
+                                "raw": "{\"action\":\"count\",\"collection\":\"listingsAndReviews\"}",
+                                "variables": [],
+                                "mode": "db_query"
+                            },
+                            "header": [],
+                            "url": {
+                                "raw": "",
+                                "protocol": "",
+                                "query": [],
+                                "param": []
+                            },
+                            "account_id": "",
+                            "description": "",
+                            "remove_empty_keys": false,
+                            "skip_uri_component_encoding": false,
+                            "request_timeout": 0
+                        },
+                        "response": {
+                            "success": "true",
+                            "content": "1",
+                            "ContentType": "application/json; charset=utf-8",
+                            "StatusCode": 200,
+                            "StatusDescription": "OK"
+                        },
+                        "is_deleted": 0,
+                        "meta": {
+                            "sub_cat_id": 102062,
+                            "sub_catName": "variable_RPK79XFdd94lE2aol",
+                            "sub_catIcon": "./Images/dblogos/mongo.png",
+                            "sub_cat_created_on": "2024-03-19T06:28:51.000Z",
+                            "sub_cat_modify_on": "2024-03-28T09:49:08.000Z",
+                            "sub_cat_format_id": "f3a8a301-e5b9-11ee-820e-0242c0a88004",
+                            "sub_cat_created_by": "brijesh@studio.com",
+                            "sub_cat_method": "DB_QUERY",
+                            "sub_cat_is_public": false,
+                            "plugin_id": 364,
+                            "isSubCatInstalled": false,
+                            "isSubCatEditable": true
+                        }
+                    },
+                    {
+                        "category_id": 100444,
+                        "channel_id": 2,
+                        "sub_category_id": 102104,
+                        "bindable": true,
+                        "display_name": "getUsersList",
+                        "dynamic_variables": null,
+                        "failure": {
+                            "Header": [],
+                            "StatusCode": 0,
+                            "StatusDescription": "",
+                            "content": "",
+                            "dynamic_variables": [],
+                            "success": false
+                        },
+                        "failureCondition": "[]",
+                        "name": "variable_RWssGaTBT9YwNDxsd",
+                        "plugin_id": 355,
+                        "preselectfields": "[]",
+                        "preselectvariables": "[]",
+                        "proxy": false,
+                        "request": {
+                            "method": "DB_QUERY",
+                            "body": {
+                                "raw": "{\"action\":\"find\",\"collection\":\"users\",\"options\":{\"limit\":\"10\"}}",
+                                "variables": [],
+                                "mode": "db_query"
+                            },
+                            "header": [],
+                            "url": {
+                                "raw": "",
+                                "protocol": "",
+                                "query": [],
+                                "param": []
+                            },
+                            "account_id": "",
+                            "description": "",
+                            "remove_empty_keys": false,
+                            "skip_uri_component_encoding": false,
+                            "request_timeout": 0
+                        },
+                        "response": {
+                            "success": "true",
+                            "content": "[{\"_id\":\"string\",\"name\":\"string\",\"age\":\"string\",\"designation\":\"string\"}]",
+                            "ContentType": "application/json; charset=utf-8",
+                            "StatusCode": 200,
+                            "StatusDescription": "OK"
+                        },
+                        "is_deleted": 0,
+                        "meta": {
+                            "sub_cat_id": 102104,
+                            "sub_catName": "variable_RWssGaTBT9YwNDxsd",
+                            "sub_catIcon": "./Images/dblogos/mongo.png",
+                            "sub_cat_created_on": "2024-03-28T08:41:03.000Z",
+                            "sub_cat_modify_on": "2024-03-28T08:41:03.000Z",
+                            "sub_cat_format_id": "e97c2b32-ecde-11ee-b64b-0242ac180002",
+                            "sub_cat_created_by": "brijesh@studio.com",
+                            "sub_cat_method": "DB_QUERY",
+                            "sub_cat_is_public": false,
+                            "plugin_id": 364,
+                            "isSubCatInstalled": false,
+                            "isSubCatEditable": true
+                        }
+                    },
+                    {
+                        "category_id": 100444,
+                        "channel_id": 2,
+                        "sub_category_id": 102105,
+                        "bindable": true,
+                        "display_name": "",
+                        "dynamic_variables": null,
+                        "failure": {
+                            "Header": [],
+                            "StatusCode": 0,
+                            "StatusDescription": "",
+                            "content": "",
+                            "dynamic_variables": [],
+                            "success": false
+                        },
+                        "failureCondition": "[]",
+                        "name": "GetTotalUsers",
+                        "plugin_id": 0,
+                        "preselectfields": "[]",
+                        "preselectvariables": "[]",
+                        "proxy": false,
+                        "request": {
+                            "method": "DB_QUERY",
+                            "body": {
+                                "raw": "{\"action\":\"count\",\"collection\":\"users\",\"filter\":\"{}\"}",
+                                "variables": [],
+                                "mode": "db_query"
+                            },
+                            "header": [],
+                            "url": {
+                                "raw": "",
+                                "protocol": "",
+                                "query": [],
+                                "param": []
+                            },
+                            "account_id": "",
+                            "description": "",
+                            "remove_empty_keys": false,
+                            "skip_uri_component_encoding": false,
+                            "request_timeout": 0
+                        },
+                        "response": {
+                            "success": "true",
+                            "content": "{\"result\":{\"rows\":1}}",
+                            "ContentType": "application/json; charset=utf-8",
+                            "StatusCode": 200,
+                            "StatusDescription": "OK"
+                        },
+                        "is_deleted": 0,
+                        "meta": {
+                            "sub_cat_id": 102105,
+                            "sub_catName": "GetTotalUsers",
+                            "sub_catIcon": "./Images/dblogos/mongo.png",
+                            "sub_cat_created_on": "2024-03-28T09:50:04.000Z",
+                            "sub_cat_modify_on": "2024-03-28T09:50:04.000Z",
+                            "sub_cat_format_id": "8d44cceb-ece8-11ee-b64b-0242ac180002",
+                            "sub_cat_created_by": "brijesh@studio.com",
+                            "sub_cat_method": "DB_QUERY",
+                            "sub_cat_is_public": false,
+                            "plugin_id": 0,
+                            "isSubCatInstalled": false,
+                            "isSubCatEditable": true
+                        }
+                    }
+                ],
+                "channel_id": "2",
+                "mongo_scheme": {
+                    "cat_id": 100444,
+                    "channel_id": 2,
+                    "cat_auth_scheme": "db_connector",
+                    "cat_auth_scheme_settings": {
+                        "fields": [
+                            {
+                                "field_label": "Host",
+                                "field_key": "fields.host",
+                                "field_type": "String",
+                                "field_required": true,
+                                "field_description": "Please enter the Host Domain or IP",
+                                "editor_type": "singleLine_js"
+                            },
+                            {
+                                "field_label": "Port",
+                                "field_key": "fields.port",
+                                "field_type": "Number",
+                                "field_required": false,
+                                "field_description": "Please enter the Port number",
+                                "field_placeholder": "27017",
+                                "editor_type": "singleLine_js"
+                            },
+                            {
+                                "field_label": "Database Name",
+                                "field_key": "fields.dbname",
+                                "field_type": "String",
+                                "field_required": true,
+                                "field_description": "Please enter the Database name",
+                                "editor_type": "singleLine_js"
+                            },
+                            {
+                                "field_label": "Username",
+                                "field_key": "fields.username",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_description": "Please enter the Username",
+                                "editor_type": "singleLine_js"
+                            },
+                            {
+                                "field_label": "Password",
+                                "field_key": "fields.password",
+                                "field_type": "Password",
+                                "field_required": false,
+                                "field_description": "Please enter the Password",
+                                "editor_type": "singleLine_js"
+                            },
+                            {
+                                "field_label": "Mongo Legacy",
+                                "field_key": "fields.mongo3",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_hidden": true
+                            },
+                            {
+                                "field_label": "Dynamic Host",
+                                "field_key": "fields.dynamic_host",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_hidden": true
+                            },
+                            {
+                                "field_label": "Dynamic Database",
+                                "field_key": "fields.dynamic_db",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_hidden": true
+                            },
+                            {
+                                "field_label": "Dynamic Credentials",
+                                "field_key": "fields.dynamic_creds",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_hidden": true
+                            },
+                            {
+                                "field_label": "Prepared Statement",
+                                "field_key": "fields.prepared_statement",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_hidden": true
+                            },
+                            {
+                                "field_label": "SSL",
+                                "field_key": "fields.ssl",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_hidden": true
+                            },
+                            {
+                                "field_label": "SSH Tunnel",
+                                "field_key": "fields.ssh_tunnel",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_hidden": true
+                            },
+                            {
+                                "field_label": "TDS Version",
+                                "field_key": "fields.tdsVersion",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_placeholder": "",
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_restricted": true,
+                                "field_hidden": true,
+                                "field_value": "",
+                                "field_options": []
+                            },
+                            {
+                                "field_label": "Influx DB Version",
+                                "field_key": "fields.dbVersion",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_placeholder": "",
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_restricted": true,
+                                "field_hidden": true,
+                                "field_value": "",
+                                "field_options": []
+                            },
+                            {
+                                "field_label": "SQL Server Proxy host",
+                                "field_key": "fields.serverProxyHost",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_placeholder": "",
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_restricted": true,
+                                "field_hidden": true,
+                                "field_value": "",
+                                "field_options": []
+                            },
+                            {
+                                "field_label": "SSH Keys",
+                                "field_key": "fields.sshkeys",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_placeholder": "",
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_restricted": true,
+                                "field_hidden": true,
+                                "field_value": "",
+                                "field_options": []
+                            }
+                        ]
+                    },
+                    "cat_desc": "",
+                    "cat_icon": "./Images/dblogos/mongo.png",
+                    "cat_name": "fj_mongo_19Mar24",
+                    "cat_type": "mongodb",
+                    "db_type": "mongodb",
+                    "is_deleted": 0
+                }
+            }
+        ],
+        "PDFDetails": {}
+    },
+    "updated_time": "28-03-2024 11:22:51",
+    "onprem_version": "2.4.5"
+}
