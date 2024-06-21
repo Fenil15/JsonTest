@@ -269,7 +269,50 @@
                             "FAILURE_CODE": "",
                             "FAILURE_MESSAGE": ""
                         }
-                    }
+                    },
+                    "variable_RZUzJgtg8k1SeaYb71718977998387": {
+                        "name": "variable_RZUzJgtg8k1SeaYb71718977998387",
+                        "display_name": "fj_script",
+                        "type": "non-persistent",
+                        "datatype": "number",
+                        "defaultValue": "",
+                        "value": 45,
+                        "sb_mode": "JS",
+                        "field_composition_type": "variable",
+                        "field_data_model_binding_manual_query": "CUSTOMJS()",
+                        "field_data_model_binding_manual_query_with_id": "CUSTOMJS()",
+                        "field_data_model_binding_type": "manual_query",
+                        "dhq_formula": "",
+                        "dhq_data_process": "let fj = 0;\nfor(let i=0; i<10; i++) {\n  fj += i;\n}\noutput = fj;\n",
+                        "dhq_variableList": [
+                          
+                        ],
+                        "dhq_keywords_mapping": [
+                          
+                        ],
+                        "field_datatypes": [
+                          
+                        ],
+                        "is_master_variable": false,
+                        "dhq_req_stats": {
+                          "status": "resolved"
+                        },
+                        "dhq_set_value_via_action": false,
+                        "created_at": 1718977998392,
+                        "formula_binded_to": "",
+                        "evaluate_on_dependency_change": "everytime",
+                        "is_dql": false,
+                        "postProcessingDQL": "",
+                        "sanitize_response_keys": false,
+                        "meta": {
+                          
+                        },
+                        "interval": {
+                          "instance": null,
+                          "timeout": null
+                        },
+                        "state": "success"
+                      }
                 },
                 "registeredApiList": [
                     {
