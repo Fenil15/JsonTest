@@ -1053,6 +1053,81 @@
                             "instance": null,
                             "timeout": null
                         }
+                    },
+                    "variable_RH8uPXwiASmAKTyiE1719416228153": {
+                        "name": "variable_RH8uPXwiASmAKTyiE1719416228153",
+                        "display_name": "DQ_MongoDB",
+                        "type": "non-persistent",
+                        "datatype": "composite_list",
+                        "defaultValue": "",
+                        "value": [
+                            {
+                                "_id": "64f1b4aa6340c5187f0e9f06",
+                                "age": 33
+                            },
+                            {
+                                "_id": "64f1b6e56340c5187f0e9f0b",
+                                "name": "Michael Wu",
+                                "designation": "Consultant",
+                                "email": "michael.wu@example.com",
+                                "age": 33,
+                                "dob": "1989-04-27"
+                            },
+                            {
+                                "_id": "659e999c005baa31e2e954c2",
+                                "age": 33
+                            }
+                        ],
+                        "sb_mode": "JS",
+                        "field_composition_type": "variable",
+                        "field_data_model_binding_manual_query": "BINDAPI([variable_RH8uPXwiASmAKTyiE1719416228153])",
+                        "field_data_model_binding_manual_query_with_id": "BINDAPI( [variable_RH8uPXwiASmAKTyiE1719416228153])",
+                        "field_data_model_binding_type": "",
+                        "dhq_formula": "",
+                        "dhq_data_process": "",
+                        "dhq_variableList": [],
+                        "dhq_keywords_mapping": [],
+                        "field_datatypes": [
+                            {
+                                "field": "_id",
+                                "display_name": "_id",
+                                "data_type": "string",
+                                "field_database_editor_data_format": "single_line_text"
+                            },
+                            {
+                                "field": "age",
+                                "display_name": "age",
+                                "data_type": "string",
+                                "field_database_editor_data_format": "single_line_text"
+                            }
+                        ],
+                        "is_master_variable": true,
+                        "dhq_req_stats": {
+                            "status": "resolved"
+                        },
+                        "dhq_set_value_via_action": false,
+                        "created_at": 1719416228153,
+                        "formula_binded_to": "ConnectorQuery",
+                        "evaluate_on_dependency_change": "everytime",
+                        "is_dql": false,
+                        "postProcessingDQL": "",
+                        "sanitize_response_keys": false,
+                        "meta": {
+                            "HEADERS": {
+                                "content_length": "191",
+                                "content_type": "application/json",
+                                "failure_code": "",
+                                "failure_message": ""
+                            },
+                            "RESPONSE_CODE": 200,
+                            "RESPONSE_MESSAGE": "success",
+                            "FAILURE_CODE": "",
+                            "FAILURE_MESSAGE": ""
+                        },
+                        "interval": {
+                            "instance": null,
+                            "timeout": null
+                        }
                     }
                 },
                 "registeredApiList": [
@@ -2029,6 +2104,60 @@
                         "filterKeys": [],
                         "autoTransform": false,
                         "cat_type": null
+                    },
+                    {
+                        "api_id": 7,
+                        "api_name": "variable_RH8uPXwiASmAKTyiE1719416228153",
+                        "cat_id": "__REPLACE_CAT_ID_7023___",
+                        "cat_name": "__REPLACE_CAT_NAME_7023___",
+                        "sub_cat_id": "__REPLACE_SUB_CAT_ID_40374___",
+                        "sub_cat_name": "__REPLACE_SUB_CAT_NAME_40374___",
+                        "cat_icon_url": "./Images/dblogos/mongo.png",
+                        "method": "db_query",
+                        "query": {},
+                        "param": {},
+                        "header": {},
+                        "body": {
+                            "mode": "db_query",
+                            "formdata": {},
+                            "variables": {}
+                        },
+                        "auth": {},
+                        "triggerOnPageload": false,
+                        "execution_editor_type": "JSEditor",
+                        "execution_condition_variable_with_name": "",
+                        "execution_condition_variable": "",
+                        "scheme_type": "db_connector",
+                        "account_id": "account_12957285_1697647973170",
+                        "postProcessing": "",
+                        "postProcessingDQL": "",
+                        "filterObjectCondition": "",
+                        "filterObjectMapping": [],
+                        "sanitizeResponseFlag": false,
+                        "rawResponse": [
+                            {
+                                "_id": "64f1b4aa6340c5187f0e9f06",
+                                "age": 33
+                            }
+                        ],
+                        "processedResp": [
+                            {
+                                "_id": "64f1b4aa6340c5187f0e9f06",
+                                "age": 33
+                            }
+                        ],
+                        "paginationType": "none",
+                        "offsetKeyPath": "",
+                        "hasMoreKeyPath": "",
+                        "variables": [],
+                        "misc": {},
+                        "additionalKeywords": {},
+                        "formatedSchema": {},
+                        "bindedTo": "variable",
+                        "createdVia": "variable",
+                        "filterKeys": [],
+                        "autoTransform": false,
+                        "cat_type": "mongodb"
                     }
                 ],
                 "pages": [
@@ -2091,8 +2220,8 @@
                             "main_config": {
                                 "ctrl_sv": 1.25,
                                 "ctrl_su": "rem",
-                                "gridMobileMaxHeight": 1891.2890625,
-                                "gridDesktopMaxHeight": "118.125rem"
+                                "gridMobileMaxHeight": "120.000rem",
+                                "gridDesktopMaxHeight": "120.000rem"
                             },
                             "footer_config": {
                                 "ctrl_sv": 1.25,
@@ -2288,7 +2417,7 @@
                                 "field_available_in_database_editor": false,
                                 "field_client_side_get_data_enabled": true,
                                 "controlHeight": "manual",
-                                "rowsVisible": 9,
+                                "rowsVisible": 6,
                                 "pagination_page_no": 1,
                                 "columnVisible": 0,
                                 "colwidth": 120,
@@ -6233,13 +6362,13 @@
                                     ]
                                 },
                                 "dhqGrid": {
-                                    "w": 10,
+                                    "w": 9,
                                     "h": 5,
                                     "x": 14,
                                     "y": 124
                                 },
                                 "dhqGridDesktop": {
-                                    "w": 10,
+                                    "w": 9,
                                     "h": 5,
                                     "x": 14,
                                     "y": 124
@@ -6253,6 +6382,184 @@
                                 "actionflows": {},
                                 "action_items": {},
                                 "dhqEvtConverted": true
+                            },
+                            {
+                                "ctrl_id": "",
+                                "label": "Text Input",
+                                "label_font_weight_class": "font-weight-normal",
+                                "label_position": "top",
+                                "label_left_width": "33",
+                                "label_left_width_unit": "%",
+                                "label_font_size": "var(--DHQ-control-title)",
+                                "label_font_size_unit": "",
+                                "label_font_weight": "var(--DHQ-bold)",
+                                "label_text_alignment": "left",
+                                "label_text_color": "var(--DHQ-primary-font-color)",
+                                "label_hidden": false,
+                                "wrapper_content_alignment": "flex-start",
+                                "field_type": "text",
+                                "field_key_name": "text_c5275REWmZ2WOIAJEOsgR9",
+                                "field_display_key_name": "textinput6",
+                                "field_responsive": true,
+                                "caching": false,
+                                "grid_dynamic_height": true,
+                                "grid_maintain_space": false,
+                                "grid_max_height": "",
+                                "grid_max_height_unit": "px",
+                                "type": "input",
+                                "required": false,
+                                "hidden": false,
+                                "disabled": false,
+                                "data_submission_enabled": true,
+                                "is_variable": false,
+                                "tooltip": "",
+                                "tip_description": "",
+                                "show_description": false,
+                                "show_tooltip": false,
+                                "field_fullview": false,
+                                "class_name": "test",
+                                "field_data_model": "",
+                                "allow_options_addition_in_editor": true,
+                                "field_composition_type": "single",
+                                "field_editable_in_database_editor": true,
+                                "field_values_addition_enabled_in_database_editor": true,
+                                "field_values_source": "",
+                                "field_database_editor_data_format": "single_line_text",
+                                "data_type": "string",
+                                "field_data_model_binding_manual_query": "DATABUILDER()",
+                                "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+                                "show_dfm": false,
+                                "dfmv_selected": "default",
+                                "dhq_formula": "{{DQ_MongoDB}}",
+                                "dhq_data_process": "",
+                                "dhq_default_data_process": "",
+                                "dhq_default_formula": "",
+                                "field_data_model_binding_formula": "",
+                                "field_data_model_binding_type": "manual_query",
+                                "validations": [],
+                                "controls": [],
+                                "formbuilder_theme": "var(--DHQ-border-color)",
+                                "field_options": {},
+                                "field_config": {},
+                                "input_placeholder_text_size": "var(--DHQ-small-font)",
+                                "input_placeholder_text_color": "#aaaaaa",
+                                "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                                "input_control_height": "2.5rem",
+                                "input_font_color": "var(--DHQ-primary-font-color)",
+                                "input_font_weight": "var(--DHQ-normal-weight)",
+                                "input_font_size": "var(--DHQ-normal-font)",
+                                "is_master_control": false,
+                                "is_outlet_control": false,
+                                "is_repeat_outlet_control": false,
+                                "dhq_req_stats": {
+                                    "status": ""
+                                },
+                                "dhq_nsf_replaced": false,
+                                "dhq_olddt_map": {},
+                                "dhq_submit_condition": "always",
+                                "dhq_tfd": true,
+                                "dhq_external_css": {
+                                    "addCode": false,
+                                    "data": {}
+                                },
+                                "tabIndex": "",
+                                "placeholder": "Write here...",
+                                "min_length": "",
+                                "max_length": "",
+                                "debounceEventTime": 3000,
+                                "text_max_length": "",
+                                "text_min_length": "",
+                                "action_items": {
+                                    "value_change": {
+                                        "events": [
+                                            "value_change"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "enter_press": {
+                                        "events": [
+                                            "enter_press"
+                                        ],
+                                        "selector": ""
+                                    },
+                                    "focus_out": {
+                                        "events": [
+                                            "focus_out"
+                                        ],
+                                        "selector": ""
+                                    }
+                                },
+                                "value": "",
+                                "input_type": "text",
+                                "length_unit": "characters",
+                                "isqrvisible": false,
+                                "field_available_in_database_editor": true,
+                                "field_datatypes": [],
+                                "for_localization": {
+                                    "static_msgs": [
+                                        "This field is mandatory",
+                                        "Invalid URL",
+                                        "Invalid email id"
+                                    ],
+                                    "dynamic_msgs_keys": [
+                                        "label",
+                                        "placeholder",
+                                        "tooltip",
+                                        "tip_description"
+                                    ],
+                                    "concated_msgs": [
+                                        "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                    ]
+                                },
+                                "dhq_config": {
+                                    "strict_update": [
+                                        "for_localization",
+                                        "input_control_height",
+                                        "dhq_config"
+                                    ],
+                                    "update_to_theme_varaibles": [
+                                        "formbuilder_theme",
+                                        "label_font_size",
+                                        "label_font_size_unit",
+                                        "label_font_weight",
+                                        "label_text_color",
+                                        "input_font_weight",
+                                        "input_font_color",
+                                        "input_font_size",
+                                        "input_placeholder_font_weight",
+                                        "input_placeholder_text_color",
+                                        "input_placeholder_text_size"
+                                    ]
+                                },
+                                "dhq_show_rawdata": true,
+                                "dhqGrid": {
+                                    "w": 12,
+                                    "h": 8,
+                                    "x": 1,
+                                    "y": 124
+                                },
+                                "dhqGridDesktop": {
+                                    "w": 12,
+                                    "h": 8,
+                                    "x": 1,
+                                    "y": 124
+                                },
+                                "dhqGridChanged": false,
+                                "isDhqGridCtrl": true,
+                                "isDhqHideOnDesktop": false,
+                                "isDhqHideOnMobile": false,
+                                "cid": "c5275REWmZ2WOIAJEOsgR9",
+                                "sid": "sc5275REWmZ2WOIAJEOsgR9",
+                                "actionflows": {},
+                                "dhqEvtConverted": true,
+                                "dhq_keywords_mapping": [
+                                    {
+                                        "name": "DQ_MongoDB",
+                                        "id": "variable_RH8uPXwiASmAKTyiE1719416228153"
+                                    }
+                                ],
+                                "sb_mode": "JS",
+                                "LiveData": "[{\"_id\":\"64f1b4aa6340c5187f0e9f06\",\"age\":33},{\"_id\":\"64f1b6e56340c5187f0e9f0b\",\"name\":\"Michael Wu\",\"designation\":\"Consultant\",\"email\":\"michael.wu@example.com\",\"age\":33,\"dob\":\"1989-04-27\"},{\"_id\":\"659e999c005baa31e2e954c2\",\"age\":33}]"
                             }
                         ],
                         "page_icon": "Visual",
@@ -8260,6 +8567,328 @@
                     "cat_auth_scheme": "no_auth",
                     "dynamic_variables": null,
                     "format_id": "0348a294-a8ee-11ec-8a6a-0242ac120002",
+                    "is_deleted": 0
+                }
+            },
+            {
+                "cat_id": "7023",
+                "catName": "fj_mongo_18oct2023",
+                "catDesc": "",
+                "catIcon": "./Images/dblogos/mongo.png",
+                "schemeType": "db_connector",
+                "cat_created_on": "10/18/2023 16:52:51",
+                "cat_modify_on": "10/18/2023 16:52:51",
+                "cat_created_by": "fenil@studio.com",
+                "isGlobal": false,
+                "isEditable": true,
+                "isCatPublic": false,
+                "cat_type": "mongodb",
+                "permission": "1000",
+                "cat_subcat_list": [
+                    {
+                        "channel_id": 1809,
+                        "category_id": 7023,
+                        "sub_category_id": 40374,
+                        "response": {
+                            "success": "true",
+                            "content": "[{\"_id\":\"string\",\"age\":1}]",
+                            "ContentType": "application/json; charset=utf-8",
+                            "StatusCode": 200,
+                            "StatusDescription": "OK"
+                        },
+                        "failure": {
+                            "Header": [],
+                            "StatusCode": 0,
+                            "StatusDescription": "",
+                            "content": "",
+                            "dynamic_variables": [],
+                            "success": false
+                        },
+                        "failureCondition": "[]",
+                        "request": {
+                            "method": "DB_QUERY",
+                            "body": {
+                                "raw": "{\"action\":\"find\",\"collection\":\"users\",\"filter\":\"{\\\"age\\\":33}\"}",
+                                "variables": [],
+                                "mode": "db_query"
+                            },
+                            "header": [],
+                            "url": {
+                                "raw": "",
+                                "protocol": "",
+                                "query": [],
+                                "param": []
+                            },
+                            "account_id": "",
+                            "description": "",
+                            "remove_empty_keys": false,
+                            "skip_uri_component_encoding": false,
+                            "request_timeout": 0
+                        },
+                        "name": "variable_RH8uPXwiASmAKTyiE1719416228153",
+                        "proxy": false,
+                        "bindable": true,
+                        "preselectfields": "[]",
+                        "preselectvariables": "[]",
+                        "dynamic_variables": null,
+                        "plugin_id": 59286,
+                        "instructions": null,
+                        "includeBodyHash": false,
+                        "cat_format_id": "c68ba486-6dd6-11ee-b65f-0e71b101e9a3",
+                        "format_id": "38f6f564-33d2-11ef-b858-0affc745b639",
+                        "service_type": null,
+                        "is_deleted": 0,
+                        "meta": {
+                            "sub_cat_id": "40374",
+                            "sub_catName": "variable_RH8uPXwiASmAKTyiE1719416228153",
+                            "sub_catIcon": "./Images/dblogos/mongo.png",
+                            "sub_cat_created_on": "06/26/2024 15:39:06",
+                            "sub_cat_modify_on": "06/26/2024 15:40:08",
+                            "sub_cat_created_by": "fenil@studio.com",
+                            "sub_cat_method": "DB_QUERY",
+                            "sub_cat_is_public": false,
+                            "plugin_id": 59286
+                        }
+                    }
+                ],
+                "multistep_auth_steps": null,
+                "channel_id": "1809",
+                "mongo_scheme": {
+                    "cat_auth_scheme_settings": {
+                        "fields": [
+                            {
+                                "field_label": "Host",
+                                "field_key": "fields.host",
+                                "field_type": "String",
+                                "field_required": true,
+                                "field_description": "Please enter the Host Domain or IP",
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": false,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Port",
+                                "field_key": "fields.port",
+                                "field_type": "Number",
+                                "field_required": false,
+                                "field_description": "Please enter the Port number",
+                                "field_placeholder": "27017",
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": false,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Database Name",
+                                "field_key": "fields.dbname",
+                                "field_type": "String",
+                                "field_required": true,
+                                "field_description": "Please enter the Database name",
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": false,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Username",
+                                "field_key": "fields.username",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_description": "Please enter the Username",
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": false,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Password",
+                                "field_key": "fields.password",
+                                "field_type": "Password",
+                                "field_required": false,
+                                "field_description": "Please enter the Password",
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": false,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Mongo Legacy",
+                                "field_key": "fields.mongo3",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": true,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Dynamic Host",
+                                "field_key": "fields.dynamic_host",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": true,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Dynamic Database",
+                                "field_key": "fields.dynamic_db",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": true,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Dynamic Credentials",
+                                "field_key": "fields.dynamic_creds",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": true,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "Prepared Statement",
+                                "field_key": "fields.prepared_statement",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": true,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "SSL",
+                                "field_key": "fields.ssl",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": true,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "SSH Tunnel",
+                                "field_key": "fields.ssh_tunnel",
+                                "field_type": "Boolean",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": null,
+                                "field_default_value": null,
+                                "field_target": null,
+                                "field_default": null,
+                                "field_hidden": true,
+                                "field_restricted": false
+                            },
+                            {
+                                "field_label": "TDS Version",
+                                "field_key": "fields.tdsVersion",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": "",
+                                "field_default_value": null,
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_hidden": true,
+                                "field_restricted": true
+                            },
+                            {
+                                "field_label": "Influx DB Version",
+                                "field_key": "fields.dbVersion",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": "",
+                                "field_default_value": null,
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_hidden": true,
+                                "field_restricted": true
+                            },
+                            {
+                                "field_label": "SQL Server Proxy host",
+                                "field_key": "fields.serverProxyHost",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": "",
+                                "field_default_value": null,
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_hidden": true,
+                                "field_restricted": true
+                            },
+                            {
+                                "field_label": "SSH Keys",
+                                "field_key": "fields.sshkeys",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": "",
+                                "field_default_value": null,
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_hidden": true,
+                                "field_restricted": true
+                            },
+                            {
+                                "field_label": "Connection Options",
+                                "field_key": "fields.connection_options",
+                                "field_type": "String",
+                                "field_required": false,
+                                "field_description": null,
+                                "field_placeholder": "",
+                                "field_default_value": null,
+                                "field_target": "None",
+                                "field_default": "",
+                                "field_hidden": true,
+                                "field_restricted": true
+                            }
+                        ]
+                    },
+                    "db_type": "mongodb",
+                    "channel_id": 1809,
+                    "cat_id": 7023,
+                    "cat_name": "fj_mongo_18oct2023",
+                    "cat_desc": "",
+                    "cat_icon": "./Images/dblogos/mongo.png",
+                    "cat_auth_scheme": "db_connector",
+                    "cat_type": "mongodb",
+                    "dynamic_variables": null,
+                    "format_id": "c68ba486-6dd6-11ee-b65f-0e71b101e9a3",
                     "is_deleted": 0
                 }
             },
