@@ -1,0 +1,18 @@
+{
+    "method": "POST",
+    "header": [{
+        "header1":"value1"
+    }],
+    "body": {
+        "mode": "application/x-www-form-urlencoded",
+        "formdata": [{
+            "keyname":"value1"
+        }]
+    },
+    "path": "/api/breeds/list/all",
+    "query": [{
+        "key":"{{textinput}}"
+    }],
+    "do_not_pass_query_parameter_if_empty" : true,
+    "request_timeout": 10000
+}

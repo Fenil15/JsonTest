@@ -1,0 +1,5 @@
+{
+    "Spreadsheet Id": "value1",
+    "Sheet Name": "{{textinput1}}",
+    "Display Name":  "{{number + number*2}}"
+}

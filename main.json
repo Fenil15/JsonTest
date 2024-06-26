@@ -1,0 +1,108 @@
+{
+    "data_query" : {
+        // TODO : 1. Environment - Mapping with Account
+        // TODO : 2. Raw and Transformed response
+        // TODO : 3 Additional Scope Data
+        "sample_dataquery_global_connector" : {
+            "type": "connector_library | dronahq_file_storage",
+            "run_query_on": {
+                "event":"on_dataquery_change|manual|interval",
+                "duration_in_ms":10000
+            },
+            "connector": "Google Sheets",
+            "api": "GetSheetDetails",
+            // optional
+            "javascript_input": {
+                "variable1": "{{textinput}}",
+                "variable2": "FJ"
+            },
+            // optional
+            "cursor_based_pagination" : {
+                "offset":"keyname",
+                "has_more":"keyname2"
+            },
+            // optional
+            "advanced": {
+                "when_to_execute" : "{{textinput == TRUE}}",
+                "sanitize_special_character": true,
+                "auto_transform":true
+            },
+            // optional
+            "test_values":{
+                "Spreadsheet Id": "test",
+                "Sheet Name": "test",
+                "Display Name":  "test"
+            }
+        },
+        // TODO : 1. Failure condition on response
+        // TODO : 2 Additional Scope Data
+        "sample_dataquery_connector_query_restapi" : {
+            "type": "connector_query_restapi",
+            "run_query_on": {
+                "event":"on_dataquery_change|manual|interval",
+                "duration_in_ms":10000
+            },
+            "connector": "Dogs",
+            "api":"SubcategoryId"
+        },
+        // TODO : 1. Failure condition on response
+        // TODO : 2 Additional Scope Data
+        "sample_dataquery_connector_query_database_sql" : {
+            "type": "connector_query_sql | dronahq_database | connector_query_nosql", // query.sql | query.json
+            "run_query_on": {
+                "event":"on_dataquery_change|manual|interval",
+                "duration_in_ms":10000
+            },
+            "connector": "fj_mysql_dbonboarding", 
+            "api":"SubcategoryId", 
+            // optional
+            "test_values":{
+                "tablegrid.PROPERTIES.LIMIT": 10,
+                "tablegrid.PROPERTIES.OFFSET": 0
+            }
+        },
+        // TODO : 1. Failure condition on response
+        // TODO : 2 Additional Scope Data
+        "sample_dataquery_restapi" : {
+            "type": "restapi",
+            "run_query_on": {
+                "event":"on_dataquery_change|manual|interval",
+                "duration_in_ms":10000
+            },
+            "use_proxy":true
+        },
+        "sample_dataquery_javascript" : {
+            "type": "javascript",
+            "run_query_on": {
+                "event":"on_dataquery_change|manual|interval",
+                "duration_in_ms":10000
+            },
+            "is_persistent": false,
+            "javascript_input": {
+                "variable1": "{{textinput}}",
+                "variable2": "FJ"
+            },
+            "test_input_values":{
+                "variable1": "test",
+                "variable2": "test"
+            }
+        },
+        "sample_dataquery_variable": {
+            "type" : "variable",
+            "sub_type": "js | sql",
+            "run_query_on": {
+                "event":"on_dataquery_change|manual|interval",
+                "duration_in_ms":10000
+            },
+            "is_persistent": false
+        },
+        "sample_dataquery_dql" : {
+            "type" : "dql",
+            "run_query_on": {
+                "event":"on_dataquery_change|manual|interval",
+                "duration_in_ms":10000
+            },
+            "is_persistent": false
+        }
+    }
+}
