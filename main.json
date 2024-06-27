@@ -1,3 +1,4 @@
+// TODO : special charater for folder name handling
 {
     "data_query" : {
         // TODO : 1. Environment - Mapping with Account
@@ -107,7 +108,7 @@
     },
     "screens" : {
         "list" : [
-            "Screen 1",
+            "Screen 1", 
             "Screen 2"
         ],
         "sequence" : [
