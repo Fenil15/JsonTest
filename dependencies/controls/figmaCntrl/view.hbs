@@ -1,0 +1,21 @@
+<script id="ctrl-template-figmaCntrl" type="text/x-handlebars-template">
+    <div class="fb-field-wrapper response-field-{{field_type}} {{cid}} {{sid}} {{#if hidden}}hide{{/if}} {{#if sticky}}sticky{{/if}}{{#if field_fullview}} fb-fullview-field {{/if}} {{#if field_responsive}}fb-responsive-field{{/if}} {{#if disabled}}isDisabled{{/if}}" data-control="text" data-requiredfield="{{required}}" style="position:relative">
+        <div class="component-loader hide {{#if disabled}}{{else}} isLoaderWhite{{/if}} ">
+            <i class=" notched circle loading icon"></i>
+        </div>
+        <div class="component-head-container {{#if label}}{{else}}{{#if required}}{{else}}hide{{/if}}{{/if}}">
+            <span>{{#if label_hidden}}{{else}}{{label}}{{/if}}
+                {{#if required}}
+                    <span class="requiredAstrick">*</span>
+                {{/if}}
+            </span>
+        </div>
+        <div class="wrapper {{#if disabled}}isDisabled{{/if}}">
+            <meta charset="utf-8"><link rel="stylesheet" href="globals.css"><link rel="stylesheet" href="style.css"><div class="box"><div class="access-pro"><div class="overlap"><p class="upgrade-to-PRO-to">Upgrade to&nbsp;&nbsp;PRO to get access all Features!
+      </p><button class="CTA"><div class="overlap-group"><div class="text-wrapper">Get Pro Now!
+        </div></div></button></div></div></div>
+        </div>
+        <div class="fb-field-error-message"></div>
+    </div>
+
+    </script>

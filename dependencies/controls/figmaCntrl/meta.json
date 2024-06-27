@@ -1,0 +1,20 @@
+{
+    "field_type": "figmaCntrl",
+    "ctrlJSONDump": {
+        "control_name": "figmaCntrl",
+        "ver": "0.0.0",
+        "channel_id": 1809,
+        "tags": "FIGMA",
+        "icon_url": "app/src/images/controls/chart.png",
+        "created_by": "fenil@studio.com",
+        "created_on": 1709882081,
+        "updated_by": "fenil@studio.com",
+        "updated_on": "1715689376",
+        "display_name": "FIGMA",
+        "doc_type": "dev",
+        "control_id": 3418,
+        "states_data": "{}",
+        "group_id": 19
+    },
+    "type": "control"
+}

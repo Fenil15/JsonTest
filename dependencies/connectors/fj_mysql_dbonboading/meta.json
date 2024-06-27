@@ -1,0 +1,9 @@
+{
+    "id": 9199,
+    "name": "fj_mysql_dbonboading",
+    "icon": "./Images/dblogos/mysql.png",
+    "auth_scheme": "db_connector",
+    "type": "mysql",
+    "channel_id": 1809,
+    "format_id": "a9f2b34d-0c4c-11ef-b858-0affc745b639"
+}

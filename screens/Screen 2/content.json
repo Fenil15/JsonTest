@@ -1,0 +1,2842 @@
+{
+    "label": "Screen 2",
+    "page_type": "page",
+    "attached_menu": " ",
+    "attached_header": "none",
+    "field_options": {
+        "modal_maxwidth_value": "768",
+        "modal_maxwidth_unit": "px",
+        "modal_close_on_focusout": true,
+        "left_page_header_enabled": true,
+        "left_page_header_hidden_for": [],
+        "left_page_header_navigation_type": "dhq_navigate",
+        "left_page_header_navigation_value": "",
+        "left_page_header_click_navigation_transition": "1",
+        "left_page_header_icon": "icon-arrow-left",
+        "left_page_header_icon_color": "var(--DHQ-header-font-color)",
+        "left_page_header_nrtp": false,
+        "left_page_secondary_header_enabled": false,
+        "left_page_secondary_header_hidden_for": [],
+        "left_page_secondary_header_navigation_type": "no_action",
+        "left_page_secondary_header_navigation_value": "",
+        "left_page_secondary_header_click_navigate_to": "",
+        "left_page_secondary_header_icon": "icon-user",
+        "left_page_secondary_header_icon_color": "var(--DHQ-header-font-color)",
+        "left_page_secondary_header_nrtp": false,
+        "page_header_visibility": true,
+        "is_classic_header": true,
+        "right_page_header_navigation_type": "no_action",
+        "right_page_header_navigation_value": "",
+        "right_page_header_click_navigation_transition": "1",
+        "right_page_header_enabled": false,
+        "right_page_header_hidden_for": [],
+        "right_page_header_icon": "icon-arrow-right",
+        "right_page_header_icon_color": "var(--DHQ-header-font-color)",
+        "right_page_header_nrtp": false,
+        "right_page_secondary_header_enabled": false,
+        "right_page_secondary_header_hidden_for": [],
+        "right_page_secondary_header_navigation_type": "no_action",
+        "right_page_secondary_header_navigation_value": "",
+        "right_page_secondary_header_click_navigate_to": "",
+        "right_page_secondary_header_icon": "icon-logout",
+        "right_page_secondary_header_icon_color": "var(--DHQ-header-font-color)",
+        "right_page_secondary_header_nrtp": false,
+        "right_page_header_text": "test",
+        "page_footer_visibility": false,
+        "page_footer_border_bottom_enabled": true,
+        "page_footer_border_bottom_color": "var(--DHQ-border-color)",
+        "page_footer_background_color": "var(--DHQ-primary-bg-color)",
+        "page_footer_top_bottom_padding_value": 0,
+        "page_footer_top_bottom_padding_unit": "rem",
+        "page_footer_left_right_padding_value": 0,
+        "page_footer_left_right_padding_unit": "rem",
+        "header_config": {
+            "ctrl_sv": "1.25",
+            "ctrl_su": "rem"
+        },
+        "main_config": {
+            "ctrl_sv": "1.25",
+            "ctrl_su": "rem",
+            "gridDesktopMaxHeight": "105.625rem",
+            "gridMobileMaxHeight": 1716.2890625
+        },
+        "footer_config": {
+            "ctrl_sv": "1.25",
+            "ctrl_su": "rem"
+        },
+        "tray_width": 100,
+        "tray_width_unit": "%",
+        "tray_max_width": 100,
+        "tray_max_width_unit": "%",
+        "tray_height": 300,
+        "tray_height_unit": "px",
+        "tray_max_height": 100,
+        "tray_max_height_unit": "%",
+        "popup_side_margin": "0 0",
+        "popup_side_margin_unit": "0 0",
+        "popup_type": "normal",
+        "popup_slide_up_min_height": "50",
+        "popup_closable": false,
+        "page_background_color": "var(--DHQ-primary-bg-color)",
+        "page_text_color": "#444444",
+        "header_background_color": "var(--DHQ-header-bg-color)",
+        "header_dark_theme_enabled": false,
+        "header_border_bottom_color": "var(--DHQ-border-color)",
+        "page_font_family": "ROBOTO",
+        "page_padding_unit": "rem",
+        "control_spacing_unit": "rem",
+        "page_padding_value": 0,
+        "page_control_spacing_value": "1.25",
+        "primary_header_text": "Main Header",
+        "primary_header_font_size": "var(--DHQ-medium-font)",
+        "primary_header_font_size_unit": "",
+        "primary_header_font_weight": "var(--DHQ-x-bold)",
+        "secondary_header_font_size": "var(--DHQ-small-font)",
+        "secondary_header_font_size_unit": "",
+        "secondary_header_font_weight": "var(--DHQ-light-weight)",
+        "secondary_header_text": "Secondary Header",
+        "primary_header_text_color": "var(--DHQ-header-font-color)",
+        "secondary_header_text_color": "var(--DHQ-header-font-color)",
+        "primary_header_text_alignment": "center",
+        "secondary_header_text_alignment": "center",
+        "left_page_header_click_navigate_to": "screen-1"
+    },
+    "undefined": "",
+    "field_type": "page",
+    "page_no": 2,
+    "page_icon": "Visual",
+    "open_from": "right",
+    "tray_outside_click": true,
+    "page_nav_url": "screen-2",
+    "page_name": "Screen 2",
+    "open_on_web": true,
+    "menu_sticky_width": "30",
+    "menu_sticky_width_unit": "%",
+    "menu_open_from": "left",
+    "page_data_dhq_submission_url": "https://Workflow.dronahq.com/",
+    "thank_you_page_type": "popup_message",
+    "thank_you_page_custom_url": "",
+    "thank_you_page_title": "Thank You",
+    "thank_you_page_text": "Data Submitted Successfully",
+    "thank_you_page_internal_url": "",
+    "thank_you_page_navigation_transition": "1",
+    "page_data_submission_configuration": {
+        "dhq_submission_field_column_mapping": {},
+        "dhq_submission_table_id": "",
+        "dhq_submission_table_name": "",
+        "is_hidden_table": false
+    },
+    "dhq_page_config": {
+        "update_to_theme_varaibles": [
+            "field_options.left_page_header_icon_color",
+            "field_options.left_page_secondary_header_icon_color",
+            "field_options.right_page_header_icon_color",
+            "field_options.right_page_secondary_header_icon_color",
+            "field_options.page_footer_border_bottom_color",
+            "field_options.page_footer_background_color",
+            "field_options.page_footer_top_bottom_padding_value",
+            "field_options.page_footer_top_bottom_padding_unit",
+            "field_options.page_footer_left_right_padding_value",
+            "field_options.page_footer_left_right_padding_unit",
+            "field_options.page_background_color",
+            "field_options.header_background_color",
+            "field_options.header_border_bottom_color",
+            "field_options.page_padding_unit",
+            "field_options.control_spacing_unit",
+            "field_options.page_padding_value",
+            "field_options.page_control_spacing_value",
+            "field_options.primary_header_font_size",
+            "field_options.primary_header_font_size_unit",
+            "field_options.primary_header_font_weight",
+            "field_options.secondary_header_font_size",
+            "field_options.secondary_header_font_size_unit",
+            "field_options.secondary_header_font_weight",
+            "field_options.primary_header_text_color",
+            "field_options.secondary_header_text_color"
+        ]
+    },
+    "event_items": {},
+    "action_items": {
+        "screen": {
+            "events": [
+                "routing",
+                "open",
+                "close",
+                "reset"
+            ],
+            "selector": "",
+            "type": "custom"
+        }
+    },
+    "actionflows": {
+        "screen": {}
+    },
+    "dhqEvtConverted": true,
+    "isGridView": true,
+    "id": "c3473RHhXv3Akr7yVIrjl6",
+    "page_header_controls": [],
+    "page_footer_controls": [],
+    "page_main_controls": [
+        {
+            "ctrl_id": "",
+            "label": "Text Input",
+            "label_font_weight_class": "font-weight-normal",
+            "label_position": "top",
+            "label_left_width": "33",
+            "label_left_width_unit": "%",
+            "label_font_size": "var(--DHQ-control-title)",
+            "label_font_size_unit": "",
+            "label_font_weight": "var(--DHQ-bold)",
+            "label_text_alignment": "left",
+            "label_text_color": "var(--DHQ-primary-font-color)",
+            "label_hidden": false,
+            "wrapper_content_alignment": "flex-start",
+            "field_type": "text",
+            "field_key_name": "text_c3601RYNPoJYoYFsas8oNb",
+            "field_display_key_name": "textinput5",
+            "field_responsive": true,
+            "caching": false,
+            "grid_dynamic_height": true,
+            "grid_maintain_space": false,
+            "grid_max_height": "",
+            "grid_max_height_unit": "px",
+            "type": "input",
+            "required": false,
+            "hidden": false,
+            "disabled": false,
+            "data_submission_enabled": true,
+            "is_variable": false,
+            "tooltip": "",
+            "tip_description": "",
+            "show_description": false,
+            "show_tooltip": false,
+            "field_fullview": false,
+            "class_name": "test",
+            "field_data_model": "",
+            "allow_options_addition_in_editor": true,
+            "field_composition_type": "single",
+            "field_editable_in_database_editor": true,
+            "field_values_addition_enabled_in_database_editor": true,
+            "field_values_source": "",
+            "field_database_editor_data_format": "single_line_text",
+            "data_type": "string",
+            "field_data_model_binding_manual_query": "DATABUILDER()",
+            "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+            "show_dfm": false,
+            "dfmv_selected": "default",
+            "dhq_formula": "{{DQ_FileStorage_ListObjects}}",
+            "dhq_data_process": "",
+            "dhq_default_data_process": "",
+            "dhq_default_formula": "",
+            "field_data_model_binding_formula": "",
+            "field_data_model_binding_type": "manual_query",
+            "validations": [],
+            "formbuilder_theme": "var(--DHQ-border-color)",
+            "field_options": {},
+            "field_config": {},
+            "input_placeholder_text_size": "var(--DHQ-small-font)",
+            "input_placeholder_text_color": "#aaaaaa",
+            "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+            "input_control_height": "2.5rem",
+            "input_font_color": "var(--DHQ-primary-font-color)",
+            "input_font_weight": "var(--DHQ-normal-weight)",
+            "input_font_size": "var(--DHQ-normal-font)",
+            "is_master_control": false,
+            "is_outlet_control": false,
+            "is_repeat_outlet_control": false,
+            "dhq_req_stats": {
+                "status": ""
+            },
+            "dhq_nsf_replaced": false,
+            "dhq_olddt_map": {},
+            "dhq_submit_condition": "always",
+            "dhq_tfd": true,
+            "dhq_external_css": {
+                "addCode": false,
+                "data": {}
+            },
+            "tabIndex": "",
+            "placeholder": "Write here...",
+            "min_length": "",
+            "max_length": "",
+            "debounceEventTime": 3000,
+            "text_max_length": "",
+            "text_min_length": "",
+            "action_items": {
+                "value_change": {
+                    "events": [
+                        "value_change"
+                    ],
+                    "selector": ""
+                },
+                "enter_press": {
+                    "events": [
+                        "enter_press"
+                    ],
+                    "selector": ""
+                },
+                "focus_out": {
+                    "events": [
+                        "focus_out"
+                    ],
+                    "selector": ""
+                }
+            },
+            "value": "",
+            "input_type": "text",
+            "length_unit": "characters",
+            "isqrvisible": false,
+            "field_available_in_database_editor": true,
+            "field_datatypes": [],
+            "for_localization": {
+                "static_msgs": [
+                    "This field is mandatory",
+                    "Invalid URL",
+                    "Invalid email id"
+                ],
+                "dynamic_msgs_keys": [
+                    "label",
+                    "placeholder",
+                    "tooltip",
+                    "tip_description"
+                ],
+                "concated_msgs": [
+                    "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                ]
+            },
+            "dhq_config": {
+                "strict_update": [
+                    "for_localization",
+                    "input_control_height",
+                    "dhq_config"
+                ],
+                "update_to_theme_varaibles": [
+                    "formbuilder_theme",
+                    "label_font_size",
+                    "label_font_size_unit",
+                    "label_font_weight",
+                    "label_text_color",
+                    "input_font_weight",
+                    "input_font_color",
+                    "input_font_size",
+                    "input_placeholder_font_weight",
+                    "input_placeholder_text_color",
+                    "input_placeholder_text_size"
+                ]
+            },
+            "dhq_show_rawdata": true,
+            "dhqGrid": {
+                "w": 12,
+                "h": 8,
+                "x": 0,
+                "y": 0
+            },
+            "dhqGridDesktop": {
+                "w": 12,
+                "h": 8,
+                "x": 0,
+                "y": 0
+            },
+            "dhqGridChanged": false,
+            "isDhqGridCtrl": true,
+            "isDhqHideOnDesktop": false,
+            "isDhqHideOnMobile": false,
+            "cid": "c3601RYNPoJYoYFsas8oNb",
+            "sid": "sc3601RYNPoJYoYFsas8oNb",
+            "actionflows": {},
+            "dhqEvtConverted": true,
+            "dhq_keywords_mapping": [
+                {
+                    "name": "DQ_FileStorage_ListObjects",
+                    "id": "variable_RLOCVwGk0mwe7Fati1719395018556"
+                }
+            ],
+            "sb_mode": "JS",
+            "LiveData": "{\"ListBucketResult\":{\"IsTruncated\":false,\"Contents\":[{\"Key\":\"fj/\",\"LastModified\":\"2024-03-13T15:05:09.000Z\",\"ETag\":\"\\\"d41d8cd98f00b204e9800998ecf8427e\\\"\",\"ChecksumAlgorithm\":[],\"Size\":0,\"StorageClass\":\"STANDARD\"},{\"Key\":\"fj/avatar.png\",\"LastModified\":\"2024-03-13T15:06:29.000Z\",\"ETag\":\"\\\"2f7292a00ddff062052c0fe402f05d7e\\\"\",\"ChecksumAlgorithm\":[],\"Size\":275916,\"StorageClass\":\"STANDARD\"}],\"Name\":\"dms-bucket-1809\",\"Prefix\":\"fj\",\"MaxKeys\":1000,\"CommonPrefixes\":[],\"KeyCount\":2}}",
+            "gridDesktopOrigin": null,
+            "controls": []
+        },
+        {
+            "ctrl_id": "",
+            "label": "DHQ_HR_Chatbot",
+            "label_font_weight_class": "font-weight-normal",
+            "label_position": "top",
+            "label_left_width": "33",
+            "label_left_width_unit": "%",
+            "label_font_size": "var(--DHQ-control-title)",
+            "label_font_size_unit": "",
+            "label_font_weight": "var(--DHQ-bold)",
+            "label_text_alignment": "left",
+            "label_text_color": "var(--DHQ-primary-font-color)",
+            "label_hidden": true,
+            "wrapper_content_alignment": "flex-start",
+            "field_type": "dhqWidgetGroup",
+            "field_key_name": "dhqWidgetGroup_c2429R8IIv1gcjQTdPQ1vn",
+            "field_display_key_name": "dhq_hr_chatbot",
+            "field_responsive": false,
+            "caching": false,
+            "grid_dynamic_height": true,
+            "grid_maintain_space": false,
+            "grid_max_height": "",
+            "grid_max_height_unit": "px",
+            "type": "input",
+            "required": false,
+            "hidden": false,
+            "disabled": false,
+            "data_submission_enabled": true,
+            "is_variable": false,
+            "tooltip": "",
+            "tip_description": "",
+            "show_description": false,
+            "show_tooltip": false,
+            "field_fullview": false,
+            "class_name": "test",
+            "field_data_model": "",
+            "allow_options_addition_in_editor": true,
+            "field_composition_type": "group",
+            "field_editable_in_database_editor": false,
+            "field_values_addition_enabled_in_database_editor": true,
+            "field_values_source": "",
+            "field_database_editor_data_format": "",
+            "data_type": "",
+            "field_data_model_binding_manual_query": "",
+            "field_data_model_binding_manual_query_with_id": "",
+            "show_dfm": false,
+            "dfmv_selected": "default",
+            "dhq_formula": "",
+            "dhq_data_process": "",
+            "dhq_default_data_process": "",
+            "dhq_default_formula": "",
+            "field_data_model_binding_formula": "",
+            "field_data_model_binding_type": "",
+            "validations": [],
+            "formbuilder_theme": "#bbbbbb",
+            "field_options": {
+                "options": []
+            },
+            "field_config": {},
+            "input_placeholder_text_size": "var(--DHQ-small-font)",
+            "input_placeholder_text_color": "#aaaaaa",
+            "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+            "input_control_height": "2.5rem",
+            "input_font_color": "var(--DHQ-primary-font-color)",
+            "input_font_weight": "var(--DHQ-normal-weight)",
+            "input_font_size": "var(--DHQ-normal-font)",
+            "is_master_control": false,
+            "is_outlet_control": true,
+            "is_repeat_outlet_control": false,
+            "dhq_req_stats": {
+                "status": ""
+            },
+            "dhq_nsf_replaced": false,
+            "dhq_olddt_map": {},
+            "dhq_submit_condition": "always",
+            "dhq_tfd": true,
+            "dhq_external_css": {
+                "addCode": false,
+                "data": {}
+            },
+            "tabIndex": "",
+            "dhqGrid": {
+                "w": 24,
+                "h": 41,
+                "x": 0,
+                "y": 0
+            },
+            "dhqGridDesktop": {
+                "w": 24,
+                "h": 41,
+                "x": 0,
+                "y": 8
+            },
+            "isDhqGridCtrl": true,
+            "is_dhq_widget": true,
+            "field_client_side_get_data_enabled": false,
+            "field_available_in_database_editor": false,
+            "bg_color": "var(--DHQ-secondary-bg-color)",
+            "URL_link": "",
+            "magnify": false,
+            "Image_opacity": "1",
+            "image_box_image_alignment": "center",
+            "button_type": "no_action",
+            "image_box_action": "no_action",
+            "image_box_action_value": "",
+            "navigate_to": "",
+            "navigation_transition": "",
+            "image_box_fill": "cover",
+            "full_width": false,
+            "image_caching": true,
+            "box_shadow": true,
+            "overflow": "visible",
+            "bradius": {
+                "tl": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "tr": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "br": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "bl": {
+                    "value": 5,
+                    "unit": "px"
+                }
+            },
+            "border": {
+                "type": "all",
+                "all": {
+                    "style": "solid",
+                    "size": {
+                        "value": "1",
+                        "unit": "px"
+                    },
+                    "color": "#e2f1e9"
+                },
+                "top": {
+                    "style": "none",
+                    "size": {
+                        "value": 0,
+                        "unit": "px"
+                    },
+                    "color": "var(--theme-color-stable)"
+                },
+                "right": {
+                    "style": "none",
+                    "size": {
+                        "value": 0,
+                        "unit": "px"
+                    },
+                    "color": "var(--theme-color-stable)"
+                },
+                "bottom": {
+                    "style": "none",
+                    "size": {
+                        "value": 0,
+                        "unit": "px"
+                    },
+                    "color": "var(--theme-color-stable)"
+                },
+                "left": {
+                    "style": "none",
+                    "size": {
+                        "value": 0,
+                        "unit": "px"
+                    },
+                    "color": "var(--theme-color-stable)"
+                }
+            },
+            "max_w": "",
+            "max_w_unit": "",
+            "min_w": "",
+            "min_w_unit": "",
+            "horizontal": "flex-start",
+            "ctrl_spacing_value": "0.625",
+            "ctrl_spacing_unit": "rem",
+            "field_datatypes": [],
+            "dhqInputFormulas": [],
+            "for_localization": {
+                "static_msgs": [],
+                "dynamic_msgs_keys": [
+                    "label",
+                    "tip_description"
+                ],
+                "concated_msgs": []
+            },
+            "dhq_config": {
+                "strict_update": [
+                    "for_localization",
+                    "dhq_config"
+                ],
+                "update_to_theme_varaibles": [
+                    "label_font_size",
+                    "label_font_size_unit",
+                    "label_font_weight",
+                    "label_text_color",
+                    "bg_color",
+                    "ctrl_spacing_value",
+                    "ctrl_spacing_unit"
+                ]
+            },
+            "cid": "c2429R8IIv1gcjQTdPQ1vn",
+            "sid": "sc2429R8IIv1gcjQTdPQ1vn",
+            "actionflows": {},
+            "action_items": {},
+            "dhqEvtConverted": true,
+            "widget_type": "<#REPLACEWITH_CTRL_FIELD_TYPE_widget_R7549DBHjQvKpVxhn_#>",
+            "widget_version": "0.0.4",
+            "widget_info": {
+                "dhq_chat_c38RSXYuzIcRxCkLzXDL": {
+                    "id": "dhq_chat_c38RSXYuzIcRxCkLzXDL",
+                    "path": "controls.0"
+                }
+            },
+            "dhqGridChanged": false,
+            "isDhqHideOnDesktop": false,
+            "isDhqHideOnMobile": false,
+            "gridDesktopOrigin": null,
+            "dhqOutputs": {},
+            "dhqInputs": {},
+            "controls": [
+                {
+                    "ctrl_id": "",
+                    "label": "DronaHQ HR Bot",
+                    "label_font_weight_class": "font-weight-normal",
+                    "label_position": "top",
+                    "label_left_width": "33",
+                    "label_left_width_unit": "%",
+                    "label_font_size": "var(--DHQ-control-title)",
+                    "label_font_size_unit": "",
+                    "label_font_weight": "var(--DHQ-bold)",
+                    "label_text_alignment": "left",
+                    "label_text_color": "var(--DHQ-primary-font-color)",
+                    "label_hidden": true,
+                    "wrapper_content_alignment": "flex-start",
+                    "field_type": "dhq_chat",
+                    "field_display_key_name": "dronahqhrbot",
+                    "field_responsive": false,
+                    "caching": false,
+                    "grid_dynamic_height": true,
+                    "grid_maintain_space": false,
+                    "grid_max_height": "",
+                    "grid_max_height_unit": "px",
+                    "type": "non-input",
+                    "required": false,
+                    "hidden": false,
+                    "disabled": false,
+                    "data_submission_enabled": true,
+                    "is_variable": false,
+                    "tooltip": "",
+                    "tip_description": "",
+                    "show_description": false,
+                    "show_tooltip": false,
+                    "field_fullview": false,
+                    "class_name": "test",
+                    "field_data_model": "",
+                    "allow_options_addition_in_editor": true,
+                    "field_composition_type": "composite_list",
+                    "field_editable_in_database_editor": true,
+                    "field_values_addition_enabled_in_database_editor": true,
+                    "field_values_source": "",
+                    "field_database_editor_data_format": "single_line_text",
+                    "data_type": "string",
+                    "field_data_model_binding_manual_query": "",
+                    "field_data_model_binding_manual_query_with_id": "",
+                    "show_dfm": false,
+                    "dfmv_selected": "default",
+                    "field_schema_column_header_names": [],
+                    "field_schema_column_id_header_name_mapping": {},
+                    "dhq_formula": "",
+                    "dhq_data_process": "",
+                    "dhq_default_data_process": "",
+                    "dhq_default_formula": "",
+                    "field_data_model_binding_formula": "",
+                    "field_data_model_binding_type": "",
+                    "validations": {},
+                    "formbuilder_theme": "#bbbbbb",
+                    "field_options": {},
+                    "field_config": {},
+                    "input_placeholder_text_size": "var(--DHQ-small-font)",
+                    "input_placeholder_text_color": "#aaaaaa",
+                    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                    "input_control_height": "2.5rem",
+                    "input_font_color": "var(--DHQ-primary-font-color)",
+                    "input_font_weight": "var(--DHQ-normal-weight)",
+                    "input_font_size": "var(--DHQ-normal-font)",
+                    "is_master_control": true,
+                    "is_outlet_control": false,
+                    "is_repeat_outlet_control": false,
+                    "dhq_req_stats": {
+                        "status": ""
+                    },
+                    "dhq_nsf_replaced": false,
+                    "dhq_olddt_map": {},
+                    "dhq_submit_condition": "always",
+                    "dhq_tfd": true,
+                    "dhq_external_css": {
+                        "addCode": false,
+                        "data": {}
+                    },
+                    "tabIndex": "",
+                    "label_value": "Chat",
+                    "hide_header": false,
+                    "custom_button": false,
+                    "system_instruction": "You are a friendly assistant, answer any question that user ask in brief words.",
+                    "welcome_message": "Hello, how may I help you?",
+                    "account_name": "",
+                    "use_inbuilt_integration": false,
+                    "img_background_toggle": false,
+                    "chat_main_bg_color": "var(--DHQ-primary-bg-color)",
+                    "background_image": "",
+                    "image_url": "./static/images/Enter_button.svg",
+                    "query_body_font_size": "var(--DHQ-small-font)",
+                    "query_body_font_size_unit": "",
+                    "query_body_font_weight": "var(--DHQ-bold)",
+                    "query_body_text_color": "var(--DHQ-primary-font-color)",
+                    "query_background_color": "var(--DHQ-success-light-color)",
+                    "response_body_font_size": "var(--DHQ-small-font)",
+                    "response_body_font_size_unit": "",
+                    "response_body_text_color": "var(--DHQ-primary-font-color)",
+                    "response_body_font_weight": "var(--DHQ-bold)",
+                    "response_background_color": "var(--DHQ-secondary-light-color)",
+                    "response_loader_color": "var(--DHQ-primary-color)",
+                    "code_header_font_size": "var(--DHQ-medium-font)",
+                    "code_header_font_size_unit": "",
+                    "code_header_text_color": "var(--DHQ-primary-font-color)",
+                    "code_header_font_weight": "var(--DHQ-xx-bold)",
+                    "code_header_background_color": "var(--DHQ-info-color)",
+                    "code_header_border_color": "var(--DHQ-border-color)",
+                    "code_font_size": "var(--DHQ-small-font)",
+                    "code_font_size_unit": "",
+                    "code_text_color": "var(--DHQ-primary-font-color)",
+                    "code_font_weight": "var(--DHQ-bold)",
+                    "code_background_color": "var(--DHQ-info-color)",
+                    "header_font_size": "var(--DHQ-medium-font)",
+                    "header_font_size_unit": "",
+                    "header_font_weight": "var(--DHQ-bold)",
+                    "header_font_color": "var(--DHQ-primary-font-color)",
+                    "header_text": "DronaHQ HR Bot",
+                    "header_background_color": "var(--DHQ-secondary-light-color)",
+                    "reset_font_size": "var(--DHQ-small-font)",
+                    "reset_font_size_unit": "",
+                    "reset_font_weight": "var(--DHQ-bold)",
+                    "reset_font_color": "var(--DHQ-neutral-font-color)",
+                    "show_border": true,
+                    "border_width": 1,
+                    "border_width_unit": "px",
+                    "border_color": "var(--DHQ-border-color)",
+                    "border_type": "solid",
+                    "reset_background_color": "var(--DHQ-primary-color)",
+                    "dhq_keywords_mapping": [],
+                    "dhq_default_keywords_mapping": [],
+                    "field_datatypes": [],
+                    "gpt_model": "gpt-3.5-turbo",
+                    "max_tokens": 2000,
+                    "temperature": 1,
+                    "auto_height": true,
+                    "min_height": 18.75,
+                    "min_height_unit": "rem",
+                    "height": 31.25,
+                    "height_unit": "rem",
+                    "action_items": {
+                        "on_user_input": {
+                            "events": [
+                                "on_user_input"
+                            ],
+                            "selector": ""
+                        }
+                    },
+                    "field_client_side_get_data_enabled": true,
+                    "field_available_in_database_editor": true,
+                    "for_localization": {
+                        "static_msgs": [],
+                        "dynamic_msgs_keys": [
+                            "label",
+                            "tip_description"
+                        ],
+                        "concated_msgs": []
+                    },
+                    "dhq_config": {
+                        "strict_update": [
+                            "for_localization",
+                            "dhq_config"
+                        ],
+                        "update_to_theme_varaibles": [
+                            "label_text_color",
+                            "label_font_weight",
+                            "label_font_size",
+                            "label_font_size_unit",
+                            "border_color",
+                            "reset_font_size",
+                            "reset_font_size_unit",
+                            "reset_font_weight",
+                            "reset_font_color",
+                            "header_font_size",
+                            "header_font_size_unit",
+                            "header_font_color",
+                            "header_font_weight",
+                            "query_body_font_size",
+                            "query_body_font_size_unit",
+                            "query_body_text_color",
+                            "query_body_font_weight",
+                            "query_background_color",
+                            "response_body_font_size",
+                            "response_body_font_size_unit",
+                            "response_body_text_color",
+                            "response_body_font_weight",
+                            "response_background_color"
+                        ]
+                    },
+                    "actionflows": {
+                        "on_user_input": {
+                            "on_user_input": {
+                                "event_name": "on_user_input",
+                                "selector": "",
+                                "event_type": "on_user_input",
+                                "actionflow_id": "af_dhq_chat_c634RpN7iL63HVOF0ZNdA_on_user_input_on_user_input",
+                                "next_actions": [
+                                    "R0AxWI9prrSy9tAJE"
+                                ],
+                                "prev_actions": [],
+                                "actions": [
+                                    {
+                                        "id": "R0AxWI9prrSy9tAJE",
+                                        "execution_editor_type": "JSEditor",
+                                        "execution_condition_variable_with_name": "",
+                                        "execution_condition_variable": "",
+                                        "execution_environments": [
+                                            "dev",
+                                            "beta",
+                                            "prod"
+                                        ],
+                                        "unique_name": "JSCODE",
+                                        "label": "",
+                                        "wait_till_completion": true,
+                                        "offline_submission": false,
+                                        "downloadas_file": false,
+                                        "fields": {},
+                                        "type": "JSCODE",
+                                        "outputs": [
+                                            {
+                                                "key": "output",
+                                                "value": "output",
+                                                "select_first": false,
+                                                "default_output": "Hello, how may I help you?"
+                                            }
+                                        ],
+                                        "dual_output_action": false,
+                                        "jscode_params": {
+                                            "dhq_variableList": [
+                                                {
+                                                    "alias": "chat_input",
+                                                    "name": "chat",
+                                                    "id": "dhq_chat_c634RpN7iL63HVOF0ZNdA",
+                                                    "testValue": [
+                                                        {
+                                                            "role": "system",
+                                                            "content": "You are a friendly assistant, answer any question that user ask in brief words."
+                                                        },
+                                                        {
+                                                            "role": "assistant",
+                                                            "content": "Hello, how may I help you?"
+                                                        }
+                                                    ],
+                                                    "testValueType": {}
+                                                }
+                                            ],
+                                            "dhq_processingCode": "\nlet lastArray = chat_input[chat_input.length-1];\n\noutput = lastArray.content;\n"
+                                        },
+                                        "next_actions": [
+                                            "R2E5ogN4s9E6uuwuI"
+                                        ],
+                                        "prev_actions": []
+                                    },
+                                    {
+                                        "id": "R2E5ogN4s9E6uuwuI",
+                                        "execution_editor_type": "JSEditor",
+                                        "execution_condition_variable_with_name": "",
+                                        "execution_condition_variable": "",
+                                        "execution_environments": [
+                                            "dev",
+                                            "beta",
+                                            "prod"
+                                        ],
+                                        "unique_name": "DronaHQ_HR_ChatGPT_Chat",
+                                        "label": "",
+                                        "wait_till_completion": true,
+                                        "offline_submission": false,
+                                        "downloadas_file": false,
+                                        "fields": {
+                                            "body.Question": {
+                                                "key": "body.Question",
+                                                "value": "{{R0AxWI9prrSy9tAJE.output}}",
+                                                "name": "{{JSCODE.output}}",
+                                                "label": "Question",
+                                                "isField": true,
+                                                "isPreselect": false,
+                                                "fieldValueType": "service",
+                                                "isDynamic": false,
+                                                "isFile": false,
+                                                "editor_type": "JSEditor",
+                                                "evaluateValue": true
+                                            }
+                                        },
+                                        "type": "CALLSERVICE",
+                                        "outputs": [
+                                            {
+                                                "key": "result",
+                                                "value": "output.simplified_result",
+                                                "select_first": false,
+                                                "default_output": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf]."
+                                            }
+                                        ],
+                                        "dual_output_action": true,
+                                        "actions_on_positive": [
+                                            {
+                                                "id": "RFQk2muTAaop72yMu",
+                                                "execution_editor_type": "JSEditor",
+                                                "execution_condition_variable_with_name": "",
+                                                "execution_condition_variable": "",
+                                                "execution_environments": [
+                                                    "dev",
+                                                    "beta",
+                                                    "prod"
+                                                ],
+                                                "unique_name": "JSCODE_2",
+                                                "label": "",
+                                                "wait_till_completion": true,
+                                                "offline_submission": false,
+                                                "downloadas_file": false,
+                                                "fields": {},
+                                                "type": "JSCODE",
+                                                "outputs": [
+                                                    {
+                                                        "key": "output",
+                                                        "value": "output",
+                                                        "select_first": false,
+                                                        "default_output": [
+                                                            {
+                                                                "role": "system",
+                                                                "content": "You are a friendly assistant, answer any question that user ask in brief words."
+                                                            },
+                                                            {
+                                                                "role": "assistant",
+                                                                "content": "Hello, how may I help you?"
+                                                            },
+                                                            {
+                                                                "role": "assistant",
+                                                                "content": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf]."
+                                                            },
+                                                            {
+                                                                "role": "assistant",
+                                                                "content": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf]."
+                                                            },
+                                                            {
+                                                                "role": "assistant",
+                                                                "content": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf]."
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "dual_output_action": false,
+                                                "jscode_params": {
+                                                    "dhq_variableList": [
+                                                        {
+                                                            "alias": "curr_history",
+                                                            "name": "dronahqhrbot",
+                                                            "id": "dhq_chat_c634RpN7iL63HVOF0ZNdA",
+                                                            "testValue": [
+                                                                {
+                                                                    "role": "system",
+                                                                    "content": "You are a friendly assistant, answer any question that user ask in brief words."
+                                                                },
+                                                                {
+                                                                    "role": "assistant",
+                                                                    "content": "Hello, how may I help you?"
+                                                                },
+                                                                {
+                                                                    "role": "assistant",
+                                                                    "content": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf]."
+                                                                },
+                                                                {
+                                                                    "role": "assistant",
+                                                                    "content": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf]."
+                                                                },
+                                                                {
+                                                                    "role": "assistant",
+                                                                    "content": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf]."
+                                                                }
+                                                            ],
+                                                            "testValueType": {}
+                                                        },
+                                                        {
+                                                            "alias": "reply",
+                                                            "name": "DronaHQ_HR_ChatGPT_Chat.result",
+                                                            "id": "R2E5ogN4s9E6uuwuI.result",
+                                                            "testValue": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf].",
+                                                            "testValueType": {}
+                                                        }
+                                                    ],
+                                                    "dhq_processingCode": "\nlet curr_response = { \n    \"role\": \"assistant\",\n    \"content\": reply\n}\n//let arr_response = [];\n//arr_response.push(curr_response);\ncurr_history.push(curr_response)\noutput = curr_history\n//output = arr_response;\n"
+                                                },
+                                                "next_actions": [
+                                                    "RSBO4HvIedD8DGdgc"
+                                                ],
+                                                "prev_actions": [
+                                                    "R2E5ogN4s9E6uuwuI"
+                                                ]
+                                            },
+                                            {
+                                                "id": "RSBO4HvIedD8DGdgc",
+                                                "execution_editor_type": "JSEditor",
+                                                "execution_condition_variable_with_name": "",
+                                                "execution_condition_variable": "",
+                                                "execution_environments": [
+                                                    "dev",
+                                                    "beta",
+                                                    "prod"
+                                                ],
+                                                "unique_name": "SETCTRLVALUE",
+                                                "label": "",
+                                                "wait_till_completion": true,
+                                                "offline_submission": false,
+                                                "downloadas_file": false,
+                                                "fields": {},
+                                                "type": "SETCTRLVALUE",
+                                                "outputs": [],
+                                                "dual_output_action": false,
+                                                "dynamic_fields": [
+                                                    {
+                                                        "dhqCtrlId": {
+                                                            "key": "dhqCtrlId",
+                                                            "isField": false,
+                                                            "isPreselect": false,
+                                                            "fieldValueType": "manual",
+                                                            "data_type": "string",
+                                                            "name": "chat",
+                                                            "value": "dhq_chat_c634RpN7iL63HVOF0ZNdA",
+                                                            "label": "Select Control\n   Select Control",
+                                                            "editor_type": "",
+                                                            "evaluateValue": true
+                                                        },
+                                                        "ctrlValue": {
+                                                            "key": "ctrlValue",
+                                                            "isField": true,
+                                                            "isPreselect": false,
+                                                            "fieldValueType": "manual",
+                                                            "data_type": "string",
+                                                            "name": "{{JSCODE_2.output}}",
+                                                            "value": "{{RFQk2muTAaop72yMu.output}}",
+                                                            "label": "Enter Control Value\n    Enter Control Value",
+                                                            "editor_type": "JSEditor",
+                                                            "evaluateValue": true
+                                                        }
+                                                    }
+                                                ],
+                                                "next_actions": [],
+                                                "prev_actions": [
+                                                    "RFQk2muTAaop72yMu"
+                                                ]
+                                            }
+                                        ],
+                                        "actions_on_negative": [
+                                            {
+                                                "id": "Rttygb4KhoLqCYhZj",
+                                                "execution_editor_type": "JSEditor",
+                                                "execution_condition_variable_with_name": "",
+                                                "execution_condition_variable": "",
+                                                "execution_environments": [
+                                                    "dev",
+                                                    "beta",
+                                                    "prod"
+                                                ],
+                                                "unique_name": "TOAST",
+                                                "label": "",
+                                                "wait_till_completion": true,
+                                                "offline_submission": false,
+                                                "downloadas_file": false,
+                                                "fields": {
+                                                    "type": {
+                                                        "key": "type",
+                                                        "value": "error",
+                                                        "name": "error",
+                                                        "label": "Type\n   Type",
+                                                        "isField": false,
+                                                        "isPreselect": false,
+                                                        "fieldValueType": "manual",
+                                                        "data_type": "text",
+                                                        "isDynamic": false,
+                                                        "editor_type": "",
+                                                        "evaluateValue": true
+                                                    },
+                                                    "title": {
+                                                        "key": "title",
+                                                        "value": "Error!",
+                                                        "name": "Error!",
+                                                        "label": "Title\n    Title",
+                                                        "isField": false,
+                                                        "isPreselect": false,
+                                                        "fieldValueType": "manual",
+                                                        "data_type": "text",
+                                                        "isDynamic": false,
+                                                        "editor_type": "JSEditor",
+                                                        "evaluateValue": true
+                                                    },
+                                                    "message": {
+                                                        "key": "message",
+                                                        "value": "Some error occurred, Please try again!",
+                                                        "name": "Some error occurred, Please try again!",
+                                                        "label": "Message\n    Message",
+                                                        "isField": false,
+                                                        "isPreselect": false,
+                                                        "fieldValueType": "manual",
+                                                        "data_type": "text",
+                                                        "isDynamic": false,
+                                                        "editor_type": "JSEditor",
+                                                        "evaluateValue": true
+                                                    },
+                                                    "position": {
+                                                        "key": "position",
+                                                        "value": "toast-bottom-full-width",
+                                                        "name": "Bottom Full Width",
+                                                        "label": "Position On Screen\n   Position On Screen",
+                                                        "isField": false,
+                                                        "isPreselect": false,
+                                                        "fieldValueType": "manual",
+                                                        "data_type": "text",
+                                                        "isDynamic": false,
+                                                        "editor_type": "",
+                                                        "evaluateValue": true
+                                                    },
+                                                    "closeButton": {
+                                                        "key": "closeButton",
+                                                        "value": false,
+                                                        "name": "",
+                                                        "label": "Show Close Button",
+                                                        "isField": false,
+                                                        "isPreselect": false,
+                                                        "fieldValueType": "manual",
+                                                        "data_type": "boolean",
+                                                        "isDynamic": false,
+                                                        "editor_type": "",
+                                                        "evaluateValue": true
+                                                    },
+                                                    "timeout": {
+                                                        "key": "timeout",
+                                                        "value": "5000",
+                                                        "name": "",
+                                                        "label": "Close After (in milliseconds)\n    Close After (in milliseconds)",
+                                                        "isField": false,
+                                                        "isPreselect": false,
+                                                        "fieldValueType": "manual",
+                                                        "data_type": "number",
+                                                        "isDynamic": false,
+                                                        "editor_type": "",
+                                                        "evaluateValue": true
+                                                    }
+                                                },
+                                                "type": "TOAST",
+                                                "outputs": [],
+                                                "dual_output_action": false,
+                                                "next_actions": [],
+                                                "prev_actions": [
+                                                    "R2E5ogN4s9E6uuwuI"
+                                                ]
+                                            }
+                                        ],
+                                        "cat_id": "__REPLACE_CAT_ID_9782___",
+                                        "sub_cat_id": "__REPLACE_SUB_CAT_ID_40108___",
+                                        "account_id": "",
+                                        "whitelist_ip": false,
+                                        "environment_config": {
+                                            "env_1": "account_62920312_1719245705921",
+                                            "env_2": "",
+                                            "env_3": "",
+                                            "env_5": "",
+                                            "env_6": "",
+                                            "env_7": "",
+                                            "env_8": "",
+                                            "env_11": "",
+                                            "env_25": "",
+                                            "env_38": "",
+                                            "env_43": ""
+                                        },
+                                        "rawResponse": {
+                                            "result": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[0].",
+                                            "citation": [
+                                                "[0]HR - Leave and Timing Policy.pdf"
+                                            ],
+                                            "simplified_result": "At DronaHQ, employees are eligible for 6 Sick Leaves (SL) annually[HR - Leave and Timing Policy.pdf]."
+                                        },
+                                        "next_actions": [],
+                                        "prev_actions": [
+                                            "R0AxWI9prrSy9tAJE"
+                                        ]
+                                    }
+                                ],
+                                "category": "",
+                                "interval": "",
+                                "action_label": ""
+                            }
+                        }
+                    },
+                    "dhqEvtConverted": true,
+                    "dhqGrid": {
+                        "w": 24,
+                        "h": 64,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "dhqGridDesktop": {
+                        "w": 24,
+                        "h": 40,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "isDhqGridCtrl": true,
+                    "isDhqHideOnDesktop": false,
+                    "isDhqHideOnMobile": false,
+                    "is_widget_child": true,
+                    "dhqMGridChanged": false,
+                    "parent_id": "dhqWidgetGroup_c2429R8IIv1gcjQTdPQ1vn",
+                    "field_key_name": "dhq_chat_c634RpN7iL63HVOF0ZNdA",
+                    "cid": "c634RpN7iL63HVOF0ZNdA",
+                    "sid": "sc634RpN7iL63HVOF0ZNdA",
+                    "gridSize": null,
+                    "dhq_variableList": [],
+                    "widget_parent_id": "dhqWidgetGroup_c2429R8IIv1gcjQTdPQ1vn",
+                    "controls": []
+                }
+            ]
+        },
+        {
+            "ctrl_id": "",
+            "label": "ioWidget2",
+            "label_font_weight_class": "font-weight-normal",
+            "label_position": "top",
+            "label_left_width": "33",
+            "label_left_width_unit": "%",
+            "label_font_size": "16",
+            "label_font_size_unit": "px",
+            "label_font_weight": "500",
+            "label_text_alignment": "left",
+            "label_text_color": "var(--theme-color-grey)",
+            "label_hidden": true,
+            "wrapper_content_alignment": "flex-start",
+            "field_type": "dhqWidgetGroup",
+            "field_key_name": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1",
+            "field_display_key_name": "iowidget2",
+            "field_responsive": false,
+            "caching": false,
+            "grid_dynamic_height": true,
+            "grid_maintain_space": false,
+            "grid_max_height": "",
+            "grid_max_height_unit": "px",
+            "type": "input",
+            "required": false,
+            "hidden": false,
+            "disabled": false,
+            "data_submission_enabled": true,
+            "is_variable": false,
+            "tooltip": "",
+            "tip_description": "",
+            "show_description": false,
+            "show_tooltip": false,
+            "field_fullview": false,
+            "class_name": "test",
+            "field_data_model": "",
+            "allow_options_addition_in_editor": true,
+            "field_composition_type": "group",
+            "field_editable_in_database_editor": false,
+            "field_values_addition_enabled_in_database_editor": true,
+            "field_values_source": "",
+            "field_database_editor_data_format": "",
+            "data_type": "",
+            "field_data_model_binding_manual_query": "",
+            "field_data_model_binding_manual_query_with_id": "",
+            "show_dfm": false,
+            "dfmv_selected": "default",
+            "dhq_formula": "",
+            "dhq_data_process": "",
+            "dhq_default_data_process": "",
+            "dhq_default_formula": "",
+            "field_data_model_binding_formula": "",
+            "field_data_model_binding_type": "",
+            "validations": [],
+            "formbuilder_theme": "#bbbbbb",
+            "field_options": {
+                "options": [],
+                "main_config": {
+                    "gridMobileMaxHeight": 775
+                }
+            },
+            "field_config": {},
+            "input_placeholder_text_size": "13px",
+            "input_placeholder_text_color": "#bbbbbb",
+            "input_placeholder_font_weight": "400",
+            "input_control_height": "40px",
+            "input_font_color": "#444444",
+            "input_font_weight": "400",
+            "input_font_size": "14px",
+            "is_master_control": false,
+            "is_outlet_control": true,
+            "is_repeat_outlet_control": false,
+            "dhq_req_stats": {
+                "status": ""
+            },
+            "dhq_nsf_replaced": false,
+            "dhq_olddt_map": {},
+            "dhq_submit_condition": "always",
+            "dhq_tfd": true,
+            "dhq_external_css": {
+                "addCode": false,
+                "data": {}
+            },
+            "tabIndex": "",
+            "dhqGrid": {
+                "w": 20,
+                "h": 34,
+                "x": 1,
+                "y": 78
+            },
+            "dhqGridDesktop": {
+                "w": 22,
+                "h": 36,
+                "x": 1,
+                "y": 73
+            },
+            "isDhqGridCtrl": true,
+            "is_dhq_widget": true,
+            "field_client_side_get_data_enabled": false,
+            "field_available_in_database_editor": false,
+            "bg_color": "var(--theme-color-stable)",
+            "URL_link": "",
+            "magnify": false,
+            "Image_opacity": "1",
+            "image_box_image_alignment": "center",
+            "button_type": "no_action",
+            "image_box_action": "no_action",
+            "image_box_action_value": "",
+            "navigate_to": "",
+            "navigation_transition": "",
+            "image_box_fill": "cover",
+            "full_width": false,
+            "image_caching": true,
+            "box_shadow": true,
+            "overflow": "visible",
+            "bradius": {
+                "tl": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "tr": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "br": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "bl": {
+                    "value": 5,
+                    "unit": "px"
+                }
+            },
+            "border": {
+                "type": "all",
+                "all": {
+                    "style": "solid",
+                    "size": {
+                        "value": "1",
+                        "unit": "px"
+                    },
+                    "color": "#e2f1e9"
+                },
+                "top": {
+                    "style": "none",
+                    "size": {
+                        "value": 0,
+                        "unit": "px"
+                    },
+                    "color": "var(--theme-color-stable)"
+                },
+                "right": {
+                    "style": "none",
+                    "size": {
+                        "value": 0,
+                        "unit": "px"
+                    },
+                    "color": "var(--theme-color-stable)"
+                },
+                "bottom": {
+                    "style": "none",
+                    "size": {
+                        "value": 0,
+                        "unit": "px"
+                    },
+                    "color": "var(--theme-color-stable)"
+                },
+                "left": {
+                    "style": "none",
+                    "size": {
+                        "value": 0,
+                        "unit": "px"
+                    },
+                    "color": "var(--theme-color-stable)"
+                }
+            },
+            "max_w": "",
+            "max_w_unit": "",
+            "min_w": "",
+            "min_w_unit": "",
+            "horizontal": "flex-start",
+            "ctrl_spacing_value": "10",
+            "ctrl_spacing_unit": "px",
+            "field_datatypes": [],
+            "dhqInputFormulas": [],
+            "cid": "c215RcOvmfRpE3IvWcBl1",
+            "sid": "sc215RcOvmfRpE3IvWcBl1",
+            "actionflows": {},
+            "action_items": {},
+            "dhqEvtConverted": true,
+            "dhqMGridChanged": true,
+            "for_localization": {
+                "static_msgs": [],
+                "dynamic_msgs_keys": [
+                    "label",
+                    "tip_description"
+                ],
+                "concated_msgs": []
+            },
+            "dhq_config": {
+                "strict_update": [
+                    "for_localization",
+                    "dhq_config"
+                ],
+                "update_to_theme_varaibles": [
+                    "label_font_size",
+                    "label_font_size_unit",
+                    "label_font_weight",
+                    "label_text_color",
+                    "bg_color",
+                    "ctrl_spacing_value",
+                    "ctrl_spacing_unit"
+                ]
+            },
+            "widget_type": "<#REPLACEWITH_CTRL_FIELD_TYPE_widget_RjruaYiOlLRVlqzA3_#>",
+            "widget_version": "0.0.12",
+            "widget_info": {
+                "grid_panel_c458RRURnaIiGbtjDydcw": {
+                    "id": "grid_panel_c458RRURnaIiGbtjDydcw",
+                    "path": "controls.0"
+                },
+                "text_c478RHWqrlOB2F05DV4cM": {
+                    "id": "text_c478RHWqrlOB2F05DV4cM",
+                    "path": "controls.0.controls.0"
+                },
+                "text_c524RAM5V128mmaajSOoJ": {
+                    "id": "text_c524RAM5V128mmaajSOoJ",
+                    "path": "controls.0.controls.1"
+                },
+                "grid_panel_c143RTjXJct3EGKJkidME": {
+                    "id": "grid_panel_c143RTjXJct3EGKJkidME",
+                    "path": "controls.1"
+                },
+                "text_c144RPQYobfEHPR3e8lMv": {
+                    "id": "text_c144RPQYobfEHPR3e8lMv",
+                    "path": "controls.1.controls.0"
+                },
+                "text_c145R4JRJMlR5oXOxnnPF": {
+                    "id": "text_c145R4JRJMlR5oXOxnnPF",
+                    "path": "controls.1.controls.1"
+                },
+                "text_c210R8FKsZvUyANOXsxe6": {
+                    "id": "text_c210R8FKsZvUyANOXsxe6",
+                    "path": "controls.2"
+                }
+            },
+            "dhqGridChanged": false,
+            "isDhqHideOnDesktop": false,
+            "isDhqHideOnMobile": false,
+            "dhqOutputs": {},
+            "dhqInputs": {
+                "input_Ri0RpriApaXsRVakw": {
+                    "name": "defaultFormula",
+                    "id": "input_Ri0RpriApaXsRVakw",
+                    "field_data_model_binding_manual_query": "DATABUILDER()",
+                    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+                    "dhq_formula": "Formula from default",
+                    "dhq_keywords_mapping": [],
+                    "liveData": "Formula from default"
+                },
+                "input_RhErz4FiIkTdMo7SE": {
+                    "name": "input1",
+                    "id": "input_RhErz4FiIkTdMo7SE",
+                    "field_data_model_binding_manual_query": "DATABUILDER()",
+                    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+                    "dhq_formula": "Default formula of input 1",
+                    "dhq_keywords_mapping": [],
+                    "liveData": "Default formula of input 1"
+                }
+            },
+            "sb_mode": "JS",
+            "controls": [
+                {
+                    "ctrl_id": "",
+                    "label": "Container",
+                    "label_font_weight_class": "font-weight-normal",
+                    "label_position": "top",
+                    "label_left_width": "33",
+                    "label_left_width_unit": "%",
+                    "label_font_size": "16",
+                    "label_font_size_unit": "px",
+                    "label_font_weight": "500",
+                    "label_text_alignment": "left",
+                    "label_text_color": "var(--theme-color-grey)",
+                    "label_hidden": true,
+                    "field_type": "grid_panel",
+                    "field_key_name": "grid_panel_c216R6dZXg9rJdqqUaewf",
+                    "field_display_key_name": "container",
+                    "field_responsive": false,
+                    "caching": false,
+                    "grid_dynamic_height": true,
+                    "grid_maintain_space": false,
+                    "grid_max_height": "",
+                    "grid_max_height_unit": "px",
+                    "type": "non_input",
+                    "required": false,
+                    "hidden": false,
+                    "disabled": false,
+                    "data_submission_enabled": true,
+                    "is_variable": false,
+                    "tooltip": "",
+                    "tip_description": "",
+                    "show_description": false,
+                    "show_tooltip": false,
+                    "field_fullview": false,
+                    "class_name": "test",
+                    "field_data_model": "",
+                    "allow_options_addition_in_editor": true,
+                    "field_composition_type": "group",
+                    "field_editable_in_database_editor": false,
+                    "field_values_addition_enabled_in_database_editor": true,
+                    "field_values_source": "",
+                    "field_database_editor_data_format": "",
+                    "data_type": "",
+                    "field_data_model_binding_manual_query": "",
+                    "field_data_model_binding_manual_query_with_id": "",
+                    "show_dfm": false,
+                    "dfmv_selected": "default",
+                    "dhq_formula": "",
+                    "dhq_data_process": "",
+                    "dhq_default_data_process": "",
+                    "dhq_default_formula": "",
+                    "field_data_model_binding_formula": "",
+                    "field_data_model_binding_type": "",
+                    "validations": [],
+                    "controls": [
+                        {
+                            "ctrl_id": "",
+                            "label": "Text Input",
+                            "label_font_weight_class": "font-weight-normal",
+                            "label_position": "top",
+                            "label_left_width": "33",
+                            "label_left_width_unit": "%",
+                            "label_font_size": "16",
+                            "label_font_size_unit": "px",
+                            "label_font_weight": "500",
+                            "label_text_alignment": "left",
+                            "label_text_color": "var(--theme-color-grey)",
+                            "label_hidden": false,
+                            "field_type": "text",
+                            "field_key_name": "text_c217Ru1TTTQHImxZWYoM6",
+                            "field_display_key_name": "textinput8",
+                            "field_responsive": true,
+                            "caching": false,
+                            "grid_dynamic_height": true,
+                            "grid_maintain_space": false,
+                            "grid_max_height": "",
+                            "grid_max_height_unit": "px",
+                            "type": "input",
+                            "required": false,
+                            "hidden": false,
+                            "disabled": false,
+                            "data_submission_enabled": true,
+                            "is_variable": false,
+                            "tooltip": "",
+                            "tip_description": "",
+                            "show_description": false,
+                            "show_tooltip": false,
+                            "field_fullview": false,
+                            "class_name": "test",
+                            "field_data_model": "",
+                            "allow_options_addition_in_editor": true,
+                            "field_composition_type": "single",
+                            "field_editable_in_database_editor": true,
+                            "field_values_addition_enabled_in_database_editor": true,
+                            "field_values_source": "",
+                            "field_database_editor_data_format": "single_line_text",
+                            "data_type": "string",
+                            "field_data_model_binding_manual_query": "DATABUILDER()",
+                            "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+                            "show_dfm": false,
+                            "dfmv_selected": "default",
+                            "dhq_formula": "{{input1}}",
+                            "dhq_data_process": "",
+                            "dhq_default_data_process": "",
+                            "dhq_default_formula": "",
+                            "field_data_model_binding_formula": "",
+                            "field_data_model_binding_type": "manual_query",
+                            "validations": [],
+                            "controls": [],
+                            "formbuilder_theme": "#BBBBBB",
+                            "field_options": {},
+                            "field_config": {},
+                            "input_placeholder_text_size": "13px",
+                            "input_placeholder_text_color": "#bbbbbb",
+                            "input_placeholder_font_weight": "400",
+                            "input_control_height": "2.5rem",
+                            "input_font_color": "#444444",
+                            "input_font_weight": "400",
+                            "input_font_size": "14px",
+                            "is_master_control": false,
+                            "is_outlet_control": false,
+                            "is_repeat_outlet_control": false,
+                            "dhq_req_stats": {
+                                "status": ""
+                            },
+                            "dhq_nsf_replaced": false,
+                            "dhq_olddt_map": {},
+                            "dhq_submit_condition": "always",
+                            "dhq_tfd": true,
+                            "dhq_external_css": {
+                                "addCode": false,
+                                "data": {}
+                            },
+                            "tabIndex": "",
+                            "placeholder": "Write here...",
+                            "min_length": "",
+                            "max_length": "",
+                            "debounceEventTime": 3000,
+                            "text_max_length": "",
+                            "text_min_length": "",
+                            "action_items": {
+                                "value_change": {
+                                    "events": [
+                                        "value_change"
+                                    ],
+                                    "selector": ""
+                                },
+                                "enter_press": {
+                                    "events": [
+                                        "enter_press"
+                                    ],
+                                    "selector": ""
+                                },
+                                "focus_out": {
+                                    "events": [
+                                        "focus_out"
+                                    ],
+                                    "selector": ""
+                                }
+                            },
+                            "value": "",
+                            "input_type": "text",
+                            "length_unit": "characters",
+                            "isqrvisible": false,
+                            "field_available_in_database_editor": true,
+                            "field_datatypes": [],
+                            "cid": "c217Ru1TTTQHImxZWYoM6",
+                            "sid": "sc217Ru1TTTQHImxZWYoM6",
+                            "actionflows": {},
+                            "dhqEvtConverted": true,
+                            "dhqGrid": {
+                                "w": 12,
+                                "h": 8,
+                                "x": 0,
+                                "y": 1
+                            },
+                            "dhqGridDesktop": {
+                                "w": 12,
+                                "h": 8,
+                                "x": 1,
+                                "y": 0
+                            },
+                            "isDhqGridCtrl": true,
+                            "isDhqHideOnDesktop": false,
+                            "isDhqHideOnMobile": false,
+                            "dhqMGridChanged": true,
+                            "is_widget_child": true,
+                            "dhq_keywords_mapping": [
+                                {
+                                    "name": "input1",
+                                    "id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1.INPUTS.input_RhErz4FiIkTdMo7SE"
+                                }
+                            ],
+                            "LiveData": "Default formula of input 1",
+                            "for_localization": {
+                                "static_msgs": [
+                                    "This field is mandatory",
+                                    "Invalid URL",
+                                    "Invalid email id"
+                                ],
+                                "dynamic_msgs_keys": [
+                                    "label",
+                                    "placeholder",
+                                    "tooltip",
+                                    "tip_description"
+                                ],
+                                "concated_msgs": [
+                                    "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                ]
+                            },
+                            "dhq_config": {
+                                "strict_update": [
+                                    "for_localization",
+                                    "input_control_height",
+                                    "dhq_config"
+                                ],
+                                "update_to_theme_varaibles": [
+                                    "formbuilder_theme",
+                                    "label_font_size",
+                                    "label_font_size_unit",
+                                    "label_font_weight",
+                                    "label_text_color",
+                                    "input_font_weight",
+                                    "input_font_color",
+                                    "input_font_size",
+                                    "input_placeholder_font_weight",
+                                    "input_placeholder_text_color",
+                                    "input_placeholder_text_size"
+                                ]
+                            },
+                            "wrapper_content_alignment": "flex-start",
+                            "validation": [],
+                            "parent_id": "grid_panel_c216R6dZXg9rJdqqUaewf",
+                            "dhq_variableList": [],
+                            "widget_parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1"
+                        },
+                        {
+                            "ctrl_id": "",
+                            "label": "Text Input",
+                            "label_font_weight_class": "font-weight-normal",
+                            "label_position": "top",
+                            "label_left_width": "33",
+                            "label_left_width_unit": "%",
+                            "label_font_size": "16",
+                            "label_font_size_unit": "px",
+                            "label_font_weight": "500",
+                            "label_text_alignment": "left",
+                            "label_text_color": "var(--theme-color-grey)",
+                            "label_hidden": false,
+                            "field_type": "text",
+                            "field_key_name": "text_c218RuGzYXpmLkeBG2LmP",
+                            "field_display_key_name": "textinput9",
+                            "field_responsive": true,
+                            "caching": false,
+                            "grid_dynamic_height": true,
+                            "grid_maintain_space": false,
+                            "grid_max_height": "",
+                            "grid_max_height_unit": "px",
+                            "type": "input",
+                            "required": false,
+                            "hidden": false,
+                            "disabled": false,
+                            "data_submission_enabled": true,
+                            "is_variable": false,
+                            "tooltip": "",
+                            "tip_description": "",
+                            "show_description": false,
+                            "show_tooltip": false,
+                            "field_fullview": false,
+                            "class_name": "test",
+                            "field_data_model": "",
+                            "allow_options_addition_in_editor": true,
+                            "field_composition_type": "single",
+                            "field_editable_in_database_editor": true,
+                            "field_values_addition_enabled_in_database_editor": true,
+                            "field_values_source": "",
+                            "field_database_editor_data_format": "single_line_text",
+                            "data_type": "string",
+                            "field_data_model_binding_manual_query": "",
+                            "field_data_model_binding_manual_query_with_id": "",
+                            "show_dfm": false,
+                            "dfmv_selected": "default",
+                            "dhq_formula": "",
+                            "dhq_data_process": "",
+                            "dhq_default_data_process": "",
+                            "dhq_default_formula": "",
+                            "field_data_model_binding_formula": "",
+                            "field_data_model_binding_type": "",
+                            "validations": [],
+                            "controls": [],
+                            "formbuilder_theme": "#BBBBBB",
+                            "field_options": {},
+                            "field_config": {},
+                            "input_placeholder_text_size": "13px",
+                            "input_placeholder_text_color": "#bbbbbb",
+                            "input_placeholder_font_weight": "400",
+                            "input_control_height": "2.5rem",
+                            "input_font_color": "#444444",
+                            "input_font_weight": "400",
+                            "input_font_size": "14px",
+                            "is_master_control": false,
+                            "is_outlet_control": false,
+                            "is_repeat_outlet_control": false,
+                            "dhq_req_stats": {
+                                "status": ""
+                            },
+                            "dhq_nsf_replaced": false,
+                            "dhq_olddt_map": {},
+                            "dhq_submit_condition": "always",
+                            "dhq_tfd": true,
+                            "dhq_external_css": {
+                                "addCode": false,
+                                "data": {}
+                            },
+                            "tabIndex": "",
+                            "placeholder": "Write here...",
+                            "min_length": "",
+                            "max_length": "",
+                            "debounceEventTime": 3000,
+                            "text_max_length": "",
+                            "text_min_length": "",
+                            "action_items": {
+                                "value_change": {
+                                    "events": [
+                                        "value_change"
+                                    ],
+                                    "selector": ""
+                                },
+                                "enter_press": {
+                                    "events": [
+                                        "enter_press"
+                                    ],
+                                    "selector": ""
+                                },
+                                "focus_out": {
+                                    "events": [
+                                        "focus_out"
+                                    ],
+                                    "selector": ""
+                                }
+                            },
+                            "LiveData": "",
+                            "value": "",
+                            "input_type": "text",
+                            "length_unit": "characters",
+                            "isqrvisible": false,
+                            "field_available_in_database_editor": true,
+                            "field_datatypes": [],
+                            "cid": "c218RuGzYXpmLkeBG2LmP",
+                            "sid": "sc218RuGzYXpmLkeBG2LmP",
+                            "actionflows": {},
+                            "dhqEvtConverted": true,
+                            "dhqGrid": {
+                                "w": 12,
+                                "h": 8,
+                                "x": 12,
+                                "y": 1
+                            },
+                            "dhqGridDesktop": {
+                                "w": 11,
+                                "h": 8,
+                                "x": 13,
+                                "y": 0
+                            },
+                            "isDhqGridCtrl": true,
+                            "isDhqHideOnDesktop": false,
+                            "isDhqHideOnMobile": false,
+                            "dhqMGridChanged": true,
+                            "is_widget_child": true,
+                            "for_localization": {
+                                "static_msgs": [
+                                    "This field is mandatory",
+                                    "Invalid URL",
+                                    "Invalid email id"
+                                ],
+                                "dynamic_msgs_keys": [
+                                    "label",
+                                    "placeholder",
+                                    "tooltip",
+                                    "tip_description"
+                                ],
+                                "concated_msgs": [
+                                    "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                ]
+                            },
+                            "dhq_config": {
+                                "strict_update": [
+                                    "for_localization",
+                                    "input_control_height",
+                                    "dhq_config"
+                                ],
+                                "update_to_theme_varaibles": [
+                                    "formbuilder_theme",
+                                    "label_font_size",
+                                    "label_font_size_unit",
+                                    "label_font_weight",
+                                    "label_text_color",
+                                    "input_font_weight",
+                                    "input_font_color",
+                                    "input_font_size",
+                                    "input_placeholder_font_weight",
+                                    "input_placeholder_text_color",
+                                    "input_placeholder_text_size"
+                                ]
+                            },
+                            "wrapper_content_alignment": "flex-start",
+                            "validation": [],
+                            "parent_id": "grid_panel_c216R6dZXg9rJdqqUaewf",
+                            "dhq_keywords_mapping": [],
+                            "dhq_variableList": [],
+                            "widget_parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1"
+                        }
+                    ],
+                    "formbuilder_theme": "#bbbbbb",
+                    "field_options": {
+                        "options": []
+                    },
+                    "field_config": {},
+                    "input_placeholder_text_size": "13px",
+                    "input_placeholder_text_color": "#bbbbbb",
+                    "input_placeholder_font_weight": "400",
+                    "input_control_height": "40px",
+                    "input_font_color": "#444444",
+                    "input_font_weight": "400",
+                    "input_font_size": "14px",
+                    "is_master_control": false,
+                    "is_outlet_control": true,
+                    "is_repeat_outlet_control": false,
+                    "parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1",
+                    "dhq_req_stats": {
+                        "status": ""
+                    },
+                    "dhq_nsf_replaced": false,
+                    "dhq_olddt_map": {},
+                    "dhq_submit_condition": "always",
+                    "dhq_tfd": true,
+                    "dhq_external_css": {
+                        "addCode": false,
+                        "data": {}
+                    },
+                    "tabIndex": "",
+                    "field_client_side_get_data_enabled": false,
+                    "field_available_in_database_editor": false,
+                    "bg_color": "#ffffff",
+                    "URL_link": "",
+                    "magnify": false,
+                    "Image_opacity": "1",
+                    "image_box_image_alignment": "center",
+                    "button_type": "no_action",
+                    "image_box_action": "no_action",
+                    "image_box_action_value": "",
+                    "navigate_to": "",
+                    "navigation_transition": "",
+                    "image_box_fill": "cover",
+                    "full_width": false,
+                    "image_caching": true,
+                    "box_shadow": true,
+                    "overflow": "visible",
+                    "bradius": {
+                        "tl": {
+                            "value": 5,
+                            "unit": "px"
+                        },
+                        "tr": {
+                            "value": 5,
+                            "unit": "px"
+                        },
+                        "br": {
+                            "value": 5,
+                            "unit": "px"
+                        },
+                        "bl": {
+                            "value": 5,
+                            "unit": "px"
+                        }
+                    },
+                    "border": {
+                        "type": "all",
+                        "all": {
+                            "style": "solid",
+                            "size": {
+                                "value": "1",
+                                "unit": "px"
+                            },
+                            "color": "#e2f1e9"
+                        },
+                        "top": {
+                            "style": "none",
+                            "size": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "color": "var(--theme-color-stable)"
+                        },
+                        "right": {
+                            "style": "none",
+                            "size": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "color": "var(--theme-color-stable)"
+                        },
+                        "bottom": {
+                            "style": "none",
+                            "size": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "color": "var(--theme-color-stable)"
+                        },
+                        "left": {
+                            "style": "none",
+                            "size": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "color": "var(--theme-color-stable)"
+                        }
+                    },
+                    "max_w": "",
+                    "max_w_unit": "",
+                    "min_w": "",
+                    "min_w_unit": "",
+                    "horizontal": "flex-start",
+                    "ctrl_spacing_value": "10",
+                    "ctrl_spacing_unit": "px",
+                    "field_datatypes": [],
+                    "cid": "c216R6dZXg9rJdqqUaewf",
+                    "sid": "sc216R6dZXg9rJdqqUaewf",
+                    "actionflows": {},
+                    "action_items": {},
+                    "dhqEvtConverted": true,
+                    "dhqGrid": {
+                        "w": 22,
+                        "h": 12,
+                        "x": 1,
+                        "y": 1
+                    },
+                    "dhqGridDesktop": {
+                        "w": 22,
+                        "h": 9,
+                        "x": 1,
+                        "y": 3
+                    },
+                    "isDhqGridCtrl": true,
+                    "isDhqHideOnDesktop": false,
+                    "isDhqHideOnMobile": false,
+                    "dhqMGridChanged": true,
+                    "is_widget_child": true,
+                    "marginValue": {
+                        "margin": {
+                            "top": "0",
+                            "bottom": "0",
+                            "right": "0",
+                            "left": "0"
+                        },
+                        "padding": {
+                            "top": "0",
+                            "bottom": "0",
+                            "right": "0",
+                            "left": "0"
+                        }
+                    },
+                    "header_background": "var(--DHQ-primary-color)",
+                    "header_allowed": false,
+                    "add_scroll": false,
+                    "for_localization": {
+                        "static_msgs": [],
+                        "dynamic_msgs_keys": [
+                            "label",
+                            "tip_description"
+                        ],
+                        "concated_msgs": []
+                    },
+                    "dhq_config": {
+                        "strict_update": [
+                            "for_localization",
+                            "dhq_config"
+                        ],
+                        "update_to_theme_varaibles": [
+                            "border",
+                            "label_font_size",
+                            "label_font_size_unit",
+                            "label_font_weight",
+                            "label_text_color",
+                            "bg_color",
+                            "header_background",
+                            "ctrl_spacing_value",
+                            "ctrl_spacing_unit"
+                        ]
+                    },
+                    "wrapper_content_alignment": "flex-start",
+                    "widget_parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1"
+                },
+                {
+                    "ctrl_id": "",
+                    "label": "Container",
+                    "label_font_weight_class": "font-weight-normal",
+                    "label_position": "top",
+                    "label_left_width": "33",
+                    "label_left_width_unit": "%",
+                    "label_font_size": "16",
+                    "label_font_size_unit": "px",
+                    "label_font_weight": "500",
+                    "label_text_alignment": "left",
+                    "label_text_color": "var(--theme-color-grey)",
+                    "label_hidden": true,
+                    "field_type": "grid_panel",
+                    "field_key_name": "grid_panel_c219RR5x132qrRZqXWgNQ",
+                    "field_display_key_name": "container1",
+                    "field_responsive": false,
+                    "caching": false,
+                    "grid_dynamic_height": true,
+                    "grid_maintain_space": false,
+                    "grid_max_height": "",
+                    "grid_max_height_unit": "px",
+                    "type": "non_input",
+                    "required": false,
+                    "hidden": false,
+                    "disabled": false,
+                    "data_submission_enabled": true,
+                    "is_variable": false,
+                    "tooltip": "",
+                    "tip_description": "",
+                    "show_description": false,
+                    "show_tooltip": false,
+                    "field_fullview": false,
+                    "class_name": "test",
+                    "field_data_model": "",
+                    "allow_options_addition_in_editor": true,
+                    "field_composition_type": "group",
+                    "field_editable_in_database_editor": false,
+                    "field_values_addition_enabled_in_database_editor": true,
+                    "field_values_source": "",
+                    "field_database_editor_data_format": "",
+                    "data_type": "",
+                    "field_data_model_binding_manual_query": "",
+                    "field_data_model_binding_manual_query_with_id": "",
+                    "show_dfm": false,
+                    "dfmv_selected": "default",
+                    "dhq_formula": "",
+                    "dhq_data_process": "",
+                    "dhq_default_data_process": "",
+                    "dhq_default_formula": "",
+                    "field_data_model_binding_formula": "",
+                    "field_data_model_binding_type": "",
+                    "validations": [],
+                    "controls": [
+                        {
+                            "ctrl_id": "",
+                            "label": "Text Input",
+                            "label_font_weight_class": "font-weight-normal",
+                            "label_position": "top",
+                            "label_left_width": "33",
+                            "label_left_width_unit": "%",
+                            "label_font_size": "16",
+                            "label_font_size_unit": "px",
+                            "label_font_weight": "500",
+                            "label_text_alignment": "left",
+                            "label_text_color": "var(--theme-color-grey)",
+                            "label_hidden": false,
+                            "field_type": "text",
+                            "field_key_name": "text_c220RFSNTjX7QpPic3TF8",
+                            "field_display_key_name": "textinput10",
+                            "field_responsive": true,
+                            "caching": false,
+                            "grid_dynamic_height": true,
+                            "grid_maintain_space": false,
+                            "grid_max_height": "",
+                            "grid_max_height_unit": "px",
+                            "type": "input",
+                            "required": false,
+                            "hidden": false,
+                            "disabled": false,
+                            "data_submission_enabled": true,
+                            "is_variable": false,
+                            "tooltip": "",
+                            "tip_description": "",
+                            "show_description": false,
+                            "show_tooltip": false,
+                            "field_fullview": false,
+                            "class_name": "test",
+                            "field_data_model": "",
+                            "allow_options_addition_in_editor": true,
+                            "field_composition_type": "single",
+                            "field_editable_in_database_editor": true,
+                            "field_values_addition_enabled_in_database_editor": true,
+                            "field_values_source": "",
+                            "field_database_editor_data_format": "single_line_text",
+                            "data_type": "string",
+                            "field_data_model_binding_manual_query": "DATABUILDER()",
+                            "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+                            "show_dfm": false,
+                            "dfmv_selected": "default",
+                            "dhq_formula": "{{input1}}",
+                            "dhq_data_process": "",
+                            "dhq_default_data_process": "",
+                            "dhq_default_formula": "",
+                            "field_data_model_binding_formula": "",
+                            "field_data_model_binding_type": "manual_query",
+                            "validations": [],
+                            "controls": [],
+                            "formbuilder_theme": "#BBBBBB",
+                            "field_options": {},
+                            "field_config": {},
+                            "input_placeholder_text_size": "13px",
+                            "input_placeholder_text_color": "#bbbbbb",
+                            "input_placeholder_font_weight": "400",
+                            "input_control_height": "2.5rem",
+                            "input_font_color": "#444444",
+                            "input_font_weight": "400",
+                            "input_font_size": "14px",
+                            "is_master_control": false,
+                            "is_outlet_control": false,
+                            "is_repeat_outlet_control": false,
+                            "dhq_req_stats": {
+                                "status": ""
+                            },
+                            "dhq_nsf_replaced": false,
+                            "dhq_olddt_map": {},
+                            "dhq_submit_condition": "always",
+                            "dhq_tfd": true,
+                            "dhq_external_css": {
+                                "addCode": false,
+                                "data": {}
+                            },
+                            "tabIndex": "",
+                            "placeholder": "Write here...",
+                            "min_length": "",
+                            "max_length": "",
+                            "debounceEventTime": 3000,
+                            "text_max_length": "",
+                            "text_min_length": "",
+                            "action_items": {
+                                "value_change": {
+                                    "events": [
+                                        "value_change"
+                                    ],
+                                    "selector": ""
+                                },
+                                "enter_press": {
+                                    "events": [
+                                        "enter_press"
+                                    ],
+                                    "selector": ""
+                                },
+                                "focus_out": {
+                                    "events": [
+                                        "focus_out"
+                                    ],
+                                    "selector": ""
+                                }
+                            },
+                            "value": "",
+                            "input_type": "text",
+                            "length_unit": "characters",
+                            "isqrvisible": false,
+                            "field_available_in_database_editor": true,
+                            "field_datatypes": [],
+                            "cid": "c220RFSNTjX7QpPic3TF8",
+                            "sid": "sc220RFSNTjX7QpPic3TF8",
+                            "actionflows": {},
+                            "dhqEvtConverted": true,
+                            "dhqGrid": {
+                                "w": 12,
+                                "h": 8,
+                                "x": 0,
+                                "y": 1
+                            },
+                            "dhqGridDesktop": {
+                                "w": 12,
+                                "h": 8,
+                                "x": 1,
+                                "y": 0
+                            },
+                            "isDhqGridCtrl": true,
+                            "isDhqHideOnDesktop": false,
+                            "isDhqHideOnMobile": false,
+                            "dhqMGridChanged": true,
+                            "is_widget_child": true,
+                            "dhq_keywords_mapping": [
+                                {
+                                    "name": "input1",
+                                    "id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1.INPUTS.input_RhErz4FiIkTdMo7SE"
+                                }
+                            ],
+                            "LiveData": "Default formula of input 1",
+                            "validation": [],
+                            "for_localization": {
+                                "static_msgs": [
+                                    "This field is mandatory",
+                                    "Invalid URL",
+                                    "Invalid email id"
+                                ],
+                                "dynamic_msgs_keys": [
+                                    "label",
+                                    "placeholder",
+                                    "tooltip",
+                                    "tip_description"
+                                ],
+                                "concated_msgs": [
+                                    "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                ]
+                            },
+                            "dhq_config": {
+                                "strict_update": [
+                                    "for_localization",
+                                    "input_control_height",
+                                    "dhq_config"
+                                ],
+                                "update_to_theme_varaibles": [
+                                    "formbuilder_theme",
+                                    "label_font_size",
+                                    "label_font_size_unit",
+                                    "label_font_weight",
+                                    "label_text_color",
+                                    "input_font_weight",
+                                    "input_font_color",
+                                    "input_font_size",
+                                    "input_placeholder_font_weight",
+                                    "input_placeholder_text_color",
+                                    "input_placeholder_text_size"
+                                ]
+                            },
+                            "wrapper_content_alignment": "flex-start",
+                            "parent_id": "grid_panel_c219RR5x132qrRZqXWgNQ",
+                            "dhq_variableList": [],
+                            "widget_parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1"
+                        },
+                        {
+                            "ctrl_id": "",
+                            "label": "Text Input",
+                            "label_font_weight_class": "font-weight-normal",
+                            "label_position": "top",
+                            "label_left_width": "33",
+                            "label_left_width_unit": "%",
+                            "label_font_size": "16",
+                            "label_font_size_unit": "px",
+                            "label_font_weight": "500",
+                            "label_text_alignment": "left",
+                            "label_text_color": "var(--theme-color-grey)",
+                            "label_hidden": false,
+                            "field_type": "text",
+                            "field_key_name": "text_c221RAK9KGvrKBhChKzNz",
+                            "field_display_key_name": "textinput11",
+                            "field_responsive": true,
+                            "caching": false,
+                            "grid_dynamic_height": true,
+                            "grid_maintain_space": false,
+                            "grid_max_height": "",
+                            "grid_max_height_unit": "px",
+                            "type": "input",
+                            "required": false,
+                            "hidden": false,
+                            "disabled": false,
+                            "data_submission_enabled": true,
+                            "is_variable": false,
+                            "tooltip": "",
+                            "tip_description": "",
+                            "show_description": false,
+                            "show_tooltip": false,
+                            "field_fullview": false,
+                            "class_name": "test",
+                            "field_data_model": "",
+                            "allow_options_addition_in_editor": true,
+                            "field_composition_type": "single",
+                            "field_editable_in_database_editor": true,
+                            "field_values_addition_enabled_in_database_editor": true,
+                            "field_values_source": "",
+                            "field_database_editor_data_format": "single_line_text",
+                            "data_type": "string",
+                            "field_data_model_binding_manual_query": "",
+                            "field_data_model_binding_manual_query_with_id": "",
+                            "show_dfm": false,
+                            "dfmv_selected": "default",
+                            "dhq_formula": "",
+                            "dhq_data_process": "",
+                            "dhq_default_data_process": "",
+                            "dhq_default_formula": "",
+                            "field_data_model_binding_formula": "",
+                            "field_data_model_binding_type": "",
+                            "validations": [],
+                            "controls": [],
+                            "formbuilder_theme": "#BBBBBB",
+                            "field_options": {},
+                            "field_config": {},
+                            "input_placeholder_text_size": "13px",
+                            "input_placeholder_text_color": "#bbbbbb",
+                            "input_placeholder_font_weight": "400",
+                            "input_control_height": "2.5rem",
+                            "input_font_color": "#444444",
+                            "input_font_weight": "400",
+                            "input_font_size": "14px",
+                            "is_master_control": false,
+                            "is_outlet_control": false,
+                            "is_repeat_outlet_control": false,
+                            "dhq_req_stats": {
+                                "status": ""
+                            },
+                            "dhq_nsf_replaced": false,
+                            "dhq_olddt_map": {},
+                            "dhq_submit_condition": "always",
+                            "dhq_tfd": true,
+                            "dhq_external_css": {
+                                "addCode": false,
+                                "data": {}
+                            },
+                            "tabIndex": "",
+                            "placeholder": "Write here...",
+                            "min_length": "",
+                            "max_length": "",
+                            "debounceEventTime": 3000,
+                            "text_max_length": "",
+                            "text_min_length": "",
+                            "action_items": {
+                                "value_change": {
+                                    "events": [
+                                        "value_change"
+                                    ],
+                                    "selector": ""
+                                },
+                                "enter_press": {
+                                    "events": [
+                                        "enter_press"
+                                    ],
+                                    "selector": ""
+                                },
+                                "focus_out": {
+                                    "events": [
+                                        "focus_out"
+                                    ],
+                                    "selector": ""
+                                }
+                            },
+                            "LiveData": "",
+                            "value": "",
+                            "input_type": "text",
+                            "length_unit": "characters",
+                            "isqrvisible": false,
+                            "field_available_in_database_editor": true,
+                            "field_datatypes": [],
+                            "cid": "c221RAK9KGvrKBhChKzNz",
+                            "sid": "sc221RAK9KGvrKBhChKzNz",
+                            "actionflows": {},
+                            "dhqEvtConverted": true,
+                            "dhqGrid": {
+                                "w": 12,
+                                "h": 8,
+                                "x": 12,
+                                "y": 1
+                            },
+                            "dhqGridDesktop": {
+                                "w": 11,
+                                "h": 8,
+                                "x": 13,
+                                "y": 0
+                            },
+                            "isDhqGridCtrl": true,
+                            "isDhqHideOnDesktop": false,
+                            "isDhqHideOnMobile": false,
+                            "dhqMGridChanged": true,
+                            "is_widget_child": true,
+                            "validation": [],
+                            "for_localization": {
+                                "static_msgs": [
+                                    "This field is mandatory",
+                                    "Invalid URL",
+                                    "Invalid email id"
+                                ],
+                                "dynamic_msgs_keys": [
+                                    "label",
+                                    "placeholder",
+                                    "tooltip",
+                                    "tip_description"
+                                ],
+                                "concated_msgs": [
+                                    "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                                ]
+                            },
+                            "dhq_config": {
+                                "strict_update": [
+                                    "for_localization",
+                                    "input_control_height",
+                                    "dhq_config"
+                                ],
+                                "update_to_theme_varaibles": [
+                                    "formbuilder_theme",
+                                    "label_font_size",
+                                    "label_font_size_unit",
+                                    "label_font_weight",
+                                    "label_text_color",
+                                    "input_font_weight",
+                                    "input_font_color",
+                                    "input_font_size",
+                                    "input_placeholder_font_weight",
+                                    "input_placeholder_text_color",
+                                    "input_placeholder_text_size"
+                                ]
+                            },
+                            "wrapper_content_alignment": "flex-start",
+                            "parent_id": "grid_panel_c219RR5x132qrRZqXWgNQ",
+                            "dhq_keywords_mapping": [],
+                            "dhq_variableList": [],
+                            "widget_parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1"
+                        }
+                    ],
+                    "formbuilder_theme": "#bbbbbb",
+                    "field_options": {
+                        "options": []
+                    },
+                    "field_config": {},
+                    "input_placeholder_text_size": "13px",
+                    "input_placeholder_text_color": "#bbbbbb",
+                    "input_placeholder_font_weight": "400",
+                    "input_control_height": "40px",
+                    "input_font_color": "#444444",
+                    "input_font_weight": "400",
+                    "input_font_size": "14px",
+                    "is_master_control": false,
+                    "is_outlet_control": true,
+                    "is_repeat_outlet_control": false,
+                    "parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1",
+                    "dhq_req_stats": {
+                        "status": ""
+                    },
+                    "dhq_nsf_replaced": false,
+                    "dhq_olddt_map": {},
+                    "dhq_submit_condition": "always",
+                    "dhq_tfd": true,
+                    "dhq_external_css": {
+                        "addCode": false,
+                        "data": {}
+                    },
+                    "tabIndex": "",
+                    "field_client_side_get_data_enabled": false,
+                    "field_available_in_database_editor": false,
+                    "bg_color": "#ffffff",
+                    "URL_link": "",
+                    "magnify": false,
+                    "Image_opacity": "1",
+                    "image_box_image_alignment": "center",
+                    "button_type": "no_action",
+                    "image_box_action": "no_action",
+                    "image_box_action_value": "",
+                    "navigate_to": "",
+                    "navigation_transition": "",
+                    "image_box_fill": "cover",
+                    "full_width": false,
+                    "image_caching": true,
+                    "box_shadow": true,
+                    "overflow": "visible",
+                    "bradius": {
+                        "tl": {
+                            "value": 5,
+                            "unit": "px"
+                        },
+                        "tr": {
+                            "value": 5,
+                            "unit": "px"
+                        },
+                        "br": {
+                            "value": 5,
+                            "unit": "px"
+                        },
+                        "bl": {
+                            "value": 5,
+                            "unit": "px"
+                        }
+                    },
+                    "border": {
+                        "type": "all",
+                        "all": {
+                            "style": "solid",
+                            "size": {
+                                "value": "1",
+                                "unit": "px"
+                            },
+                            "color": "#e2f1e9"
+                        },
+                        "top": {
+                            "style": "none",
+                            "size": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "color": "var(--theme-color-stable)"
+                        },
+                        "right": {
+                            "style": "none",
+                            "size": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "color": "var(--theme-color-stable)"
+                        },
+                        "bottom": {
+                            "style": "none",
+                            "size": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "color": "var(--theme-color-stable)"
+                        },
+                        "left": {
+                            "style": "none",
+                            "size": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "color": "var(--theme-color-stable)"
+                        }
+                    },
+                    "max_w": "",
+                    "max_w_unit": "",
+                    "min_w": "",
+                    "min_w_unit": "",
+                    "horizontal": "flex-start",
+                    "ctrl_spacing_value": "10",
+                    "ctrl_spacing_unit": "px",
+                    "field_datatypes": [],
+                    "cid": "c219RR5x132qrRZqXWgNQ",
+                    "sid": "sc219RR5x132qrRZqXWgNQ",
+                    "actionflows": {},
+                    "action_items": {},
+                    "dhqEvtConverted": true,
+                    "dhqGrid": {
+                        "w": 22,
+                        "h": 12,
+                        "x": 1,
+                        "y": 14
+                    },
+                    "dhqGridDesktop": {
+                        "w": 22,
+                        "h": 12,
+                        "x": 1,
+                        "y": 14
+                    },
+                    "isDhqGridCtrl": true,
+                    "isDhqHideOnDesktop": false,
+                    "isDhqHideOnMobile": false,
+                    "dhqMGridChanged": false,
+                    "is_widget_child": true,
+                    "marginValue": {
+                        "margin": {
+                            "top": "0",
+                            "bottom": "0",
+                            "right": "0",
+                            "left": "0"
+                        },
+                        "padding": {
+                            "top": "0",
+                            "bottom": "0",
+                            "right": "0",
+                            "left": "0"
+                        }
+                    },
+                    "header_background": "var(--DHQ-primary-color)",
+                    "header_allowed": false,
+                    "add_scroll": false,
+                    "for_localization": {
+                        "static_msgs": [],
+                        "dynamic_msgs_keys": [
+                            "label",
+                            "tip_description"
+                        ],
+                        "concated_msgs": []
+                    },
+                    "dhq_config": {
+                        "strict_update": [
+                            "for_localization",
+                            "dhq_config"
+                        ],
+                        "update_to_theme_varaibles": [
+                            "border",
+                            "label_font_size",
+                            "label_font_size_unit",
+                            "label_font_weight",
+                            "label_text_color",
+                            "bg_color",
+                            "header_background",
+                            "ctrl_spacing_value",
+                            "ctrl_spacing_unit"
+                        ]
+                    },
+                    "wrapper_content_alignment": "flex-start",
+                    "widget_parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1"
+                },
+                {
+                    "ctrl_id": "",
+                    "label": "Text Input",
+                    "label_font_weight_class": "font-weight-normal",
+                    "label_position": "top",
+                    "label_left_width": "33",
+                    "label_left_width_unit": "%",
+                    "label_font_size": "var(--DHQ-control-title)",
+                    "label_font_size_unit": "",
+                    "label_font_weight": "var(--DHQ-bold)",
+                    "label_text_alignment": "left",
+                    "label_text_color": "var(--DHQ-primary-font-color)",
+                    "label_hidden": false,
+                    "wrapper_content_alignment": "flex-start",
+                    "field_type": "text",
+                    "field_key_name": "text_c222RCWHNmDpUxGxprDzU",
+                    "field_display_key_name": "textinput12",
+                    "field_responsive": true,
+                    "caching": false,
+                    "grid_dynamic_height": true,
+                    "grid_maintain_space": false,
+                    "grid_max_height": "",
+                    "grid_max_height_unit": "px",
+                    "type": "input",
+                    "required": false,
+                    "hidden": false,
+                    "disabled": false,
+                    "data_submission_enabled": true,
+                    "is_variable": false,
+                    "tooltip": "",
+                    "tip_description": "",
+                    "show_description": false,
+                    "show_tooltip": false,
+                    "field_fullview": false,
+                    "class_name": "test",
+                    "field_data_model": "",
+                    "allow_options_addition_in_editor": true,
+                    "field_composition_type": "single",
+                    "field_editable_in_database_editor": true,
+                    "field_values_addition_enabled_in_database_editor": true,
+                    "field_values_source": "",
+                    "field_database_editor_data_format": "single_line_text",
+                    "data_type": "string",
+                    "field_data_model_binding_manual_query": "DATABUILDER()",
+                    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+                    "show_dfm": false,
+                    "dfmv_selected": "default",
+                    "dhq_formula": "{{js_script_1}} {{dog123}}",
+                    "dhq_data_process": "",
+                    "dhq_default_data_process": "",
+                    "dhq_default_formula": "",
+                    "field_data_model_binding_formula": "",
+                    "field_data_model_binding_type": "manual_query",
+                    "validations": [],
+                    "controls": [],
+                    "formbuilder_theme": "var(--DHQ-border-color)",
+                    "field_options": {},
+                    "field_config": {},
+                    "input_placeholder_text_size": "var(--DHQ-small-font)",
+                    "input_placeholder_text_color": "#aaaaaa",
+                    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+                    "input_control_height": "2.5rem",
+                    "input_font_color": "var(--DHQ-primary-font-color)",
+                    "input_font_weight": "var(--DHQ-normal-weight)",
+                    "input_font_size": "var(--DHQ-normal-font)",
+                    "is_master_control": false,
+                    "is_outlet_control": false,
+                    "is_repeat_outlet_control": false,
+                    "dhq_req_stats": {
+                        "status": ""
+                    },
+                    "dhq_nsf_replaced": false,
+                    "dhq_olddt_map": {},
+                    "dhq_submit_condition": "always",
+                    "dhq_tfd": true,
+                    "dhq_external_css": {
+                        "addCode": false,
+                        "data": {}
+                    },
+                    "tabIndex": "",
+                    "placeholder": "Write here...",
+                    "min_length": "",
+                    "max_length": "",
+                    "debounceEventTime": 3000,
+                    "text_max_length": "",
+                    "text_min_length": "",
+                    "action_items": {
+                        "value_change": {
+                            "events": [
+                                "value_change"
+                            ],
+                            "selector": ""
+                        },
+                        "enter_press": {
+                            "events": [
+                                "enter_press"
+                            ],
+                            "selector": ""
+                        },
+                        "focus_out": {
+                            "events": [
+                                "focus_out"
+                            ],
+                            "selector": ""
+                        }
+                    },
+                    "value": "",
+                    "input_type": "text",
+                    "length_unit": "characters",
+                    "isqrvisible": false,
+                    "field_available_in_database_editor": true,
+                    "field_datatypes": [],
+                    "for_localization": {
+                        "static_msgs": [
+                            "This field is mandatory",
+                            "Invalid URL",
+                            "Invalid email id"
+                        ],
+                        "dynamic_msgs_keys": [
+                            "label",
+                            "placeholder",
+                            "tooltip",
+                            "tip_description"
+                        ],
+                        "concated_msgs": [
+                            "Value should be {{text_min_length}} to {{text_max_length}} characters long."
+                        ]
+                    },
+                    "dhq_config": {
+                        "strict_update": [
+                            "for_localization",
+                            "input_control_height",
+                            "dhq_config"
+                        ],
+                        "update_to_theme_varaibles": [
+                            "formbuilder_theme",
+                            "label_font_size",
+                            "label_font_size_unit",
+                            "label_font_weight",
+                            "label_text_color",
+                            "input_font_weight",
+                            "input_font_color",
+                            "input_font_size",
+                            "input_placeholder_font_weight",
+                            "input_placeholder_text_color",
+                            "input_placeholder_text_size"
+                        ]
+                    },
+                    "cid": "c222RCWHNmDpUxGxprDzU",
+                    "sid": "sc222RCWHNmDpUxGxprDzU",
+                    "actionflows": {},
+                    "dhqEvtConverted": true,
+                    "dhqGrid": {
+                        "w": 12,
+                        "h": 6,
+                        "x": 2,
+                        "y": 26
+                    },
+                    "dhqGridDesktop": {
+                        "w": 12,
+                        "h": 6,
+                        "x": 2,
+                        "y": 26
+                    },
+                    "isDhqGridCtrl": true,
+                    "isDhqHideOnDesktop": false,
+                    "isDhqHideOnMobile": false,
+                    "is_widget_child": true,
+                    "dhqMGridChanged": false,
+                    "dhq_keywords_mapping": [
+                        {
+                            "name": "js_script_1",
+                            "id": "variable_RZvIEgAKmL5vDQhbP1719493803907"
+                        },
+                        {
+                            "name": "dog123",
+                            "id": "variable_R0REcPytxICYEx4km1719493803907"
+                        }
+                    ],
+                    "sb_mode": "JS",
+                    "LiveData": "1 {\"message\":\"https://images.dog.ceo/breeds/poodle-toy/n02113624_1293.jpg\",\"status\":\"success\"}",
+                    "validation": [],
+                    "parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1",
+                    "dhq_variableList": [],
+                    "widget_parent_id": "dhqWidgetGroup_c215RcOvmfRpE3IvWcBl1"
+                }
+            ]
+        }
+    ]
+}

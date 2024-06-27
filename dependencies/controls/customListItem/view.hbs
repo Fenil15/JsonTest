@@ -1,0 +1,19 @@
+<script id="ctrl-template-customListItem" type="text/x-handlebars-template">
+    <div class="fb-field-wrapper response-field-{{field_type}} {{cid}} {{sid}} {{#if hidden}}hide{{/if}} {{#if sticky}}sticky{{/if}}{{#if field_fullview}} fb-fullview-field {{/if}} {{#if field_responsive}}fb-responsive-field{{/if}} {{#if disabled}}isDisabled{{/if}}" data-control="text" data-requiredfield="{{required}}" style="position:relative">
+        <div class="component-loader hide {{#if disabled}}{{else}} isLoaderWhite{{/if}} ">
+            <i class=" notched circle loading icon"></i>
+        </div>
+        <div class="component-head-container {{#if label}}{{else}}{{#if required}}{{else}}hide{{/if}}{{/if}}">
+            <span>{{#if label_hidden}}{{else}}{{label}}{{/if}}
+                {{#if required}}
+                    <span class="requiredAstrick">*</span>
+                {{/if}}
+            </span>
+        </div>
+        <div class="wrapper {{#if disabled}}isDisabled{{/if}}">
+            <div bg_editable="" bg_title="card background" actionable="" eventname="soPickListItem" class="iibcfd"><img src="{{'image'}} " bindable="" bind_from="both" field="image" data_type="string" class="idrjpt"><div class="ia7y8y"><div bindable="" bind_from="formula" field="location" data_type="string" font_editable="" font_title="location font" class="i6485s">{{'location'}} </div><div bindable="" bind_from="formula" field="product" data_type="string" font_editable="" font_title="product font" class="i4v91">{{'product'}} </div><div bindable="" bind_from="formula" field="description" data_type="string" font_editable="" font_title="description font" class="iig44">{{'description'}} </div><div bindable="" bind_from="formula" field="pickid" data_type="string" font_editable="" font_title="pickid font" class="ix0zh">{{'pickid'}} </div></div><div class="iqap3c"><div class="im5j5p"><div bg_editable="" eventname="status click" bg_title="qty background" class="icwyj5"><div bindable="" bind_from="formula" field="qty " data_type="string" font_editable="" font_title="qty font" class="idfe39">{{'qty'}} </div></div></div></div></div>
+        </div>
+        <div class="fb-field-error-message"></div>
+    </div>
+
+    </script>

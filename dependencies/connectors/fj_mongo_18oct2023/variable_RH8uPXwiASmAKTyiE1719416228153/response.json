@@ -1,0 +1,17 @@
+{
+    "success_response": {
+        "success": "true",
+        "content": "[{\"_id\":\"string\",\"age\":1}]",
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure_response": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "dynamic_variables": [],
+        "success": false
+    }
+}

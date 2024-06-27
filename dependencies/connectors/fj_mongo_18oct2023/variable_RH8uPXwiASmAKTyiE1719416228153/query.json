@@ -1,0 +1,7 @@
+{
+    "action": "find",
+    "collection": "users",
+    "filter": {
+        "age": 33
+    }
+}

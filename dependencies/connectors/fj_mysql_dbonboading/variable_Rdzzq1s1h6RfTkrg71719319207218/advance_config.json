@@ -1,0 +1,24 @@
+{
+    "failure_conditions": [],
+    "preselect_fields": [
+        {
+            "field_key": "body.tablegrid.PROPERTIES.LIMIT",
+            "field_name": "tablegrid.PROPERTIES.LIMIT",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        },
+        {
+            "field_key": "body.tablegrid.PROPERTIES.OFFSET",
+            "field_name": "tablegrid.PROPERTIES.OFFSET",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        }
+    ],
+    "request_timeout": 0
+}

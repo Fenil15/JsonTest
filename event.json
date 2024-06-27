@@ -1,0 +1,67 @@
+{
+    "action_items": {
+        "app": {
+            "events": [
+                "open"
+            ],
+            "selector": ""
+        },
+        "recurring": {
+            "events": [],
+            "selector": ""
+        }
+    },
+    "actionflows": {
+        "app": {
+            "open": {
+                "event_name": "app",
+                "selector": "",
+                "event_type": "open",
+                "actionflow_id": "af_app_RyNXgLFiKcCtLDg4F_app_open",
+                "next_actions": [
+                    "RzqNg7xyrKcOwYKaA"
+                ],
+                "prev_actions": [],
+                "actions": [
+                    {
+                        "id": "RzqNg7xyrKcOwYKaA",
+                        "execution_editor_type": "JSEditor",
+                        "execution_condition_variable_with_name": "",
+                        "execution_condition_variable": "",
+                        "execution_environments": [
+                            "dev",
+                            "beta",
+                            "prod"
+                        ],
+                        "unique_name": "JSCODE",
+                        "label": "",
+                        "wait_till_completion": true,
+                        "offline_submission": false,
+                        "downloadas_file": false,
+                        "fields": {},
+                        "type": "JSCODE",
+                        "outputs": [
+                            {
+                                "key": "output",
+                                "value": "output",
+                                "select_first": false,
+                                "default_output": {}
+                            }
+                        ],
+                        "dual_output_action": false,
+                        "jscode_params": {
+                            "dhq_variableList": [],
+                            "dhq_processingCode": "console.log(\"App is opened!\")\n"
+                        },
+                        "next_actions": [],
+                        "prev_actions": []
+                    }
+                ],
+                "category": "",
+                "interval": "",
+                "action_label": ""
+            }
+        }
+    },
+    "id": "app_RyNXgLFiKcCtLDg4F"
+}

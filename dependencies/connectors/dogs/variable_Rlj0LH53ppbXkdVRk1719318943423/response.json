@@ -1,0 +1,171 @@
+{
+    "success_response": {
+        "Headers": [
+            {
+                "Name": "date",
+                "Value": "Tue, 25 Jun 2024 13:01:46 GMT"
+            },
+            {
+                "Name": "content-type",
+                "Value": "application/json"
+            },
+            {
+                "Name": "transfer-encoding",
+                "Value": "chunked"
+            },
+            {
+                "Name": "connection",
+                "Value": "close"
+            },
+            {
+                "Name": "x-powered-by",
+                "Value": "PHP/8.1.25"
+            },
+            {
+                "Name": "access-control-allow-origin",
+                "Value": "*"
+            },
+            {
+                "Name": "via",
+                "Value": "1.1 varnish (Varnish/6.3), 1.1 varnish (Varnish/6.3)"
+            },
+            {
+                "Name": "cache-control",
+                "Value": "max-age=1800"
+            },
+            {
+                "Name": "x-cache-age",
+                "Value": "14408"
+            },
+            {
+                "Name": "x-cache-hits",
+                "Value": "16879"
+            },
+            {
+                "Name": "x-cache",
+                "Value": "HIT"
+            },
+            {
+                "Name": "age",
+                "Value": "0"
+            },
+            {
+                "Name": "vary",
+                "Value": "Accept-Encoding"
+            },
+            {
+                "Name": "cf-cache-status",
+                "Value": "DYNAMIC"
+            },
+            {
+                "Name": "report-to",
+                "Value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=oITJ8xaFo2%2FOyP13fxJ9hryfY6Zx2AbjOYbNX8VRY3CDpA%2F2Omu2nFJ1gIN416r6nYtgYhM0fuMEp3VFhwc5BzFkWtgqZfYOZ7gdieA%2FtuajmDrzBpLk2dBF\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+            },
+            {
+                "Name": "nel",
+                "Value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+            },
+            {
+                "Name": "server",
+                "Value": "cloudflare"
+            },
+            {
+                "Name": "cf-ray",
+                "Value": "899525ea1f3207a4-IAD"
+            },
+            {
+                "Name": "alt-svc",
+                "Value": "h3=\":443\"; ma=86400"
+            }
+        ],
+        "success": "true",
+        "ContentType": "application/json",
+        "content": "{\"message\":{\"affenpinscher\":[],\"african\":[],\"airedale\":[],\"akita\":[],\"appenzeller\":[],\"australian\":[\"string\"],\"bakharwal\":[\"string\"],\"basenji\":[],\"beagle\":[],\"bluetick\":[],\"borzoi\":[],\"bouvier\":[],\"boxer\":[],\"brabancon\":[],\"briard\":[],\"buhund\":[\"string\"],\"bulldog\":[\"string\"],\"bullterrier\":[\"string\"],\"cattledog\":[\"string\"],\"cavapoo\":[],\"chihuahua\":[],\"chippiparai\":[\"string\"],\"chow\":[],\"clumber\":[],\"cockapoo\":[],\"collie\":[\"string\"],\"coonhound\":[],\"corgi\":[\"string\"],\"cotondetulear\":[],\"dachshund\":[],\"dalmatian\":[],\"dane\":[\"string\"],\"danish\":[\"string\"],\"deerhound\":[\"string\"],\"dhole\":[],\"dingo\":[],\"doberman\":[],\"elkhound\":[\"string\"],\"entlebucher\":[],\"eskimo\":[],\"finnish\":[\"string\"],\"frise\":[\"string\"],\"gaddi\":[\"string\"],\"germanshepherd\":[],\"greyhound\":[\"string\"],\"groenendael\":[],\"havanese\":[],\"hound\":[\"string\"],\"husky\":[],\"keeshond\":[],\"kelpie\":[],\"kombai\":[],\"komondor\":[],\"kuvasz\":[],\"labradoodle\":[],\"labrador\":[],\"leonberg\":[],\"lhasa\":[],\"malamute\":[],\"malinois\":[],\"maltese\":[],\"mastiff\":[\"string\"],\"mexicanhairless\":[],\"mix\":[],\"mountain\":[\"string\"],\"mudhol\":[\"string\"],\"newfoundland\":[],\"otterhound\":[],\"ovcharka\":[\"string\"],\"papillon\":[],\"pariah\":[\"string\"],\"pekinese\":[],\"pembroke\":[],\"pinscher\":[\"string\"],\"pitbull\":[],\"pointer\":[\"string\"],\"pomeranian\":[],\"poodle\":[\"string\"],\"pug\":[],\"puggle\":[],\"pyrenees\":[],\"rajapalayam\":[\"string\"],\"redbone\":[],\"retriever\":[\"string\"],\"ridgeback\":[\"string\"],\"rottweiler\":[],\"saluki\":[],\"samoyed\":[],\"schipperke\":[],\"schnauzer\":[\"string\"],\"segugio\":[\"string\"],\"setter\":[\"string\"],\"sharpei\":[],\"sheepdog\":[\"string\"],\"shiba\":[],\"shihtzu\":[],\"spaniel\":[\"string\"],\"spitz\":[\"string\"],\"springer\":[\"string\"],\"stbernard\":[],\"terrier\":[\"string\"],\"tervuren\":[],\"vizsla\":[],\"waterdog\":[\"string\"],\"weimaraner\":[],\"whippet\":[],\"wolfhound\":[\"string\"]},\"status\":\"string\"}",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure_response": {
+        "Headers": [
+            {
+                "Name": "date",
+                "Value": "Tue, 25 Jun 2024 12:37:47 GMT"
+            },
+            {
+                "Name": "content-type",
+                "Value": "application/json"
+            },
+            {
+                "Name": "content-length",
+                "Value": "162"
+            },
+            {
+                "Name": "connection",
+                "Value": "close"
+            },
+            {
+                "Name": "x-powered-by",
+                "Value": "PHP/8.1.25"
+            },
+            {
+                "Name": "allow",
+                "Value": "GET, HEAD"
+            },
+            {
+                "Name": "cache-control",
+                "Value": "no-cache, private"
+            },
+            {
+                "Name": "access-control-allow-origin",
+                "Value": "*"
+            },
+            {
+                "Name": "via",
+                "Value": "1.1 varnish (Varnish/6.3), 1.1 varnish (Varnish/6.3)"
+            },
+            {
+                "Name": "x-cache-hits",
+                "Value": "0"
+            },
+            {
+                "Name": "x-cache",
+                "Value": "MISS"
+            },
+            {
+                "Name": "age",
+                "Value": "0"
+            },
+            {
+                "Name": "vary",
+                "Value": ""
+            },
+            {
+                "Name": "cf-cache-status",
+                "Value": "DYNAMIC"
+            },
+            {
+                "Name": "report-to",
+                "Value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=TC%2Bju01tMXkHEtiPAzwR1bY4KVRBFD9WHMUJiR3N0olzxoASIQr5DP%2BuSWRbSEPHs3K6xb9%2BDex1Pll5ZTVPvNY%2FpJQioQMKCmkMrzIWZp%2FeL5slg67ZZXXJ\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+            },
+            {
+                "Name": "nel",
+                "Value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+            },
+            {
+                "Name": "server",
+                "Value": "cloudflare"
+            },
+            {
+                "Name": "cf-ray",
+                "Value": "899502cc0a1b3998-IAD"
+            },
+            {
+                "Name": "alt-svc",
+                "Value": "h3=\":443\"; ma=86400"
+            }
+        ],
+        "ContentType": "application/json",
+        "content": "{\"status\":\"error\",\"message\":\"No route found for \\\"POST http:\\/\\/dog.ceo\\/api\\/breeds\\/list\\/all\\\": Method Not Allowed (Allow: GET, HEAD) with code: 0\",\"code\":405}",
+        "StatusCode": 405,
+        "StatusDescription": "Method Not Allowed"
+    }
+}

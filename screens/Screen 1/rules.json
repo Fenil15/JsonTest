@@ -1,0 +1,52 @@
+[
+    {
+        "condition_name": "condition1",
+        "field_name": "",
+        "c_id": "RVuSBuyxcfK",
+        "mode": "UI",
+        "conditions": [
+            [
+                {
+                    "field1": {
+                        "id": "text_c455R51ERwI9nBh2nlFxF",
+                        "name": "textinput",
+                        "data_type": "string"
+                    },
+                    "operator": "$isempty",
+                    "field2_type": "field",
+                    "field2": {
+                        "id": "",
+                        "name": "",
+                        "data_type": "string"
+                    },
+                    "value": "",
+                    "caseSensitive": false
+                }
+            ]
+        ],
+        "result": {
+            "true": [
+                {
+                    "field": {
+                        "id": "list_c38Rvbyj7jlLx8UalTqG",
+                        "name": "tablegrid"
+                    },
+                    "operation": "hide",
+                    "block_name": "",
+                    "state_name": ""
+                }
+            ],
+            "false": [
+                {
+                    "field": {
+                        "id": "list_c38Rvbyj7jlLx8UalTqG",
+                        "name": "tablegrid"
+                    },
+                    "operation": "Show",
+                    "block_name": "",
+                    "state_name": ""
+                }
+            ]
+        }
+    }
+]

@@ -283,7 +283,7 @@
                         "field_data_model_binding_manual_query_with_id": "CUSTOMJS()",
                         "field_data_model_binding_type": "manual_query",
                         "dhq_formula": "",
-                        "dhq_data_process": "let fj = 0;\nfor(let i=0; i<10; i++) {\n  fj += i;\n}\noutput = fj;\n",
+                        "dhq_data_process": "let fj = 0;\nfor(let i=0; i<10; i++) {\n  fj += i;\n}\noutput = fj + 10;\n",
                         "dhq_variableList": [
                           
                         ],

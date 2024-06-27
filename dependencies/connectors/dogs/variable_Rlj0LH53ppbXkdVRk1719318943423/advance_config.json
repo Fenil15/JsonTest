@@ -1,0 +1,9 @@
+{
+    "failure_conditions": [],
+    "preselect_fields": [],
+    "preselect_variables": [],
+    "dynamic_variables": [],
+    "include_body_hash": false,
+    "skip_uri_component_encoding": false,
+    "request_timeout": 10000
+}

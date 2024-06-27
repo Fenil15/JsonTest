@@ -1,0 +1,20 @@
+{
+    "app_name": "New Git Structure",
+    "description": "App to evaluate new git structure.",
+    "group_id": [
+        18
+    ],
+    "plugin_id": "59286",
+    "action": "add",
+    "sample_images": [],
+    "channel_id": "1809",
+    "is_active": true,
+    "embed": {
+        "action": ""
+    },
+    "is_show_case_app": 0,
+    "meta": "",
+    "features": [],
+    "_engVer": "1.1.0",
+    "is_premium": false
+}
