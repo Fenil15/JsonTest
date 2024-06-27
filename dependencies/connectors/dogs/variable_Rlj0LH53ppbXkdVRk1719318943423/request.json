@@ -1,0 +1,13 @@
+{
+    "method": "GET",
+    "header": [],
+    "body": {
+        "mode": "application/x-www-form-urlencoded",
+        "formdata": []
+    },
+    "path": "/api/breeds/list/all",
+    "query": [],
+    "param": [],
+    "description": "",
+    "remove_empty_keys": false // check if applicable only to query string : do_not_pass_query_parameter_if_empty
+}

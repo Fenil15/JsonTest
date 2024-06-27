@@ -1,0 +1,9 @@
+{
+    "id": 7023,
+    "name": "fj_mongo_18oct2023",
+    "icon": "./Images/dblogos/mongo.png",
+    "auth_scheme": "db_connector",
+    "type": "mongodb",
+    "channel_id": 1809,
+    "format_id": "c68ba486-6dd6-11ee-b65f-0e71b101e9a3"
+}

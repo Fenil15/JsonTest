@@ -1,0 +1,17 @@
+{
+    "success_response": {
+        "success": "true",
+        "content": "[{\"ID\":1,\"First_Name\":\"string\",\"Last_Name\":\"string\",\"Email\":\"string\",\"Profile_Pic\":\"string\",\"Country\":\"string\",\"Zip\":1,\"DOB\":\"string\"}]",
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure_response": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "dynamic_variables": [],
+        "success": false
+    }
+}

@@ -13,6 +13,6 @@
     "query": [{
         "key":"{{textinput}}"
     }],
-    "do_not_pass_query_parameter_if_empty" : true,
+    "remove_empty_keys" : true,
     "request_timeout": 10000
 }

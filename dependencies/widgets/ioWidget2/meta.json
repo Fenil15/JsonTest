@@ -1,0 +1,9 @@
+{
+    "type": "widget",
+    "name": "ioWidget2",
+    "description": "IO Widget description",
+    "id": "widget_RjruaYiOlLRVlqzA3",
+    "icon_url": "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team1809/content/app/icon/qeC8Ohsec2.png",
+    "channel_id": 1809,
+    "version": "0.0.12"
+}

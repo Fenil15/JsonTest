@@ -1,0 +1,4 @@
+{
+    "tablegrid.PROPERTIES.LIMIT": "{{tablegrid.PROPERTIES.LIMIT}}",
+    "tablegrid.PROPERTIES.OFFSET": "{{tablegrid.PROPERTIES.OFFSET}}"
+}

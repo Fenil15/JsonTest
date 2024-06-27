@@ -104,5 +104,39 @@
             },
             "is_persistent": false
         }
-    }
+    },
+    "screens" : {
+        "list" : [
+            "Screen 1",
+            "Screen 2"
+        ],
+        "sequence" : [
+            "Screen 1",
+            "Screen 2"
+        ],
+        // Folder info
+        "definition": {}  
+    },
+    "multistep_auth_api_list": [],
+    "non_published_multistep_auth_api_list": [],
+    "workflow_id_and_name_mapping": {
+        "workflow_RT1dsBvrwZRlTgntQ_1719392953530": {
+            "page_no": 1,
+            "workflow_name": "workflow_s1_1"
+        }
+    },
+    "sheets_list": {
+        "format_test_18090_15808843777836": {
+            "table_id": "format_test_18090_15808843777836",
+            "table_name": "formatTest",
+            "data_flag": false,
+            "sheet_used_for_flag": 0,
+            "show_in_listing": true,
+            "isSubmissionSheet": "0",
+            "unique_sheet_key": "",
+            "dynamic_name": false
+        }
+    },
+    "sheetsUsedInSheets": "{}",
+    "version" : "1.0" // This will define the app structure for a particular version
 }

@@ -1,0 +1,22 @@
+{
+    "field_type": "customListItem",
+    "ctrlJSONDump": {
+        "control_name": "customListItem",
+        "ver": "0.0.0",
+        "channel_id": 1809,
+        "tags": "customListItem",
+        "icon_url": "app/src/images/controls/summary.svg",
+        "created_by": "fenil@studio.com",
+        "created_on": 1624440670,
+        "updated_by": "fenil@studio.com",
+        "updated_on": "1624451116",
+        "display_name": "customListItem",
+        "doc_type": "dev",
+        "designer_css": "",
+        "designer_html": "",
+        "control_id": 2295,
+        "states_data": "",
+        "group_id": 19
+    },
+    "type": "control"
+}

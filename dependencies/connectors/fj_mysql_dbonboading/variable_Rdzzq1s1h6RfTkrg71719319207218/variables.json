@@ -1,0 +1,16 @@
+[
+    {
+        "keyName": "tablegrid.PROPERTIES.LIMIT",
+        "keyID": "list_c38Rvbyj7jlLx8UalTqG.PROPERTIES.LIMIT",
+        "keyValue": "10",
+        "keyType": "string",
+        "keyIsDynamic": true
+    },
+    {
+        "keyName": "tablegrid.PROPERTIES.OFFSET",
+        "keyID": "list_c38Rvbyj7jlLx8UalTqG.PROPERTIES.OFFSET",
+        "keyValue": "0",
+        "keyType": "string",
+        "keyIsDynamic": true
+    }
+]

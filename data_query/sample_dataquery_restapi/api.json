@@ -9,10 +9,11 @@
             "keyname":"value1"
         }]
     },
+    "base_url":"https://dogs.ceo",
     "path": "/api/breeds/list/all",
     "query": [{
         "key":"{{textinput}}"
     }],
-    "do_not_pass_query_parameter_if_empty" : true,
+    "remove_empty_keys" : true,
     "request_timeout": 10000
 }
